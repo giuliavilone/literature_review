@@ -20,11 +20,10 @@
 		{"name": "montavon2017methods"},
 		{"name": "preece2018asking"},
 		{"name": "swartout1993explanation"}
-     ]
+    ]
     },
-    {
-     "name": "Model specific",
-     "children": [
+    {"name": "Model specific",
+    "children": [
 		{"name": "Neural networks", 
 		"children": [
 			{"name": "andrews1995survey"},
@@ -35,30 +34,30 @@
 			{"name": "jacobsson2005rule"},
 			{"name": "montavon2017methods"},
 			{"name": "zhang2018visual"}				
-			]			
+		]			
 		},
 		{"name": "Support Vector Machine", 
 		"children": [
 			{"name": "backhaus2014classification"},
 			{"name": "martens2007comprehensible"}				
-			]			
+		]			
 		},
 		{"name": "Bayesian Networks", 
 		"children": [
 			{"name": "lacave2002review"}				
-			]			
+		]			
 		},
 		{"name": "Intelligent Systems", 
 		"children": [
 			{"name": "gregor1999explanations"}				
-			]			
+		]			
 		},
 		{"name": "Expert Systems", 
 		"children": [
 			{"name": "swartout1993explanation"}				
-			]			
+		]			
 		},
-		]
+	]
 	},
 	{"name": "Problem Type", 
 	"children":[
@@ -78,7 +77,7 @@
 			{"name":"zhang2018visual"}
 			]
 		}
-		]
+	]
 	},
 	{"name":"Explanation method",
 	"children":[
@@ -88,14 +87,14 @@
 			{"name":"craven1992visualizing"},
 			{"name":"lisboa2013interpretability"},
 			{"name":"zhang2018visual"}
-			]
+		]
 		},
 		{"name":"Fuzzy systems",
 		"children":[
 			{"name":"gacto2011interpretability"},
 			{"name":"guillaume2001designing"},
 			{"name":"lisboa2013interpretability"}
-			]
+		]
 		},
 		{"name":"Rule extraction",
 		"children":[
@@ -106,30 +105,30 @@
 			{"name":"jacobsson2005rule"},
 			{"name":"lisboa2013interpretability"},
 			{"name":"martens2007comprehensible"}
-			]
+		]
 		},
 		{"name":"Feature Selection",
 		"children":[
-			{"name":"guyon2003introduction"},
-			]
+			{"name":"guyon2003introduction"}
+		]
 		},
 		{"name":"Dialogue generator",
 		"children":[
 			{"name":"miller2017explainable"},
 			{"name":"swartout1993explanation"}
-			]
+		]
 		},
 		{"name":"Symbolic Reasoning",
 		"children":[
-			{"name":"garcez2015neural"},
-			]
+			{"name":"garcez2015neural"}
+		]
 		},
 		{"name":"Union of Logical AI and Statistical AI",
 		"children":[
-			{"name":"belle2017logic"},
-			]
-		},
+			{"name":"belle2017logic"}
 		]
+		},
+	]
 	},
 	{"name":"Application Fields",
 	"children":[
@@ -144,7 +143,7 @@
     ]
     },
     {"name":"Notions",
-     "children": [
+    "children": [
 		{"name": "abdul2018trends"},
 		{"name": "adadi2018peeking"},
 		{"name": "alonso2018bibliometric"},
@@ -211,7 +210,7 @@
 		{"name": "wick1989reconstructive"},
 		{"name": "zhang2017plan"},
 		{"name": "zhou2008low"}
-		]
+	]
     },
 	{"name":"Evaluation",
 	"children":[
@@ -284,7 +283,7 @@
 			{"name":"martens2007comprehensible"},
 			{"name":"robnik2018explanation"},
 			{"name":"samek2017evaluating"},
-			{"name":"stumpf2010making"},
+			{"name":"stumpf2010making"}
 		]
 		}
 	]
@@ -564,7 +563,8 @@
 					}
 				]
 				}
-			]}
+			]
+			}
 		]
 		},
 		{"name":"Post-hoc",
@@ -707,7 +707,7 @@
 					]
 					}
 				]
-				}
+				},
 				{"name":"Neural networks",
 				"children":[
 					{"name":"Images / Videos",
@@ -1063,7 +1063,7 @@
 					]
 					}
 				]
-				}
+				},
 				{"name":"Model specific (other models)",
 				"children":[
 					{"name":"Images / Videos",
