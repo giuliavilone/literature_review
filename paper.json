@@ -82,7 +82,7 @@
 	},
 	{"name":"Explanation method",
 	"children":[
-		{"Visual analytic tool",
+		{"name":"Visual analytic tool",
 		"children":[
 			{"name":"choo2018visual"},
 			{"name":"craven1992visualizing"},
@@ -131,9 +131,9 @@
 		},
 		]
 	},
-	{"name":"Application Fields"
+	{"name":"Application Fields",
 	"children":[
-		{"Health":
+		{"name":"Health",
 		"children":[
 			{"name":"freitas2010importance"},
 			{"name":"holzinger2016interactive"}
@@ -143,8 +143,7 @@
 	}
     ]
     },
-    {
-     "name": "Notions",
+    {"name":"Notions",
      "children": [
 		{"name": "abdul2018trends"},
 		{"name": "adadi2018peeking"},
