@@ -1,147 +1,144 @@
-{
-"name": "XAI",
+{"name": "XAI",
 "children": [
-	{
-	"name": "Surveys",
-	"children": [
-    {
-     "name": "Notions related to the concept of explainability",
-     "children": [
-		{"name": "adadi2018peeking"},
-		{"name": "abdul2018trends"},
-		{"name": "bibal2016interpretability"},
-		{"name": "dam2018explainable"},
-		{"name": "dovsilovic2018explainable"},
-		{"name": "freitas2006we"},
-		{"name": "gregor1999explanations"},
-		{"name": "lacave2002review"},
-		{"name": "lipton2016mythos"},
-		{"name": "miller2017explainable"},
-		{"name": "montavon2017methods"},
-		{"name": "preece2018asking"},
-		{"name": "swartout1993explanation"}
-    ]
-    },
-    {"name": "Model specific",
-    "children": [
-		{"name": "Neural networks", 
+	{"name": "Surveys",
+	"children":[
+		{"name": "Notions related to the concept of explainability",
 		"children": [
-			{"name": "andrews1995survey"},
-			{"name": "bengio2013representation"},
-			{"name": "choo2018visual"},
-			{"name": "craven1992visualizing"},
-			{"name": "hailesilassie2016rule"},
-			{"name": "jacobsson2005rule"},
+			{"name": "adadi2018peeking"},
+			{"name": "abdul2018trends"},
+			{"name": "bibal2016interpretability"},
+			{"name": "dam2018explainable"},
+			{"name": "dovsilovic2018explainable"},
+			{"name": "freitas2006we"},
+			{"name": "gregor1999explanations"},
+			{"name": "lacave2002review"},
+			{"name": "lipton2016mythos"},
+			{"name": "miller2017explainable"},
 			{"name": "montavon2017methods"},
-			{"name": "zhang2018visual"}				
-		]			
+			{"name": "preece2018asking"},
+			{"name": "swartout1993explanation"}
+		]
 		},
-		{"name": "Support Vector Machine", 
+		{"name": "Model specific",
 		"children": [
-			{"name": "backhaus2014classification"},
-			{"name": "martens2007comprehensible"}				
-		]			
+			{"name": "Neural networks", 
+			"children": [
+				{"name": "andrews1995survey"},
+				{"name": "bengio2013representation"},
+				{"name": "choo2018visual"},
+				{"name": "craven1992visualizing"},
+				{"name": "hailesilassie2016rule"},
+				{"name": "jacobsson2005rule"},
+				{"name": "montavon2017methods"},
+				{"name": "zhang2018visual"}				
+			]			
+			},
+			{"name": "Support Vector Machine", 
+			"children": [
+				{"name": "backhaus2014classification"},
+				{"name": "martens2007comprehensible"}				
+			]			
+			},
+			{"name": "Bayesian Networks", 
+			"children": [
+				{"name": "lacave2002review"}				
+			]			
+			},
+			{"name": "Intelligent Systems", 
+			"children": [
+				{"name": "gregor1999explanations"}				
+			]			
+			},
+			{"name": "Expert Systems", 
+			"children": [
+				{"name": "swartout1993explanation"}				
+			]			
+			},
+		]
 		},
-		{"name": "Bayesian Networks", 
-		"children": [
-			{"name": "lacave2002review"}				
-		]			
+		{"name": "Problem Type", 
+		"children":[
+			{"name":"Regression",
+			"children":[
+				{"name":"otte2013safe"}
+				]
+			},
+			{"name":"Classification",
+			"children":[
+				{"name":"choo2018visual"},
+				{"name":"freitas2010importance"},
+				{"name":"guillaume2001designing"},
+				{"name":"hailesilassie2016rule"},
+				{"name":"martens2011performance"},
+				{"name":"otte2013safe"},
+				{"name":"zhang2018visual"}
+				]
+			}
+		]
 		},
-		{"name": "Intelligent Systems", 
-		"children": [
-			{"name": "gregor1999explanations"}				
-		]			
+		{"name":"Explanation method",
+		"children":[
+			{"name":"Visual analytic tool",
+			"children":[
+				{"name":"choo2018visual"},
+				{"name":"craven1992visualizing"},
+				{"name":"lisboa2013interpretability"},
+				{"name":"zhang2018visual"}
+			]
+			},
+			{"name":"Fuzzy systems",
+			"children":[
+				{"name":"gacto2011interpretability"},
+				{"name":"guillaume2001designing"},
+				{"name":"lisboa2013interpretability"}
+			]
+			},
+			{"name":"Rule extraction",
+			"children":[
+				{"name":"andrews1995survey"},
+				{"name":"bologna2018comparison"},
+				{"name":"gacto2011interpretability"},
+				{"name":"guillaume2001designing"},
+				{"name":"jacobsson2005rule"},
+				{"name":"lisboa2013interpretability"},
+				{"name":"martens2007comprehensible"}
+			]
+			},
+			{"name":"Feature Selection",
+			"children":[
+				{"name":"guyon2003introduction"}
+			]
+			},
+			{"name":"Dialogue generator",
+			"children":[
+				{"name":"miller2017explainable"},
+				{"name":"swartout1993explanation"}
+			]
+			},
+			{"name":"Symbolic Reasoning",
+			"children":[
+				{"name":"garcez2015neural"}
+			]
+			},
+			{"name":"Union of Logical AI and Statistical AI",
+			"children":[
+				{"name":"belle2017logic"}
+			]
+			},
+		]
 		},
-		{"name": "Expert Systems", 
-		"children": [
-			{"name": "swartout1993explanation"}				
-		]			
+		{"name":"Application Fields",
+		"children":[
+			{"name":"Health",
+			"children":[
+				{"name":"freitas2010importance"},
+				{"name":"holzinger2016interactive"}
+			]
+			}
+		]
 		},
 	]
 	},
-	{"name": "Problem Type", 
-	"children":[
-		{"name":"Regression",
-		"children":[
-			{"name":"otte2013safe"}
-			]
-		},
-		{"name":"Classification",
-		"children":[
-			{"name":"choo2018visual"},
-			{"name":"freitas2010importance"},
-			{"name":"guillaume2001designing"},
-			{"name":"hailesilassie2016rule"},
-			{"name":"martens2011performance"},
-			{"name":"otte2013safe"},
-			{"name":"zhang2018visual"}
-			]
-		}
-	]
-	},
-	{"name":"Explanation method",
-	"children":[
-		{"name":"Visual analytic tool",
-		"children":[
-			{"name":"choo2018visual"},
-			{"name":"craven1992visualizing"},
-			{"name":"lisboa2013interpretability"},
-			{"name":"zhang2018visual"}
-		]
-		},
-		{"name":"Fuzzy systems",
-		"children":[
-			{"name":"gacto2011interpretability"},
-			{"name":"guillaume2001designing"},
-			{"name":"lisboa2013interpretability"}
-		]
-		},
-		{"name":"Rule extraction",
-		"children":[
-			{"name":"andrews1995survey"},
-			{"name":"bologna2018comparison"},
-			{"name":"gacto2011interpretability"},
-			{"name":"guillaume2001designing"},
-			{"name":"jacobsson2005rule"},
-			{"name":"lisboa2013interpretability"},
-			{"name":"martens2007comprehensible"}
-		]
-		},
-		{"name":"Feature Selection",
-		"children":[
-			{"name":"guyon2003introduction"}
-		]
-		},
-		{"name":"Dialogue generator",
-		"children":[
-			{"name":"miller2017explainable"},
-			{"name":"swartout1993explanation"}
-		]
-		},
-		{"name":"Symbolic Reasoning",
-		"children":[
-			{"name":"garcez2015neural"}
-		]
-		},
-		{"name":"Union of Logical AI and Statistical AI",
-		"children":[
-			{"name":"belle2017logic"}
-		]
-		},
-	]
-	},
-	{"name":"Application Fields",
-	"children":[
-		{"name":"Health",
-		"children":[
-			{"name":"freitas2010importance"},
-			{"name":"holzinger2016interactive"}
-			]
-		}
-		]
-	}
-    ]
-    },
     {"name":"Notions",
     "children": [
 		{"name": "abdul2018trends"},
