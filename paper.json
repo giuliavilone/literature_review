@@ -53,7 +53,7 @@
 			"children":[
 				{"name": "swartout1993explanation"}				
 			]			
-			},
+			}
 		]
 		},
 		{"name": "Problem Type", 
@@ -124,7 +124,7 @@
 			"children":[
 				{"name":"belle2017logic"}
 			]
-			},
+			}
 		]
 		},
 		{"name":"Application Fields",
@@ -136,7 +136,7 @@
 			]
 			}
 		]
-		},
+		}
 	]
 	},
     {"name":"Notions",
@@ -347,7 +347,7 @@
 					"children":[
 						{"name":"neches1985enhanced"}
 					]
-					},
+					}
 				]
 				}
 			]
@@ -396,8 +396,7 @@
 						]
 						}
 					]
-					},
-					
+					}
 				]
 				},
 				{"name":"Structured Data",
@@ -528,7 +527,6 @@
 							{"name":"schielzeth2010simple"}
 						]
 						}
-						
 					]
 					}
 				]
@@ -966,7 +964,7 @@
 								{"name":"lane2005explainable"},
 								{"name":"johnson1993explanation"},
 								{"name":"johnson1994agents"},
-								{"name":"johnson1994agentslearn"}
+								{"name":"johnson1994agentslearn"},
 								{"name":"van2004explainable"}
 							]
 							},
@@ -1040,7 +1038,7 @@
 								{"name":"ben2014hybrid"},
 								{"name":"hou2019explainable"},
 								{"name":"lawlor2015opinionated"},
-								{"name":"papadimitriou2012generalized"}
+								{"name":"papadimitriou2012generalized"},
 								{"name":"vig2009tagsplanations"},
 								{"name":"zanker2010knowledgeable"},
 								{"name":"zhang2014explicit"}
@@ -1241,7 +1239,7 @@
 							{"name":"Feature selection",
 							"children":[
 								{"name":"adler2018auditing"},
-								{"name":"casalicchio2018visualizing"}
+								{"name":"casalicchio2018visualizing"},
 								{"name":"vstrumbelj2014explaining"}
 							]
 							},
@@ -1514,7 +1512,7 @@
 					]
 					}
 				]
-				}
+				},
 				{"name":"Expert systems",
 				"children":[
 					{"name":"Structured data",
@@ -1640,7 +1638,7 @@
 							]
 							}
 						]	
-						},
+						}
 					]
 					},
 					{"name":"Structured data",
