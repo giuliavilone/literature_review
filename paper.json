@@ -62,7 +62,7 @@
 	},
 	{"name": "Problem Type", 
 	"children":[
-		{"name":"Regression":
+		{"name":"Regression",
 		"children":[
 			{"name":"otte2013safe"}
 			]
@@ -80,7 +80,7 @@
 		}
 		]
 	},
-	{"Explanation method":
+	{"Explanation method",
 	"children":[
 		{"Visual analytic tool",
 		"children":[
@@ -1066,7 +1066,6 @@
 					}
 				]
 				}
-			]
 				{"name":"Model specific (other models)",
 				"children":[
 					{"name":"Images / Videos",
@@ -1515,10 +1514,10 @@
 							}
 						]
 						}
+					]
 					}
 				]
 				}
-			]
 				{"name":"Expert systems",
 				"children":[
 					{"name":"Structured data",
@@ -1608,7 +1607,8 @@
 						}
 					]
 					}
-			}
+				]
+				},
 				{"name":"Learning systems",
 				"children":[
 					{"name":"Structured data",
@@ -1629,6 +1629,7 @@
 						}
 					]
 					}
+				]
 				},
 				{"name":"Support vector machine",
 				"children":[
@@ -1720,6 +1721,7 @@
 							"children":[
 								{"name":"andrzejak2013interpretable"},
 								{"name":"buciluǎ2006model"}
+							]
 							},
 							{"name":"Rule extraction",
 							"children":[
@@ -1740,3 +1742,14 @@
 	}
 ]
 }
+
+
+
+
+
+
+
+
+
+
+
