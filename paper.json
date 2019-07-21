@@ -67,7 +67,7 @@
 			{"name":"otte2013safe"}
 			]
 		},
-		{"name":"Classification":
+		{"name":"Classification",
 		"children":[
 			{"name":"choo2018visual"},
 			{"name":"freitas2010importance"},
@@ -80,7 +80,7 @@
 		}
 		]
 	},
-	{"Explanation method",
+	{"name":"Explanation method",
 	"children":[
 		{"Visual analytic tool",
 		"children":[
@@ -90,14 +90,14 @@
 			{"name":"zhang2018visual"}
 			]
 		},
-		{"Fuzzy systems",
+		{"name":"Fuzzy systems",
 		"children":[
 			{"name":"gacto2011interpretability"},
 			{"name":"guillaume2001designing"},
 			{"name":"lisboa2013interpretability"}
 			]
 		},
-		{"Rule extraction",
+		{"name":"Rule extraction",
 		"children":[
 			{"name":"andrews1995survey"},
 			{"name":"bologna2018comparison"},
@@ -108,30 +108,30 @@
 			{"name":"martens2007comprehensible"}
 			]
 		},
-		{"Feature Selection",
+		{"name":"Feature Selection",
 		"children":[
 			{"name":"guyon2003introduction"},
 			]
 		},
-		{"Dialogue generator",
+		{"name":"Dialogue generator",
 		"children":[
 			{"name":"miller2017explainable"},
 			{"name":"swartout1993explanation"}
 			]
 		},
-		{"Symbolic Reasoning",
+		{"name":"Symbolic Reasoning",
 		"children":[
 			{"name":"garcez2015neural"},
 			]
 		},
-		{"Union of Logical AI and Statistical AI",
+		{"name":"Union of Logical AI and Statistical AI",
 		"children":[
 			{"name":"belle2017logic"},
 			]
 		},
 		]
 	},
-	{"Application Fields":
+	{"name":"Application Fields"
 	"children":[
 		{"Health":
 		"children":[
@@ -214,8 +214,7 @@
 		{"name": "zhou2008low"}
 		]
     },
-	{
-	"name":"Evaluation",
+	{"name":"Evaluation",
 	"children":[
 		{"name":"Human-centered Evaluation",
 		"children":[
@@ -1742,14 +1741,3 @@
 	}
 ]
 }
-
-
-
-
-
-
-
-
-
-
-
