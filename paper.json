@@ -1,380 +1,1742 @@
 {
- "name": "XAI",
- "children": [
-  {
-   "name": "Surveys",
-   "children": [
+"name": "XAI",
+"children": [
+	{
+	"name": "Surveys",
+	"children": [
     {
-     "name": "cluster",
+     "name": "Notions related to the concept of explainability",
      "children": [
-      {"name": "AgglomerativeCluster"},
-      {"name": "CommunityStructure"},
-      {"name": "HierarchicalCluster"},
-      {"name": "MergeEdge"}
+		{"name": "adadi2018peeking"},
+		{"name": "abdul2018trends"},
+		{"name": "bibal2016interpretability"},
+		{"name": "dam2018explainable"},
+		{"name": "dovsilovic2018explainable"},
+		{"name": "freitas2006we"},
+		{"name": "gregor1999explanations"},
+		{"name": "lacave2002review"},
+		{"name": "lipton2016mythos"},
+		{"name": "miller2017explainable"},
+		{"name": "montavon2017methods"},
+		{"name": "preece2018asking"},
+		{"name": "swartout1993explanation"}
      ]
     },
     {
-     "name": "graph",
+     "name": "Model specific",
      "children": [
-      {"name": "BetweennessCentrality", "value": 3534},
-      {"name": "LinkDistance", "value": 5731},
-      {"name": "MaxFlowMinCut", "value": 7840},
-      {"name": "ShortestPaths", "value": 5914},
-      {"name": "SpanningTree", "value": 3416}
-     ]
+		{"name": "Neural networks", 
+		"children": [
+			{"name": "andrews1995survey"},
+			{"name": "bengio2013representation"},
+			{"name": "choo2018visual"},
+			{"name": "craven1992visualizing"},
+			{"name": "hailesilassie2016rule"},
+			{"name": "jacobsson2005rule"},
+			{"name": "montavon2017methods"},
+			{"name": "zhang2018visual"}				
+			]			
+		},
+		{"name": "Support Vector Machine", 
+		"children": [
+			{"name": "backhaus2014classification"},
+			{"name": "martens2007comprehensible"}				
+			]			
+		},
+		{"name": "Bayesian Networks", 
+		"children": [
+			{"name": "lacave2002review"}				
+			]			
+		},
+		{"name": "Intelligent Systems", 
+		"children": [
+			{"name": "gregor1999explanations"}				
+			]			
+		},
+		{"name": "Expert Systems", 
+		"children": [
+			{"name": "swartout1993explanation"}				
+			]			
+		},
+		]
+	},
+	{"name": "Problem Type", 
+	"children":[
+		{"name":"Regression":
+		"children":[
+			{"name":"otte2013safe"}
+			]
+		},
+		{"name":"Classification":
+		"children":[
+			{"name":"choo2018visual"},
+			{"name":"freitas2010importance"},
+			{"name":"guillaume2001designing"},
+			{"name":"hailesilassie2016rule"},
+			{"name":"martens2011performance"},
+			{"name":"otte2013safe"},
+			{"name":"zhang2018visual"}
+			]
+		}
+		]
+	},
+	{"Explanation method":
+	"children":[
+		{"Visual analytic tool",
+		"children":[
+			{"name":"choo2018visual"},
+			{"name":"craven1992visualizing"},
+			{"name":"lisboa2013interpretability"},
+			{"name":"zhang2018visual"}
+			]
+		},
+		{"Fuzzy systems",
+		"children":[
+			{"name":"gacto2011interpretability"},
+			{"name":"guillaume2001designing"},
+			{"name":"lisboa2013interpretability"}
+			]
+		},
+		{"Rule extraction",
+		"children":[
+			{"name":"andrews1995survey"},
+			{"name":"bologna2018comparison"},
+			{"name":"gacto2011interpretability"},
+			{"name":"guillaume2001designing"},
+			{"name":"jacobsson2005rule"},
+			{"name":"lisboa2013interpretability"},
+			{"name":"martens2007comprehensible"}
+			]
+		},
+		{"Feature Selection",
+		"children":[
+			{"name":"guyon2003introduction"},
+			]
+		},
+		{"Dialogue generator",
+		"children":[
+			{"name":"miller2017explainable"},
+			{"name":"swartout1993explanation"}
+			]
+		},
+		{"Symbolic Reasoning",
+		"children":[
+			{"name":"garcez2015neural"},
+			]
+		},
+		{"Union of Logical AI and Statistical AI",
+		"children":[
+			{"name":"belle2017logic"},
+			]
+		},
+		]
+	},
+	{"Application Fields":
+	"children":[
+		{"Health":
+		"children":[
+			{"name":"freitas2010importance"},
+			{"name":"holzinger2016interactive"}
+			]
+		}
+		]
+	}
+    ]
     },
     {
-     "name": "optimization",
+     "name": "Notions",
      "children": [
-      {"name": "AspectRatioBanker", "value": 7074}
-     ]
-    }
-   ]
-  },
-  {
-   "name": "animate",
-   "children": [
-    {"name": "Easing", "value": 17010},
-    {"name": "FunctionSequence", "value": 5842},
-    {
-     "name": "interpolate",
-     "children": [
-      {"name": "ArrayInterpolator", "value": 1983},
-      {"name": "ColorInterpolator", "value": 2047},
-      {"name": "DateInterpolator", "value": 1375},
-      {"name": "Interpolator", "value": 8746},
-      {"name": "MatrixInterpolator", "value": 2202},
-      {"name": "NumberInterpolator", "value": 1382},
-      {"name": "ObjectInterpolator", "value": 1629},
-      {"name": "PointInterpolator", "value": 1675},
-      {"name": "RectangleInterpolator", "value": 2042}
-     ]
+		{"name": "abdul2018trends"},
+		{"name": "adadi2018peeking"},
+		{"name": "alonso2018bibliometric"},
+		{"name": "alvarez2018robustness"},
+		{"name": "askira1998knowledge"},
+		{"name": "barzilay1998new"},
+		{"name": "bibal2016interpretability"},
+		{"name": "bratko1997machine"},
+		{"name": "broekens2010you"},
+		{"name": "carrington2018measures"},
+		{"name": "cawsey1991generating"},
+		{"name": "chajewska1997defining"},
+		{"name": "chander2018evaluating"},
+		{"name": "dam2018explainable"},
+		{"name": "de2017people"},
+		{"name": "dovsilovic2018explainable"},
+		{"name": "dzindolet2003role"},
+		{"name": "fox2017explainable"},
+		{"name": "freitas1999rule"},
+		{"name": "freitas2006we"},
+		{"name": "freitas2014comprehensible"},
+		{"name": "goebel2018explainable"},
+		{"name": "gregor1999explanations"},
+		{"name": "ha2018designing"},
+		{"name": "harbers2009study"},
+		{"name": "haynes2009designs"},
+		{"name": "kaptein2017personalised"},
+		{"name": "kulesza2013too"},
+		{"name": "kulesza2015principles"},
+		{"name": "lacave2002review"},
+		{"name": "langley2017explainable"},
+		{"name": "lim2009and"},
+		{"name": "lipton2016mythos"},
+		{"name": "liu2017towards"},
+		{"name": "lombrozo2006structure"},
+		{"name": "lyons2013being"},
+		{"name": "mcallister2017concrete"},
+		{"name": "melis2018towards"},
+		{"name": "miller2017explainable"},
+		{"name": "miller2017explanation"},
+		{"name": "montavon2017methods"},
+		{"name": "moore1993planning"},
+		{"name": "offert2017know"},
+		{"name": "poursabzi2018manipulating"},
+		{"name": "preece2018asking"},
+		{"name": "sheh2017introspectively"},
+		{"name": "sohrabi2011preferred"},
+		{"name": "swartout1993explanation"},
+		{"name": "thelisson2017regulatory"},
+		{"name": "thelisson2017towards"},
+		{"name": "theodorou2016my"},
+		{"name": "tintarev2007effective"},
+		{"name": "tintarev2007survey"},
+		{"name": "tintarev2008effectiveness"},
+		{"name": "tintarev2011designing"},
+		{"name": "tintarev2012evaluating"},
+		{"name": "tintarev2015explaining"},
+		{"name": "tsai2018explaining"},
+		{"name": "wachter2017transparent"},
+		{"name": "walton2011dialogue"},
+		{"name": "watson2019clinical"},
+		{"name": "weihs2003combining"},
+		{"name": "weller2017challenges"},
+		{"name": "wick1989reconstructive"},
+		{"name": "zhang2017plan"},
+		{"name": "zhou2008low"}
+		]
     },
-    {"name": "ISchedulable", "value": 1041},
-    {"name": "Parallel", "value": 5176},
-    {"name": "Pause", "value": 449},
-    {"name": "Scheduler", "value": 5593},
-    {"name": "Sequence", "value": 5534},
-    {"name": "Transition", "value": 9201},
-    {"name": "Transitioner", "value": 19975},
-    {"name": "TransitionEvent", "value": 1116},
-    {"name": "Tween", "value": 6006}
-   ]
-  },
-  {
-   "name": "data",
-   "children": [
-    {
-     "name": "converters",
-     "children": [
-      {"name": "Converters", "value": 721},
-      {"name": "DelimitedTextConverter", "value": 4294},
-      {"name": "GraphMLConverter", "value": 9800},
-      {"name": "IDataConverter", "value": 1314},
-      {"name": "JSONConverter", "value": 2220}
-     ]
-    },
-    {"name": "DataField", "value": 1759},
-    {"name": "DataSchema", "value": 2165},
-    {"name": "DataSet", "value": 586},
-    {"name": "DataSource", "value": 3331},
-    {"name": "DataTable", "value": 772},
-    {"name": "DataUtil", "value": 3322}
-   ]
-  },
-  {
-   "name": "display",
-   "children": [
-    {"name": "DirtySprite", "value": 8833},
-    {"name": "LineSprite", "value": 1732},
-    {"name": "RectSprite", "value": 3623},
-    {"name": "TextSprite", "value": 10066}
-   ]
-  },
-  {
-   "name": "flex",
-   "children": [
-    {"name": "FlareVis", "value": 4116}
-   ]
-  },
-  {
-   "name": "physics",
-   "children": [
-    {"name": "DragForce", "value": 1082},
-    {"name": "GravityForce", "value": 1336},
-    {"name": "IForce", "value": 319},
-    {"name": "NBodyForce", "value": 10498},
-    {"name": "Particle", "value": 2822},
-    {"name": "Simulation", "value": 9983},
-    {"name": "Spring", "value": 2213},
-    {"name": "SpringForce", "value": 1681}
-   ]
-  },
-  {
-   "name": "query",
-   "children": [
-    {"name": "AggregateExpression", "value": 1616},
-    {"name": "And", "value": 1027},
-    {"name": "Arithmetic", "value": 3891},
-    {"name": "Average", "value": 891},
-    {"name": "BinaryExpression", "value": 2893},
-    {"name": "Comparison", "value": 5103},
-    {"name": "CompositeExpression", "value": 3677},
-    {"name": "Count", "value": 781},
-    {"name": "DateUtil", "value": 4141},
-    {"name": "Distinct", "value": 933},
-    {"name": "Expression", "value": 5130},
-    {"name": "ExpressionIterator", "value": 3617},
-    {"name": "Fn", "value": 3240},
-    {"name": "If", "value": 2732},
-    {"name": "IsA", "value": 2039},
-    {"name": "Literal", "value": 1214},
-    {"name": "Match", "value": 3748},
-    {"name": "Maximum", "value": 843},
-    {
-     "name": "methods",
-     "children": [
-      {"name": "add", "value": 593},
-      {"name": "and", "value": 330},
-      {"name": "average", "value": 287},
-      {"name": "count", "value": 277},
-      {"name": "distinct", "value": 292},
-      {"name": "div", "value": 595},
-      {"name": "eq", "value": 594},
-      {"name": "fn", "value": 460},
-      {"name": "gt", "value": 603},
-      {"name": "gte", "value": 625},
-      {"name": "iff", "value": 748},
-      {"name": "isa", "value": 461},
-      {"name": "lt", "value": 597},
-      {"name": "lte", "value": 619},
-      {"name": "max", "value": 283},
-      {"name": "min", "value": 283},
-      {"name": "mod", "value": 591},
-      {"name": "mul", "value": 603},
-      {"name": "neq", "value": 599},
-      {"name": "not", "value": 386},
-      {"name": "or", "value": 323},
-      {"name": "orderby", "value": 307},
-      {"name": "range", "value": 772},
-      {"name": "select", "value": 296},
-      {"name": "stddev", "value": 363},
-      {"name": "sub", "value": 600},
-      {"name": "sum", "value": 280},
-      {"name": "update", "value": 307},
-      {"name": "variance", "value": 335},
-      {"name": "where", "value": 299},
-      {"name": "xor", "value": 354},
-      {"name": "_", "value": 264}
-     ]
-    },
-    {"name": "Minimum", "value": 843},
-    {"name": "Not", "value": 1554},
-    {"name": "Or", "value": 970},
-    {"name": "Query", "value": 13896},
-    {"name": "Range", "value": 1594},
-    {"name": "StringUtil", "value": 4130},
-    {"name": "Sum", "value": 791},
-    {"name": "Variable", "value": 1124},
-    {"name": "Variance", "value": 1876},
-    {"name": "Xor", "value": 1101}
-   ]
-  },
-  {
-   "name": "scale",
-   "children": [
-    {"name": "IScaleMap", "value": 2105},
-    {"name": "LinearScale", "value": 1316},
-    {"name": "LogScale", "value": 3151},
-    {"name": "OrdinalScale", "value": 3770},
-    {"name": "QuantileScale", "value": 2435},
-    {"name": "QuantitativeScale", "value": 4839},
-    {"name": "RootScale", "value": 1756},
-    {"name": "Scale", "value": 4268},
-    {"name": "ScaleType", "value": 1821},
-    {"name": "TimeScale", "value": 5833}
-   ]
-  },
-  {
-   "name": "util",
-   "children": [
-    {"name": "Arrays", "value": 8258},
-    {"name": "Colors", "value": 10001},
-    {"name": "Dates", "value": 8217},
-    {"name": "Displays", "value": 12555},
-    {"name": "Filter", "value": 2324},
-    {"name": "Geometry", "value": 10993},
-    {
-     "name": "heap",
-     "children": [
-      {"name": "FibonacciHeap", "value": 9354},
-      {"name": "HeapNode", "value": 1233}
-     ]
-    },
-    {"name": "IEvaluable", "value": 335},
-    {"name": "IPredicate", "value": 383},
-    {"name": "IValueProxy", "value": 874},
-    {
-     "name": "math",
-     "children": [
-      {"name": "DenseMatrix", "value": 3165},
-      {"name": "IMatrix", "value": 2815},
-      {"name": "SparseMatrix", "value": 3366}
-     ]
-    },
-    {"name": "Maths", "value": 17705},
-    {"name": "Orientation", "value": 1486},
-    {
-     "name": "palette",
-     "children": [
-      {"name": "ColorPalette", "value": 6367},
-      {"name": "Palette", "value": 1229},
-      {"name": "ShapePalette", "value": 2059},
-      {"name": "SizePalette", "value": 2291}
-     ]
-    },
-    {"name": "Property", "value": 5559},
-    {"name": "Shapes", "value": 19118},
-    {"name": "Sort", "value": 6887},
-    {"name": "Stats", "value": 6557},
-    {"name": "Strings", "value": 22026}
-   ]
-  },
-  {
-   "name": "vis",
-   "children": [
-    {
-     "name": "axis",
-     "children": [
-      {"name": "Axes", "value": 1302},
-      {"name": "Axis", "value": 24593},
-      {"name": "AxisGridLine", "value": 652},
-      {"name": "AxisLabel", "value": 636},
-      {"name": "CartesianAxes", "value": 6703}
-     ]
-    },
-    {
-     "name": "controls",
-     "children": [
-      {"name": "AnchorControl", "value": 2138},
-      {"name": "ClickControl", "value": 3824},
-      {"name": "Control", "value": 1353},
-      {"name": "ControlList", "value": 4665},
-      {"name": "DragControl", "value": 2649},
-      {"name": "ExpandControl", "value": 2832},
-      {"name": "HoverControl", "value": 4896},
-      {"name": "IControl", "value": 763},
-      {"name": "PanZoomControl", "value": 5222},
-      {"name": "SelectionControl", "value": 7862},
-      {"name": "TooltipControl", "value": 8435}
-     ]
-    },
-    {
-     "name": "data",
-     "children": [
-      {"name": "Data", "value": 20544},
-      {"name": "DataList", "value": 19788},
-      {"name": "DataSprite", "value": 10349},
-      {"name": "EdgeSprite", "value": 3301},
-      {"name": "NodeSprite", "value": 19382},
-      {
-       "name": "render",
-       "children": [
-        {"name": "ArrowType", "value": 698},
-        {"name": "EdgeRenderer", "value": 5569},
-        {"name": "IRenderer", "value": 353},
-        {"name": "ShapeRenderer", "value": 2247}
-       ]
-      },
-      {"name": "ScaleBinding", "value": 11275},
-      {"name": "Tree", "value": 7147},
-      {"name": "TreeBuilder", "value": 9930}
-     ]
-    },
-    {
-     "name": "events",
-     "children": [
-      {"name": "DataEvent", "value": 2313},
-      {"name": "SelectionEvent", "value": 1880},
-      {"name": "TooltipEvent", "value": 1701},
-      {"name": "VisualizationEvent", "value": 1117}
-     ]
-    },
-    {
-     "name": "legend",
-     "children": [
-      {"name": "Legend", "value": 20859},
-      {"name": "LegendItem", "value": 4614},
-      {"name": "LegendRange", "value": 10530}
-     ]
-    },
-    {
-     "name": "operator",
-     "children": [
-      {
-       "name": "distortion",
-       "children": [
-        {"name": "BifocalDistortion", "value": 4461},
-        {"name": "Distortion", "value": 6314},
-        {"name": "FisheyeDistortion", "value": 3444}
-       ]
-      },
-      {
-       "name": "encoder",
-       "children": [
-        {"name": "ColorEncoder", "value": 3179},
-        {"name": "Encoder", "value": 4060},
-        {"name": "PropertyEncoder", "value": 4138},
-        {"name": "ShapeEncoder", "value": 1690},
-        {"name": "SizeEncoder", "value": 1830}
-       ]
-      },
-      {
-       "name": "filter",
-       "children": [
-        {"name": "FisheyeTreeFilter", "value": 5219},
-        {"name": "GraphDistanceFilter", "value": 3165},
-        {"name": "VisibilityFilter", "value": 3509}
-       ]
-      },
-      {"name": "IOperator", "value": 1286},
-      {
-       "name": "label",
-       "children": [
-        {"name": "Labeler", "value": 9956},
-        {"name": "RadialLabeler", "value": 3899},
-        {"name": "StackedAreaLabeler", "value": 3202}
-       ]
-      },
-      {
-       "name": "layout",
-       "children": [
-        {"name": "AxisLayout", "value": 6725},
-        {"name": "BundledEdgeRouter", "value": 3727},
-        {"name": "CircleLayout", "value": 9317},
-        {"name": "CirclePackingLayout", "value": 12003},
-        {"name": "DendrogramLayout", "value": 4853},
-        {"name": "ForceDirectedLayout", "value": 8411},
-        {"name": "IcicleTreeLayout", "value": 4864},
-        {"name": "IndentedTreeLayout", "value": 3174},
-        {"name": "Layout", "value": 7881},
-        {"name": "NodeLinkTreeLayout", "value": 12870},
-        {"name": "PieLayout", "value": 2728},
-        {"name": "RadialTreeLayout", "value": 12348},
-        {"name": "RandomLayout", "value": 870},
-        {"name": "StackedAreaLayout", "value": 9121},
-        {"name": "TreeMapLayout", "value": 9191}
-       ]
-      },
-      {"name": "Operator", "value": 2490},
-      {"name": "OperatorList", "value": 5248},
-      {"name": "OperatorSequence", "value": 4190},
-      {"name": "OperatorSwitch", "value": 2581},
-      {"name": "SortOperator", "value": 2023}
-     ]
-    },
-    {"name": "Visualization", "value": 16540}
-   ]
-  }
- ]
+	{
+	"name":"Evaluation",
+	"children":[
+		{"name":"Human-centered Evaluation",
+		"children":[
+			{"name":"aleven2002effective"},
+			{"name":"allahyari2011user"},
+			{"name":"bau2017network"},
+			{"name":"bilgic2005explaining"},
+			{"name":"broekens2010you"},
+			{"name":"dzindolet2003role"},
+			{"name":"freitas2014comprehensible"},
+			{"name":"hansen2011visual"},
+			{"name":"harbers2010design"},
+			{"name":"harbers2010guidelines"},
+			{"name":"herlocker2000explaining"},
+			{"name":"huysmans2011empirical"},
+			{"name":"kaptein2017personalised"},
+			{"name":"kouki2017user"},
+			{"name":"krause2016interacting"},
+			{"name":"kulesza2011oriented"},
+			{"name":"kulesza2015principles"},
+			{"name":"lage2018human"},
+			{"name":"lim2009and"},
+			{"name":"lim2009assessing"},
+			{"name":"luvstrek2014comprehensibility"},
+			{"name":"martens2011performance"},
+			{"name":"poursabzi2018manipulating"},
+			{"name":"stock2018convnets"},
+			{"name":"suermondt1993evaluation"},
+			{"name":"symeonidis2009moviexplain"},
+			{"name":"tsai2018explaining"},
+			{"name":"tullio2007works"},
+			{"name":"williams2016axis"},
+			{"name":"ye1995impact"}
+		]
+		},
+		{"name":"Formal Evaluation",
+		"children":[
+			{"name":"dam2018explainable"},
+			{"name":"freitas2014comprehensible"},
+			{"name":"otero2016improving"}
+		]
+		},
+		{"name":"Application Domains",
+		"children":[
+			{"name":"arras2017relevant"},
+			{"name":"binder2016analyzing"},
+			{"name":"ding2017visualizing"},
+			{"name":"escalante2017design"},
+			{"name":"lapuschkin2016analyzing"},
+			{"name":"lapuschkin2016lrp"},
+			{"name":"srinivasan2017interpretable"},
+			{"name":"sturm2016interpretable"}
+		]
+		},
+		{"name":"Comparison",
+		"children":[
+			{"name":"adebayo2018local"},
+			{"name":"adebayo2018sanity"},
+			{"name":"alvarez2018robustness"},
+			{"name":"ancona2018towards"},
+			{"name":"arras2016explaining"},
+			{"name":"erhan2009visualizing"},
+			{"name":"freitas2014comprehensible"},
+			{"name":"gedikli2014should"},
+			{"name":"gevrey2003review"},
+			{"name":"ghorbani2017interpretation"},
+			{"name":"kindermans2017reliability"},
+			{"name":"martens2007comprehensible"},
+			{"name":"robnik2018explanation"},
+			{"name":"samek2017evaluating"},
+			{"name":"stumpf2010making"},
+		]
+		}
+	]
+	},
+	{"name":"Methods for Explainability",
+	"children":[
+		{"name":"Ante-hoc",
+		"children":[
+			{"name":"Local explanation",
+			"children":[
+				{"name":"Images / Videos",
+				"children":[
+					{"name":"Visual explanation",
+					"children":[
+						{"name":"park2016attentive"}
+					]
+					},
+					{"name":"Textual explanation",
+					"children":[
+						{"name":"park2016attentive"}
+					]
+					},
+					{"name":"Modified neural networks",
+					"children":[
+						{"name":"ross2017right"},
+						{"name":"zhang2018interpretable"},
+					]
+					}
+				]
+				},
+				{"name":"Text",
+				"children":[
+					{"name":"Restricted Support Region Set (RSRS) Detection",
+					"children":[
+						{"name":"liu2012has"}
+					]
+					},
+					{"name":"Modified neural networks",
+					"children":[
+						{"name":"ross2017right"}
+					]
+					}
+				]
+				},
+				{"name":"Structured Data",
+				"children":[
+					{"name":"Visual analytics",
+					"children":[
+						{"name":"friedman2008predictive"}
+					]
+					},
+					{"name":"Modified neural networks",
+					"children":[
+						{"name":"rieger2018structuring"},
+						{"name":"ross2017right"}
+					]
+					},
+					{"name":"Rule extraction",
+					"children":[
+						{"name":"friedman2008predictive"}
+					]
+					},
+					{"name":"Textual explanation",
+					"children":[
+						{"name":"neches1985enhanced"}
+					]
+					},
+				]
+				}
+			]},
+			{"name":"Global explanation",
+			"children":[
+				{"name":"Images / Videos",
+				"children":[
+					{"name":"Classification",
+					"children":[
+						{"name":"Argumentation-base explanations",
+						"children":[
+							{"name":"zeng2018building"}
+						]
+						},
+						{"name":"Symbolic logic integration",
+						"children":[
+							{"name":"liang2018symbolic"}
+						]
+						},
+						{"name":"Feature selection",
+						"children":[
+							{"name":"kim2015mind"}
+						]
+						}
+					]
+					}
+				]
+				},
+				{"name":"Sensors",
+				"children":[
+					{"name":"Classification",
+					"children":[
+						{"name":"Modified Blind Signal Separation",
+						"children":[
+							{"name":"ruiz2012towards"}
+						]
+						}
+					]
+					},
+					{"name":"Regression",
+					"children":[
+						{"name":"Gaussian Process Regression",
+						"children":[
+							{"name":"caywood2017gaussian"}
+						]
+						}
+					]
+					},
+					
+				]
+				},
+				{"name":"Structured Data",
+				"children":[
+					{"name":"Classification",
+					"children":[
+						{"name":"Additive models",
+						"children":[
+							{"name":"caruana2015intelligible"},
+							{"name":"lou2012intelligible"},
+							{"name":"lou2013accurate"}
+						]
+						},
+						{"name":"Kernel-based learning methods",
+						"children":[
+							{"name":"hainmueller2014kernel"}
+						]
+						},
+						{"name":"Probabilistic sentential decision diagrams",
+						"children":[
+							{"name":"liang2017towards"}
+						]
+						},
+						{"name":"Symbolic logic integration",
+						"children":[
+							{"name":"tran2017unsupervised"}
+						]
+						},
+						{"name":"Rule extraction",
+						"children":[
+							{"name":"augasta2012reverse"},
+							{"name":"cano2013interpretable"},
+							{"name":"friedman2008predictive"},
+							{"name":"gaines1996transforming"},
+							{"name":"ishibuchi2007analysis"},
+							{"name":"jin2000fuzzy"},
+							{"name":"lakkaraju2016interpretable"},
+							{"name":"letham2012building"},
+							{"name":"letham2013interpretable"},
+							{"name":"letham2015interpretable"},
+							{"name":"malioutov2017learning"},
+							{"name":"nauck1999obtaining"},
+							{"name":"otero2016improving"},
+							{"name":"pazzani1997comprehensible"},
+							{"name":"su2015interpretable"},
+							{"name":"verbeke2011building"},
+							{"name":"wang2011building"},
+							{"name":"wang2016bayesian"},
+							{"name":"wang2017bayesian"}
+						]
+						},
+						{"name":"Feature selection",
+						"children":[
+							{"name":"dash2000feature"},
+							{"name":"kim2015mind"}
+						]
+						},
+						{"name":"Visual analytics",
+						"children":[
+							{"name":"gaines1996transforming"},
+							{"name":"friedman2008predictive"}
+						]
+						},
+						{"name":"Decomposition method",
+						"children":[
+							{"name":"maimon2005decomposition"}
+						]
+						},
+						{"name":"Oblique treed sparse additive models (OT-SpAMs)",
+						"children":[
+							{"name":"wang2015trading"}
+						]
+						},
+						{"name":"Modified boosted naïve Bayes classifier",
+						"children":[
+							{"name":"ridgeway1998interpretable"}
+						]
+						},
+						{"name":"Tree regularization function",
+						"children":[
+							{"name":"wu2018beyond"}
+						]
+						},
+						{"name":"Supersparse Linear Integer Model (SLIM)",
+						"children":[
+							{"name":"ustun2014supersparse"}
+						]
+						}
+					]
+					},
+					{"name":"Regression",
+					"children":[
+						{"name":"Additive models",
+						"children":[
+							{"name":"caruana2015intelligible"},
+							{"name":"lou2012intelligible"},
+							{"name":"lou2013accurate"}
+						]
+						},
+						{"name":"Kernel-based learning methods",
+						"children":[
+							{"name":"hainmueller2014kernel"}
+						]
+						},
+						{"name":"Probabilistic sentential decision diagrams",
+						"children":[
+							{"name":"liang2017towards"}
+						]
+						},
+						{"name":"Symbolic logic integration",
+						"children":[
+							{"name":"tran2017unsupervised"}
+						]
+						},
+						{"name":"Rule extraction",
+						"children":[
+							{"name":"augasta2012reverse"},
+							{"name":"friedman2008predictive"}
+						]
+						},
+						{"name":"Visual analytics",
+						"children":[
+							{"name":"friedman2008predictive"}
+						]
+						},
+						{"name":"Input and parameter standardization",
+						"children":[
+							{"name":"schielzeth2010simple"}
+						]
+						}
+						
+					]
+					}
+				]
+				},
+				{"name":"Text",
+				"children":[
+					{"name":"Classification",
+					"children":[
+						{"name":"Feature selection",
+						"children":[
+							{"name":"kim2015mind"}
+						]
+						},
+						{"name":"Lexicon-based models",
+						"children":[
+							{"name":"clos2017towards"}
+						]
+						},
+						{"name":"Word Sense Induction and Disambiguation",
+						"children":[
+							{"name":"panchenko2017unsupervised"}
+						]
+						},
+						{"name":"Non-Negative Sparse Embedding",
+						"children":[
+							{"name":"murphy2012learning"}
+						]
+						}
+					]
+					}
+				]
+				}
+			]}
+		]
+		},
+		{"name":"Post-hoc",
+		"children":[
+			{"name":"Local explanation",
+			"children":[
+				{"name":"Model agnostic",
+				"children":[
+					{"name":"Images / Videos",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Adversarial examples",
+							"children":[
+								{"name":"goodfellow2014explaining"},
+								{"name":"kim2016examples"}
+							]
+							},
+							{"name":"Feature selection",
+							"children":[
+								{"name":"sliwinski2017characterization"}
+							]
+							},
+							{"name":"Prototype selection",
+							"children":[
+								{"name":"bien2011prototype"}
+							]
+							},
+							{"name":"Visual analytics",
+							"children":[
+								{"name":"dabkowski2017real"},
+								{"name":"fong2017interpretable"},
+								{"name":"rajani2017using"}
+							]
+							}
+						]
+						}
+					]
+					},
+					{"name":"Structured data",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Case-based reasoning",
+							"children":[
+								{"name":"caruana1999case"}
+							]
+							},
+							{"name":"Feature selection",
+							"children":[
+								{"name":"Kononenko10anefficient"},
+								{"name":"kononenko2013explanation"},
+								{"name":"vstrumbelj2009explaining"}
+							]
+							},
+							{"name":"Prototype selection",
+							"children":[
+								{"name":"bien2011prototype"},
+								{"name":"yang2017explainable"}
+							]
+							},
+							{"name":"Relevant dimension estimation",
+							"children":[
+								{"name":"montavon2013analyzing"}
+							]
+							},
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"bohanec2017decision"},
+								{"name":"bohanec2017explaining"}
+							]
+							},
+							{"name":"Visual analytics",
+							"children":[
+								{"name":"Kononenko10anefficient"}
+							]
+							}
+						]
+						},
+						{"name":"Regression",
+						"children":[
+							{"name":"Feature selection",
+							"children":[
+								{"name":"kononenko2013explanation"}
+							]
+							},
+							{"name":"Prototype selection",
+							"children":[
+								{"name":"yang2017explainable"}
+							]
+							},
+							{"name":"Relevant dimension estimation",
+							"children":[
+								{"name":"montavon2013analyzing"}
+							]
+							},
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"bohanec2017decision"},
+								{"name":"bohanec2017explaining"}
+							]
+							}
+						]
+						}
+					]
+					},
+					{"name":"Structured data",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Feature selection",
+							"children":[
+								{"name":"tamagnini2017interpreting"}
+							]
+							},
+							{"name":"Input perturbation",
+							"children":[
+								{"name":"alvarez2017causal"}
+							]
+							},
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"ribeiro2018anchors"}
+							]
+							},
+							{"name":"Set of necessary words",
+							"children":[
+								{"name":"martens2013explaining"}
+							]
+							},
+							{"name":"Visual analytics",
+							"children":[
+								{"name":"alvarez2017causal"},
+								{"name":"ribeiro2016model"},
+								{"name":"tamagnini2017interpreting"}
+							]
+							}
+						]
+						}
+					]
+					}
+				]
+				}
+				{"name":"Neural networks",
+				"children":[
+					{"name":"Images / Videos",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Adversarial examples",
+							"children":[
+								{"name":"bau2019gandissect"}
+							]
+							},
+							{"name":"Feature selection",
+							"children":[
+								{"name":"mogrovejo2018visual"}
+							]
+							},
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"bologna2017characterization"}
+							]
+							},
+							{"name":"Textual explanations",
+							"children":[
+								{"name":"barratt2017interpnet"},
+								{"name":"hendricks2016generating"},
+								{"name":"hendricks2018grounding"},
+								{"name":"kim2017show"},
+								{"name":"xuk2015show"}
+							]
+							},
+							{"name":"Visual analytics",
+							"children":[
+								{"name":"bau2019gandissect"},
+								{"name":"binder2016layer"},
+								{"name":"du2018towards"},
+								{"name":"erhan2010understanding"},
+								{"name":"goyal2016towards"},
+								{"name":"hendricks2016generating"},
+								{"name":"hendricks2018grounding"},
+								{"name":"kim2017show"},
+								{"name":"mahendran2015understanding"},
+								{"name":"mogrovejo2018visual"},
+								{"name":"nguyen2016multifaceted"},
+								{"name":"nguyen2016synthesizing"},
+								{"name":"olah2018building"},
+								{"name":"simonyan2014deep"},
+								{"name":"smilkov2017smoothgrad"},
+								{"name":"xuk2015show"},
+								{"name":"zintgraf2017visualizing"}
+							]
+							}
+						]
+						}
+					]
+					},
+					{"name":"Structured data",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Contextual importance and utility",
+							"children":[
+								{"name":"framling1996explaining"}
+							]
+							},
+							{"name":"Deterministic finite automata",
+							"children":[
+								{"name":"mayr2018regular"}
+							]
+							},
+							{"name":"Feature selection",
+							"children":[
+								{"name":"robnik2008explaining"},
+								{"name":"vstrumbelj2008towards"}
+							]
+							},
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"bologna2017characterization"}
+							]
+							},
+							{"name":"Visual analytics",
+							"children":[
+								{"name":"kumar2017explaining"},
+								{"name":"tzeng2005opening"}
+							]
+							}
+						]
+						},
+						{"name":"Regression",
+						"children":[
+							{"name":"Visual analytics",
+							"children":[
+								{"name":"tzeng2005opening"}
+							]
+							}
+						]
+						}
+					]
+					},
+					{"name":"Text",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"bologna2018rule"}
+							]
+							},
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"lei2016rationalizing"}
+							]
+							},
+							{"name":"Visual analytics",
+							"children":[
+								{"name":"arras2017explaining"},
+								{"name":"karpathy2015visualizing"},
+								{"name":"li2015visualizing"},
+								{"name":"strobelt2018lstmvis"}
+							]
+							}
+						]
+						}
+					]
+					}
+				]
+				},
+				{"name":"Expert systems",
+				"children":[
+					{"name":"Structured data",
+					"children":[
+						{"name":"Textual explanation",
+						"children":[
+							{"name":"lester1997developing"},
+							{"name":"moore1989planning"},
+							{"name":"moore1989reactive"},
+							{"name":"moore1991reactive"},
+							{"name":"paris1991generation"},
+							{"name":"pollack1982user"},
+							{"name":"swartout1983xplain"},
+							{"name":"swartout1991explanations"},
+							{"name":"wallis1982explanatory"},
+							{"name":"weiner1980blah"},
+							{"name":"wick1993second"}
+						]
+						}
+					]
+					}
+				]
+				},
+				{"name":"Intelligent systems",
+				"children":[
+					{"name":"Images / Videos",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"kim2015interactive"}
+							]
+							}
+						]
+						}
+						
+					]
+					},
+					{"name":"Sensors",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"chakraborti2017plan"},
+								{"name":"fischer2016situatedness"},
+								{"name":"greaves2000conversation"},
+								{"name":"hanheide2017robot"},
+								{"name":"hayes2017improving"},
+								{"name":"kim2015interactive"},
+								{"name":"krestin2011people"},
+								{"name":"langley2016explainable"},
+								{"name":"lomas2011robotic"},
+								{"name":"lomas2012explaining"},
+								{"name":"rosenthal2016verbalization"},
+								{"name":"sheh2017did"},
+								{"name":"wicaksono17towards"}
+							]
+							}
+						]
+						},
+						{"name":"Regression",
+						"children":[
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"chakraborti2017plan"},
+								{"name":"fischer2016situatedness"},
+								{"name":"hanheide2017robot"},
+								{"name":"hayes2017improving"},
+								{"name":"kim2015interactive"},
+								{"name":"krestin2011people"},
+								{"name":"langley2016explainable"},
+								{"name":"lomas2011robotic"},
+								{"name":"lomas2012explaining"},
+								{"name":"rosenthal2016verbalization"},
+								{"name":"sheh2017did"},
+								{"name":"wicaksono17towards"}
+							]
+							},
+							{"name":"Body explanation",
+							"children":[
+								{"name":"takayama2011expressing"}
+							]
+							}
+						]
+						}
+					]
+					},
+					{"name":"Text",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"krening2017learning"}
+							]
+							}
+						]
+						}
+					]
+					}
+				]
+				},
+				{"name":"Learning systems",
+				"children":[
+					{"name":"Sensors",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"cawsey1993planning"},
+								{"name":"cawsey1993user"},
+								{"name":"graesser2005autotutor"}
+							]
+							}
+						]	
+						}
+					]
+					},
+					{"name":"Structured data",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"barnes2008toward"},
+								{"name":"elizalde2008integrating"},
+								{"name":"gomboc2005design"},
+								{"name":"lane2005explainable"},
+								{"name":"johnson1993explanation"},
+								{"name":"johnson1994agents"},
+								{"name":"johnson1994agentslearn"}
+								{"name":"van2004explainable"}
+							]
+							},
+							{"name":"Visual analytics",
+							"children":[
+								{"name":"elizalde2008integrating"}
+							]
+							}
+						]
+						}
+					]
+					},
+					{"name":"Text",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"core2006building"}
+							]
+							}
+						]	
+						}
+					]
+					}
+				]
+				},
+				{"name":"Recommender systems",
+				"children":[
+					{"name":"Structured data",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"heckel2017scalable"},
+								{"name":"muhammad2016explanation"},
+								{"name":"wang2014also"},
+								{"name":"wang2018explainable"},
+								{"name":"yu2009recommendation"}
+							]
+							},
+							{"name":"Case-based reasoning",
+							"children":[
+								{"name":"mcsherry2005explanation"},
+								{"name":"muhammad2015great"},
+								{"name":"muhammad2016use"},
+								{"name":"sormo2005explanation"}
+							]
+							},
+							{"name":"Knowledge graphs",
+							"children":[
+								{"name":"catherine2017explainable"}
+							]
+							},
+							{"name":"Prediction comparison",
+							"children":[
+								{"name":"cleger2012explaining"}
+							]
+							}
+						]
+						}
+					]
+					},
+					{"name":"Text",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"ben2014hybrid"},
+								{"name":"hou2019explainable"},
+								{"name":"lawlor2015opinionated"},
+								{"name":"papadimitriou2012generalized"}
+								{"name":"vig2009tagsplanations"},
+								{"name":"zanker2010knowledgeable"},
+								{"name":"zhang2014explicit"}
+							]
+							},
+							{"name":"Feature selection",
+							"children":[
+								{"name":"he2015trirank"}
+							]
+							},
+							{"name":"Visual analytics;",
+							"children":[
+								{"name":"al2014visualization"}
+							]
+							}
+						]	
+						}
+					]
+					}
+				]
+				}
+			]
+				{"name":"Model specific (other models)",
+				"children":[
+					{"name":"Images / Videos",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Visual analytics",
+							"children":[
+								{"name":"Landecker2013interpreting"}
+							]
+							}
+						]
+						}
+					]
+					},
+					{"name":"Sensors",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"bidot2010verbal"},
+								{"name":"vermeulen2010improving"}
+							]
+							}
+						]
+						},
+						{"name":"Regression",
+						"children":[
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"bidot2010verbal"},
+								{"name":"vermeulen2010improving"}
+							]
+							}
+						]
+						}
+					]
+					},
+					{"name":"Structured data",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Feature selection",
+							"children":[
+								{"name":"barbella2009understanding"},
+								{"name":"tolomei2017interpretable"}
+							]
+							},
+							{"name":"Prototype selection",
+							"children":[
+								{"name":"kim2014bayesian"},
+								{"name":"tan2016tree"}
+							]
+							},
+							{"name":"Scenarios",
+							"children":[
+								{"name":"vlek2016method"}
+							]
+							},
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"tanner1993explanation"},
+								{"name":"winikoff2017debugging"}
+							]
+							},
+							{"name":"Visual analytics",
+							"children":[
+								{"name":"yang2005pruning"}
+							]
+							}
+						]
+						}
+					]
+					},
+					{"name":"Text",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"mcguinness2007explaining"}
+							]
+							}
+						]
+						}
+					]
+					}
+				]
+				}
+			]
+			},
+			{"name":"Global explanation",
+			"children":[
+				{"name":"Model agnostic",
+				"children":[
+					{"name":"Images / Videos",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Feature selection",
+							"children":[
+								{"name":"lundberg2017unified"}
+							]
+							},
+							{"name":"Influence functions",
+							"children":[
+								{"name":"koh2017understanding"}
+							]
+							},
+							{"name":"Visual analytics",
+							"children":[
+								{"name":"lapuschkin2019unmasking"},
+								{"name":"thiagarajan2016treeview"}
+							]
+							}
+						]
+						}
+					]
+					},
+					{"name":"Structured data",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Feature selection",
+							"children":[
+								{"name":"adler2018auditing"},
+								{"name":"casalicchio2018visualizing"},
+								{"name":"henelius2014peek"},
+								{"name":"vstrumbelj2014explaining"}
+							]
+							},
+							{"name":"Input selection",
+							"children":[
+								{"name":"datta2016algorithmic"}
+							]
+							},
+							{"name":"Model approximation",
+							"children":[
+								{"name":"bastani2017interpretability"},
+								{"name":"choo2010ivisclassifier"},
+								{"name":"hooker2004discovering"},
+								{"name":"krishnan2017palm"},
+								{"name":"tan2018distill"}
+							]
+							},
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"johansson2004accuracy"},
+								{"name":"johansson2004truth"}
+							]
+							},
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"biran2014justification"},
+								{"name":"vstrumbelj2010explanation"}
+							]
+							},
+							{"name":"Visual analytics",
+							"children":[
+								{"name":"biran2014justification"},
+								{"name":"casalicchio2018visualizing"},
+								{"name":"choo2010ivisclassifier"},
+								{"name":"cortez2011opening"},
+								{"name":"cortez2013using"},
+								{"name":"goldstein2015peeking"},
+								{"name":"hooker2004discovering"},
+								{"name":"kahng2016visual"},
+								{"name":"krause2016using"},
+								{"name":"poulin2006visual"}
+							]
+							}
+						]
+						},
+						{"name":"Regression",
+						"children":[
+							{"name":"Feature selection",
+							"children":[
+								{"name":"adler2018auditing"},
+								{"name":"casalicchio2018visualizing"}
+								{"name":"vstrumbelj2014explaining"}
+							]
+							},
+							{"name":"Model approximation",
+							"children":[
+								{"name":"bastani2017interpretability"},
+								{"name":"hooker2004discovering"},
+								{"name":"krishnan2017palm"},
+								{"name":"tan2018distill"}
+							]
+							},
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"johansson2004accuracy"},
+								{"name":"johansson2004truth"}
+							]
+							},
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"vstrumbelj2010explanation"}
+							]
+							},
+							{"name":"Visual analytics",
+							"children":[
+								{"name":"casalicchio2018visualizing"},
+								{"name":"cortez2011opening"},
+								{"name":"cortez2013using"},
+								{"name":"goldstein2015peeking"},
+								{"name":"hooker2004discovering"},
+								{"name":"krause2016using"}
+							]
+							}
+						]
+						}
+					]
+					},
+					{"name":"Structured data",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Feature selection",
+							"children":[
+								{"name":"tamagnini2017interpreting"}
+							]
+							},
+							{"name":"Input perturbation",
+							"children":[
+								{"name":"alvarez2017causal"}
+							]
+							},
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"ribeiro2018anchors"}
+							]
+							},
+							{"name":"Set of necessary words",
+							"children":[
+								{"name":"martens2013explaining"}
+							]
+							},
+							{"name":"Visual analytics",
+							"children":[
+								{"name":"alvarez2017causal"},
+								{"name":"ribeiro2016model"},
+								{"name":"tamagnini2017interpreting"}
+							]
+							}
+						]
+						}
+					]
+					}
+				]
+				},
+				{"name":"Neural networks",
+				"children":[
+					{"name":"Images / Videos",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Model approximation",
+							"children":[
+								{"name":"alain2016understanding"},
+								{"name":"chu2018exact"},
+								{"name":"liu2018interpretable"}
+							]
+							},
+							{"name":"Principal component analysis",
+							"children":[
+								{"name":"aubry2015understanding"}
+							]
+							},
+							{"name":"Prototype selection",
+							"children":[
+								{"name":"kim2018interpretability"}
+							]
+							},
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"bologna2017characterization"},
+								{"name":"zhang2017growing"}
+							]
+							},
+							{"name":"Symbolic logic integration",
+							"children":[
+								{"name":"evans2018learning"}
+							]
+							},
+							{"name":"Visual analytics",
+							"children":[
+								{"name":"fong2018net2vec"},
+								{"name":"he2018deep"},
+								{"name":"lengerich2017towards"},
+								{"name":"montavon2017explaining"},
+								{"name":"olah2018building"},
+								{"name":"raghu2017svcca"},
+								{"name":"rauber2017visualizing"},
+								{"name":"wongsuphasawat2018visualizing"},
+								{"name":"yosinski2015understanding"},
+								{"name":"zhang2018interpreting"},
+								{"name":"zhong2017evolutionary"}
+							]
+							}
+						]
+						},
+						{"name":"Regression",
+						"children":[
+							{"name":"Symbolic logic integration",
+							"children":[
+								{"name":"evans2018learning"}
+							]
+							},
+							{"name":"Visual analytics",
+							"children":[
+								{"name":"raghu2017svcca"},
+								{"name":"wongsuphasawat2018visualizing"},
+								{"name":"zhong2017evolutionary"}
+							]
+							}
+						]
+						}
+					]
+					},
+					{"name":"Sensors",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"thrun1995extracting"}
+							]
+							}
+						]
+						},
+						{"name":"Regression",
+						"children":[
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"thrun1995extracting"}
+							]
+							}
+						]
+						}
+					},
+					{"name":"Structured data",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Contextual importance and utility",
+							"children":[
+								{"name":"framling1996explaining"}
+							]
+							},
+							{"name":"Model approximation",
+							"children":[
+								{"name":"boz2002extracting"},
+								{"name":"craven1996extracting"}
+							]
+							},
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"biswas2017rule"},
+								{"name":"bologna1998symbolic"},
+								{"name":"bologna2017characterization"},
+								{"name":"bondarenko2017classification"},
+								{"name":"craven1994using"},
+								{"name":"garcez2001symbolic"},
+								{"name":"omlin1996extraction"},
+								{"name":"palade2001interpretation"},
+								{"name":"setiono1995understanding"},
+								{"name":"zhou2003extracting"}
+							]
+							},
+							{"name":"Variable selection",
+							"children":[
+								{"name":"feraud2002methodology"}
+							]
+							},
+							{"name":"Viasual analytic",
+							"children":[
+								{"name":"kahng2018cti"},
+								{"name":"liu2017visualizing"},
+								{"name":"streeter2001nvis"},
+								{"name":"tzeng2005opening"},
+								{"name":"wongsuphasawat2018visualizing"},
+								{"name":"zahavy2016graying"}
+							]
+							}
+						]
+						},
+						{"name":"Regression",
+						"children":[
+							{"name":"Model approximation",
+							"children":[
+								{"name":"craven1996extracting"}
+							]
+							},
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"garcez2001symbolic"},
+								{"name":"zhou2003extracting"}
+							]
+							},
+							{"name":"Variable selection",
+							"children":[
+								{"name":"feraud2002methodology"}
+							]
+							},
+							{"name":"Visual analytic",
+							"children":[
+								{"name":"kahng2018cti"},
+								{"name":"streeter2001nvis"},
+								{"name":"tzeng2005opening"},
+								{"name":"wongsuphasawat2018visualizing"}
+							]
+							}
+						]
+						}
+					]
+					},
+					{"name":"Text",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"hu2016harnessing"},
+								{"name":"bologna2018rule"},
+								{"name":"murdoch2017automatic"}
+							]
+							},
+							{"name":"Visual analytic",
+							"children":[
+								{"name":"karpathy2015visualizing"},
+								{"name":"strobelt2018lstmvis"},
+								{"name":"wongsuphasawat2018visualizing"}
+							]
+							}
+						]
+						},
+						{"name":"Regression",
+						"children":[
+							{"name":"Visual analytic",
+							"children":[
+								{"name":"wongsuphasawat2018visualizing"}
+							]
+							}
+						]
+						}
+					}
+				]
+				}
+			]
+				{"name":"Expert systems",
+				"children":[
+					{"name":"Structured data",
+					"children":[
+						{"name":"Textual explanation",
+						"children":[
+							{"name":"lester1997developing"},
+							{"name":"moore1989planning"},
+							{"name":"moore1989reactive"},
+							{"name":"moore1991reactive"},
+							{"name":"paris1991generation"},
+							{"name":"pollack1982user"},
+							{"name":"swartout1983xplain"},
+							{"name":"swartout1991explanations"},
+							{"name":"wallis1982explanatory"},
+							{"name":"weiner1980blah"},
+							{"name":"wick1993second"}
+						]
+						}
+					]
+					}
+				]
+				},
+				{"name":"Intelligent systems",
+				"children":[
+					{"name":"Sensors",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Symbolic logic integration",
+							"children":[
+								{"name":"besold2015towards"}
+							]
+							},
+							{"name":"Visual analytic",
+							"children":[
+								{"name":"lam2005comprehending"}
+							]
+							}
+						]
+						},
+						{"name":"Regression",
+						"children":[
+							{"name":"Symbolic logic integration",
+							"children":[
+								{"name":"besold2015towards"}
+							]
+							},
+							{"name":"Visual analytic",
+							"children":[
+								{"name":"lam2005comprehending"}
+							]
+							}
+						]
+						}
+					]
+					},
+					{"name":"Structured data",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Explanatory diagnosis",
+							"children":[
+								{"name":"mcllraith1999explanatory"}
+							]
+							},
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"hindriks2012debugging"}
+							]
+							}
+						]
+						},
+						{"name":"Regression",
+						"children":[
+							{"name":"Explanatory diagnosis",
+							"children":[
+								{"name":"mcllraith1999explanatory"}
+							]
+							},
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"hindriks2012debugging"}
+							]
+							}
+						]
+						}
+					]
+					}
+			}
+				{"name":"Learning systems",
+				"children":[
+					{"name":"Structured data",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"elizalde2008integrating"}
+							]
+							},
+							{"name":"Visual analytics",
+							"children":[
+								{"name":"elizalde2008integrating"}
+							]
+							}
+						]	
+						}
+					]
+					}
+				},
+				{"name":"Support vector machine",
+				"children":[
+					{"name":"Images / Videos",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"fung2005rule"}
+							]
+							}
+						]	
+						},
+					]
+					},
+					{"name":"Structured data",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Model approximation",
+							"children":[
+								{"name":"caragea2003towards"}
+							]
+							},
+							{"name":"Prototype selection",
+							"children":[
+								{"name":"nunez2002rule"}
+							]
+							},
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"fung2005rule"},
+								{"name":"nunez2002rule"}
+							]
+							},
+							{"name":"Visual analytic",
+							"children":[
+								{"name":"cho2008nonlinear"},
+								{"name":"hamel2006visualization"},
+								{"name":"jakulin2005nomograms"}
+							]
+							}
+						]	
+						}
+					]
+					}
+				]
+				},
+				{"name":"Model specific (other models)",
+				"children":[
+					{"name":"Structured data",
+					"children":[
+						{"name":"Classification",
+						"children":[
+							{"name":"Argumentation theory",
+							"children":[
+								{"name":"timmer2017two"}
+							]
+							},
+							{"name":"Model approximation",
+							"children":[
+								{"name":"andrzejak2013interpretable"},
+								{"name":"buciluǎ2006model"},
+								{"name":"ferri2002ensemble"},
+								{"name":"hara2018making"},
+								{"name":"van2007seeing"}
+							]
+							},
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"deng2018interpreting"},
+								{"name":"yap2008explaining"}
+							]
+							},
+							{"name":"Visual analytic",
+							"children":[
+								{"name":"movzina2004nomograms"},
+								{"name":"pancho2013fingrams"},
+								{"name":"timmer2017two"},
+								{"name":"yang2005pruning"}
+							]
+							}
+						]	
+						},
+						{"name":"Regression",
+						"children":[
+							{"name":"Model approximation",
+							"children":[
+								{"name":"andrzejak2013interpretable"},
+								{"name":"buciluǎ2006model"}
+							},
+							{"name":"Rule extraction",
+							"children":[
+								{"name":"deng2018interpreting"}
+							]
+							}
+						]	
+						}
+					]
+					}
+				]
+				}
+			]
+			}
+		]
+		}
+	]
+	}
+]
 }
