@@ -20,9 +20,9 @@
 		]
 		},
 		{"name": "Model specific",
-		"children": [
+		"children":[
 			{"name": "Neural networks", 
-			"children": [
+			"children":[
 				{"name": "andrews1995survey"},
 				{"name": "bengio2013representation"},
 				{"name": "choo2018visual"},
@@ -34,23 +34,23 @@
 			]			
 			},
 			{"name": "Support Vector Machine", 
-			"children": [
+			"children":[
 				{"name": "backhaus2014classification"},
 				{"name": "martens2007comprehensible"}				
 			]			
 			},
 			{"name": "Bayesian Networks", 
-			"children": [
+			"children":[
 				{"name": "lacave2002review"}				
 			]			
 			},
 			{"name": "Intelligent Systems", 
-			"children": [
+			"children":[
 				{"name": "gregor1999explanations"}				
 			]			
 			},
 			{"name": "Expert Systems", 
-			"children": [
+			"children":[
 				{"name": "swartout1993explanation"}				
 			]			
 			},
@@ -61,7 +61,7 @@
 			{"name":"Regression",
 			"children":[
 				{"name":"otte2013safe"}
-				]
+			]
 			},
 			{"name":"Classification",
 			"children":[
@@ -72,7 +72,7 @@
 				{"name":"martens2011performance"},
 				{"name":"otte2013safe"},
 				{"name":"zhang2018visual"}
-				]
+			]
 			}
 		]
 		},
@@ -140,7 +140,7 @@
 	]
 	},
     {"name":"Notions",
-    "children": [
+    "children":[
 		{"name": "abdul2018trends"},
 		{"name": "adadi2018peeking"},
 		{"name": "alonso2018bibliometric"},
@@ -306,7 +306,7 @@
 					{"name":"Modified neural networks",
 					"children":[
 						{"name":"ross2017right"},
-						{"name":"zhang2018interpretable"},
+						{"name":"zhang2018interpretable"}
 					]
 					}
 				]
@@ -350,7 +350,8 @@
 					},
 				]
 				}
-			]},
+			]
+			},
 			{"name":"Global explanation",
 			"children":[
 				{"name":"Images / Videos",
