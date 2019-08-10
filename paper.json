@@ -285,7 +285,7 @@
 		}
 	]
 	},
-	{"name":"Methods for Explainability",
+	{"name":"Methods",
 	"children":[
 		{"name":"Ante-hoc",
 		"children":[
@@ -313,7 +313,7 @@
 				},
 				{"name":"Text",
 				"children":[
-					{"name":"Restricted Support Region Set (RSRS) Detection",
+					{"name":"Restricted Support Region Set Detection",
 					"children":[
 						{"name":"liu2012has"}
 					]
