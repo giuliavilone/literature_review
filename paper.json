@@ -470,6 +470,7 @@
 						},
 						{"name":"Feature selection",
 						"children":[
+							{"name":"brinton2017framework"},
 							{"name":"dash2000feature"},
 							{"name":"friedman2008predictive"},
 							{"name":"kim2015mind"}
@@ -539,6 +540,7 @@
 						},
 						{"name":"Feature selection",
 						"children":[
+							{"name":"brinton2017framework"},
 							{"name":"friedman2008predictive"}
 						]
 						},
