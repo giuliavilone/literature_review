@@ -44,7 +44,7 @@
 				{"name": "lacave2002review"}				
 			]			
 			},
-			{"name": "Intelligent Systems", 
+			{"name": "Intelligent systems", 
 			"children":[
 				{"name": "gregor1999explanations"}				
 			]			
@@ -78,7 +78,7 @@
 		},
 		{"name":"Explanation method",
 		"children":[
-			{"name":"Visual analytic tool",
+			{"name":"Visual analytic tools",
 			"children":[
 				{"name":"choo2018visual"},
 				{"name":"craven1992visualizing"},
@@ -104,13 +104,14 @@
 				{"name":"martens2007comprehensible"}
 			]
 			},
-			{"name":"Feature Selection",
+			{"name":"Feature selection",
 			"children":[
 				{"name":"guyon2003introduction"}
 			]
 			},
 			{"name":"Dialogue generator",
 			"children":[
+				{"name":"krestin2011people"},
 				{"name":"miller2017explainable"},
 				{"name":"swartout1993explanation"}
 			]
@@ -139,7 +140,7 @@
 		}
 	]
 	},
-    {"name":"Notions",
+    {"name":"Notions related to the concept of explainability",
     "children":[
 		{"name": "abdul2018trends"},
 		{"name": "adadi2018peeking"},
@@ -181,6 +182,7 @@
 		{"name": "melis2018towards"},
 		{"name": "miller2017explainable"},
 		{"name": "miller2017explanation"},
+		{"name": "ming2017survey"},
 		{"name": "montavon2017methods"},
 		{"name": "moore1993planning"},
 		{"name": "offert2017know"},
@@ -226,30 +228,46 @@
 			{"name":"herlocker2000explaining"},
 			{"name":"huysmans2011empirical"},
 			{"name":"kaptein2017personalised"},
+			{"name":"kim2015mind"},
 			{"name":"kouki2017user"},
 			{"name":"krause2016interacting"},
 			{"name":"kulesza2011oriented"},
+			{"name":"kulesza2013too"},
 			{"name":"kulesza2015principles"},
 			{"name":"lage2018human"},
 			{"name":"lim2009and"},
 			{"name":"lim2009assessing"},
+			{"name":"lawlor2015opinionated"},
 			{"name":"luvstrek2014comprehensibility"},
 			{"name":"martens2011performance"},
+			{"name":"papadimitriou2012generalized"},
 			{"name":"poursabzi2018manipulating"},
+			{"name":"ribeiro2018anchors"},
 			{"name":"stock2018convnets"},
 			{"name":"suermondt1993evaluation"},
 			{"name":"symeonidis2009moviexplain"},
 			{"name":"tsai2018explaining"},
 			{"name":"tullio2007works"},
 			{"name":"williams2016axis"},
-			{"name":"ye1995impact"}
+			{"name":"ye1995impact"},
+			{"name":"tintarev2008effectiveness"}
 		]
 		},
 		{"name":"Formal Evaluation",
 		"children":[
 			{"name":"dam2018explainable"},
+			{"name":"barratt2017interpnet"},
+			{"name":"bibal2016interpretability"},
 			{"name":"freitas2014comprehensible"},
-			{"name":"otero2016improving"}
+			{"name":"he2015trirank"},
+			{"name":"hou2019explainable"},
+			{"name":"lakkaraju2016interpretable"},
+			{"name":"lawlor2015opinionated"},
+			{"name":"preece2018asking"},
+			{"name":"otero2016improving"},
+			{"name":"tintarev2007survey"},
+			{"name":"wang2007recommendation"},
+			{"name":"zhang2018visual"}
 		]
 		},
 		{"name":"Application Domains",
@@ -268,14 +286,17 @@
 		"children":[
 			{"name":"adebayo2018local"},
 			{"name":"adebayo2018sanity"},
+			{"name":"allahyari2011user"},
 			{"name":"alvarez2018robustness"},
 			{"name":"ancona2018towards"},
 			{"name":"arras2016explaining"},
+			{"name":"bilgic2005explaining"},
 			{"name":"erhan2009visualizing"},
 			{"name":"freitas2014comprehensible"},
 			{"name":"gedikli2014should"},
 			{"name":"gevrey2003review"},
 			{"name":"ghorbani2017interpretation"},
+			{"name":"huysmans2011empirical"},
 			{"name":"kindermans2017reliability"},
 			{"name":"martens2007comprehensible"},
 			{"name":"robnik2018explanation"},
@@ -293,7 +314,7 @@
 			"children":[
 				{"name":"Images / Videos",
 				"children":[
-					{"name":"Visual explanation",
+					{"name":"Visual analytic tools",
 					"children":[
 						{"name":"park2016attentive"}
 					]
@@ -327,7 +348,7 @@
 				},
 				{"name":"Structured Data",
 				"children":[
-					{"name":"Visual analytics",
+					{"name":"Visual analytic tools",
 					"children":[
 						{"name":"friedman2008predictive"}
 					]
@@ -338,7 +359,7 @@
 						{"name":"ross2017right"}
 					]
 					},
-					{"name":"Rule extraction",
+					{"name":"Feature selection",
 					"children":[
 						{"name":"friedman2008predictive"}
 					]
@@ -381,7 +402,7 @@
 				"children":[
 					{"name":"Classification",
 					"children":[
-						{"name":"Modified Blind Signal Separation",
+						{"name":"Modified blind signal separation",
 						"children":[
 							{"name":"ruiz2012towards"}
 						]
@@ -390,7 +411,7 @@
 					},
 					{"name":"Regression",
 					"children":[
-						{"name":"Gaussian Process Regression",
+						{"name":"Gaussian process regression",
 						"children":[
 							{"name":"caywood2017gaussian"}
 						]
@@ -429,7 +450,6 @@
 						"children":[
 							{"name":"augasta2012reverse"},
 							{"name":"cano2013interpretable"},
-							{"name":"friedman2008predictive"},
 							{"name":"gaines1996transforming"},
 							{"name":"ishibuchi2007analysis"},
 							{"name":"jin2000fuzzy"},
@@ -451,10 +471,11 @@
 						{"name":"Feature selection",
 						"children":[
 							{"name":"dash2000feature"},
+							{"name":"friedman2008predictive"},
 							{"name":"kim2015mind"}
 						]
 						},
-						{"name":"Visual analytics",
+						{"name":"Visual analytic tools",
 						"children":[
 							{"name":"gaines1996transforming"},
 							{"name":"friedman2008predictive"}
@@ -465,12 +486,12 @@
 							{"name":"maimon2005decomposition"}
 						]
 						},
-						{"name":"Oblique treed sparse additive models (OT-SpAMs)",
+						{"name":"Oblique treed sparse additive models",
 						"children":[
 							{"name":"wang2015trading"}
 						]
 						},
-						{"name":"Modified boosted naïve Bayes classifier",
+						{"name":"Modified boosted naive Bayes classifier",
 						"children":[
 							{"name":"ridgeway1998interpretable"}
 						]
@@ -480,7 +501,7 @@
 							{"name":"wu2018beyond"}
 						]
 						},
-						{"name":"Supersparse Linear Integer Model (SLIM)",
+						{"name":"Supersparse linear integer model",
 						"children":[
 							{"name":"ustun2014supersparse"}
 						]
@@ -513,11 +534,15 @@
 						},
 						{"name":"Rule extraction",
 						"children":[
-							{"name":"augasta2012reverse"},
+							{"name":"augasta2012reverse"}
+						]
+						},
+						{"name":"Feature selection",
+						"children":[
 							{"name":"friedman2008predictive"}
 						]
 						},
-						{"name":"Visual analytics",
+						{"name":"Visual analytic tools",
 						"children":[
 							{"name":"friedman2008predictive"}
 						]
@@ -545,12 +570,12 @@
 							{"name":"clos2017towards"}
 						]
 						},
-						{"name":"Word Sense Induction and Disambiguation",
+						{"name":"Word sense induction and disambiguation",
 						"children":[
 							{"name":"panchenko2017unsupervised"}
 						]
 						},
-						{"name":"Non-Negative Sparse Embedding",
+						{"name":"Non-negative sparse embedding",
 						"children":[
 							{"name":"murphy2012learning"}
 						]
@@ -589,7 +614,7 @@
 								{"name":"bien2011prototype"}
 							]
 							},
-							{"name":"Visual analytics",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"dabkowski2017real"},
 								{"name":"fong2017interpretable"},
@@ -606,7 +631,8 @@
 						"children":[
 							{"name":"Case-based reasoning",
 							"children":[
-								{"name":"caruana1999case"}
+								{"name":"caruana1999case"},
+								{"name":"sormo2005explanation"}
 							]
 							},
 							{"name":"Feature selection",
@@ -633,7 +659,7 @@
 								{"name":"bohanec2017explaining"}
 							]
 							},
-							{"name":"Visual analytics",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"Kononenko10anefficient"}
 							]
@@ -691,7 +717,7 @@
 								{"name":"martens2013explaining"}
 							]
 							},
-							{"name":"Visual analytics",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"alvarez2017causal"},
 								{"name":"ribeiro2016model"},
@@ -734,7 +760,7 @@
 								{"name":"xuk2015show"}
 							]
 							},
-							{"name":"Visual analytics",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"bau2019gandissect"},
 								{"name":"binder2016layer"},
@@ -775,8 +801,7 @@
 							},
 							{"name":"Feature selection",
 							"children":[
-								{"name":"robnik2008explaining"},
-								{"name":"vstrumbelj2008towards"}
+								{"name":"robnik2008explaining"}
 							]
 							},
 							{"name":"Rule extraction",
@@ -784,7 +809,7 @@
 								{"name":"bologna2017characterization"}
 							]
 							},
-							{"name":"Visual analytics",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"kumar2017explaining"},
 								{"name":"tzeng2005opening"}
@@ -794,7 +819,7 @@
 						},
 						{"name":"Regression",
 						"children":[
-							{"name":"Visual analytics",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"tzeng2005opening"}
 							]
@@ -817,7 +842,7 @@
 								{"name":"lei2016rationalizing"}
 							]
 							},
-							{"name":"Visual analytics",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"arras2017explaining"},
 								{"name":"karpathy2015visualizing"},
@@ -835,19 +860,25 @@
 				"children":[
 					{"name":"Structured data",
 					"children":[
-						{"name":"Textual explanation",
+						{"name":"Classification",
 						"children":[
-							{"name":"lester1997developing"},
-							{"name":"moore1989planning"},
-							{"name":"moore1989reactive"},
-							{"name":"moore1991reactive"},
-							{"name":"paris1991generation"},
-							{"name":"pollack1982user"},
-							{"name":"swartout1983xplain"},
-							{"name":"swartout1991explanations"},
-							{"name":"wallis1982explanatory"},
-							{"name":"weiner1980blah"},
-							{"name":"wick1993second"}
+							{"name":"Textual explanation",
+							"children":[
+								{"name":"lester1997developing"},
+								{"name":"moore1989planning"},
+								{"name":"moore1989reactive"},
+								{"name":"moore1991reactive"},
+								{"name":"paris1991generation"},
+								{"name":"pollack1982user"},
+								{"name":"swartout1983xplain"},
+								{"name":"swartout1991explanations"},
+								{"name":"wallis1982explanatory"},
+								{"name":"weiner1980blah"},
+								{"name":"wick1989reconstructive"},
+								{"name":"wick1993second"},
+								{"name":"williams2016axis"}
+							]
+							}
 						]
 						}
 					]
@@ -968,7 +999,7 @@
 								{"name":"van2004explainable"}
 							]
 							},
-							{"name":"Visual analytics",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"elizalde2008integrating"}
 							]
@@ -1002,6 +1033,7 @@
 							"children":[
 								{"name":"heckel2017scalable"},
 								{"name":"muhammad2016explanation"},
+								{"name":"symeonidis2009moviexplain"},
 								{"name":"wang2014also"},
 								{"name":"wang2018explainable"},
 								{"name":"yu2009recommendation"}
@@ -1011,8 +1043,7 @@
 							"children":[
 								{"name":"mcsherry2005explanation"},
 								{"name":"muhammad2015great"},
-								{"name":"muhammad2016use"},
-								{"name":"sormo2005explanation"}
+								{"name":"muhammad2016use"}
 							]
 							},
 							{"name":"Knowledge graphs",
@@ -1049,7 +1080,7 @@
 								{"name":"he2015trirank"}
 							]
 							},
-							{"name":"Visual analytics;",
+							{"name":"Visual analytic tools;",
 							"children":[
 								{"name":"al2014visualization"}
 							]
@@ -1066,7 +1097,7 @@
 					"children":[
 						{"name":"Classification",
 						"children":[
-							{"name":"Visual analytics",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"Landecker2013interpreting"}
 							]
@@ -1123,10 +1154,11 @@
 							{"name":"Textual explanation",
 							"children":[
 								{"name":"tanner1993explanation"},
+								{"name":"shortliffe1975computer"},
 								{"name":"winikoff2017debugging"}
 							]
 							},
-							{"name":"Visual analytics",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"yang2005pruning"}
 							]
@@ -1170,7 +1202,7 @@
 								{"name":"koh2017understanding"}
 							]
 							},
-							{"name":"Visual analytics",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"lapuschkin2019unmasking"},
 								{"name":"thiagarajan2016treeview"}
@@ -1184,6 +1216,11 @@
 					"children":[
 						{"name":"Classification",
 						"children":[
+							{"name":"Attribute interactions",
+							"children":[
+								{"name":"vstrumbelj2008towards"}
+							]
+							},
 							{"name":"Feature selection",
 							"children":[
 								{"name":"adler2018auditing"},
@@ -1218,7 +1255,7 @@
 								{"name":"vstrumbelj2010explanation"}
 							]
 							},
-							{"name":"Visual analytics",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"biran2014justification"},
 								{"name":"casalicchio2018visualizing"},
@@ -1236,6 +1273,11 @@
 						},
 						{"name":"Regression",
 						"children":[
+							{"name":"Attribute interactions",
+							"children":[
+								{"name":"vstrumbelj2008towards"}
+							]
+							},
 							{"name":"Feature selection",
 							"children":[
 								{"name":"adler2018auditing"},
@@ -1262,7 +1304,7 @@
 								{"name":"vstrumbelj2010explanation"}
 							]
 							},
-							{"name":"Visual analytics",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"casalicchio2018visualizing"},
 								{"name":"cortez2011opening"},
@@ -1300,7 +1342,7 @@
 								{"name":"martens2013explaining"}
 							]
 							},
-							{"name":"Visual analytics",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"alvarez2017causal"},
 								{"name":"ribeiro2016model"},
@@ -1347,7 +1389,7 @@
 								{"name":"evans2018learning"}
 							]
 							},
-							{"name":"Visual analytics",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"fong2018net2vec"},
 								{"name":"he2018deep"},
@@ -1371,7 +1413,7 @@
 								{"name":"evans2018learning"}
 							]
 							},
-							{"name":"Visual analytics",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"raghu2017svcca"},
 								{"name":"wongsuphasawat2018visualizing"},
@@ -1438,7 +1480,7 @@
 								{"name":"feraud2002methodology"}
 							]
 							},
-							{"name":"Viasual analytic",
+							{"name":"Viasual analytic tools",
 							"children":[
 								{"name":"kahng2018cti"},
 								{"name":"liu2017visualizing"},
@@ -1468,7 +1510,7 @@
 								{"name":"feraud2002methodology"}
 							]
 							},
-							{"name":"Visual analytic",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"kahng2018cti"},
 								{"name":"streeter2001nvis"},
@@ -1491,7 +1533,7 @@
 								{"name":"murdoch2017automatic"}
 							]
 							},
-							{"name":"Visual analytic",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"karpathy2015visualizing"},
 								{"name":"strobelt2018lstmvis"},
@@ -1502,7 +1544,7 @@
 						},
 						{"name":"Regression",
 						"children":[
-							{"name":"Visual analytic",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"wongsuphasawat2018visualizing"}
 							]
@@ -1547,7 +1589,7 @@
 								{"name":"besold2015towards"}
 							]
 							},
-							{"name":"Visual analytic",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"lam2005comprehending"}
 							]
@@ -1561,7 +1603,7 @@
 								{"name":"besold2015towards"}
 							]
 							},
-							{"name":"Visual analytic",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"lam2005comprehending"}
 							]
@@ -1615,7 +1657,7 @@
 								{"name":"elizalde2008integrating"}
 							]
 							},
-							{"name":"Visual analytics",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"elizalde2008integrating"}
 							]
@@ -1661,7 +1703,7 @@
 								{"name":"nunez2002rule"}
 							]
 							},
-							{"name":"Visual analytic",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"cho2008nonlinear"},
 								{"name":"hamel2006visualization"},
@@ -1700,7 +1742,7 @@
 								{"name":"yap2008explaining"}
 							]
 							},
-							{"name":"Visual analytic",
+							{"name":"Visual analytic tools",
 							"children":[
 								{"name":"movzina2004nomograms"},
 								{"name":"pancho2013fingrams"},
