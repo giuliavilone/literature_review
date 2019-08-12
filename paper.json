@@ -2,7 +2,7 @@
 "children": [
 	{"name": "Surveys",
 	"children":[
-		{"name": "Notions related to the concept of explainability",
+		{"name": "Notions",
 		"children": [
 			{"name": "adadi2018peeking"},
 			{"name": "abdul2018trends"},
@@ -140,7 +140,7 @@
 		}
 	]
 	},
-    {"name":"Notions related to the concept of explainability",
+    {"name":"Notions",
     "children":[
 		{"name": "abdul2018trends"},
 		{"name": "adadi2018peeking"},
