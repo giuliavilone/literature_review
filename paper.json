@@ -449,19 +449,45 @@
 		},
 		{"name":"Formal",
 		"children":[
-			{"name":"dam2018explainable"},
-			{"name":"barratt2017interpnet"},
-			{"name":"bibal2016interpretability"},
-			{"name":"freitas2014comprehensible"},
-			{"name":"he2015trirank"},
-			{"name":"hou2019explainable"},
-			{"name":"lakkaraju2016interpretable"},
-			{"name":"lawlor2015opinionated"},
-			{"name":"preece2018asking"},
-			{"name":"otero2016improving"},
-			{"name":"tintarev2007survey"},
-			{"name":"wang2007recommendation"},
-			{"name":"zhang2018visual"}
+			{"name":"Trade off accuracy - size",
+			"children":[
+				{"name":"bibal2016interpretability"},
+				{"name":"dam2018explainable"},
+				{"name":"freitas2014comprehensible"},
+				{"name":"otero2016improving"},
+				{"name":"preece2018asking"}
+			]
+			},
+			{"name":"Number of rules",
+			"children":[
+				{"name":"freitas1999rule"},
+				{"name":"lakkaraju2016interpretable"}
+			]
+			},
+			{"name":"Productivity performance",
+			"children":[
+				{"name":"dam2018explainable"},
+				{"name":"preece2018asking"}
+			]
+			},
+			{"name":"Text quality metrics",
+			"children":[
+				{"name":"barratt2017interpnet"}
+			]
+			},
+			{"name":"User preference measurements",
+			"children":[
+				{"name":"he2015trirank"},
+				{"name":"hou2019explainable"},
+				{"name":"lawlor2015opinionated"},
+				{"name":"wang2007recommendation"}
+			]
+			},
+			{"name":"Image filtering metrics",
+			"children":[
+				{"name":"zhang2018visual"}
+			]
+			}
 		]
 		},
 		{"name":"Application Domains",
