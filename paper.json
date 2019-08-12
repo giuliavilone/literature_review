@@ -456,14 +456,38 @@
 		},
 		{"name":"Application Domains",
 		"children":[
-			{"name":"arras2017relevant"},
-			{"name":"binder2016analyzing"},
-			{"name":"ding2017visualizing"},
-			{"name":"escalante2017design"},
-			{"name":"lapuschkin2016analyzing"},
-			{"name":"lapuschkin2016lrp"},
-			{"name":"srinivasan2017interpretable"},
-			{"name":"sturm2016interpretable"}
+			{"name":"Computer vision",
+			"children":[
+				{"name":"Image classification",
+				"children":[
+					{"name":"lapuschkin2016analyzing"},
+					{"name":"lapuschkin2016lrp"},
+					{"name":"srinivasan2017interpretable"}
+				]
+				},
+				{"name":"Looking at people",
+				"children":[
+					{"name":"escalante2017design"}
+				]
+				},
+				{"name":"Video - action recognition",
+				"children":[
+					{"name":"srinivasan2017interpretable"}
+				]
+				}
+			]
+			},
+			{"name":"EEG data analysis",
+			"children":[
+				{"name":"sturm2016interpretable"}
+			]
+			},
+			{"name":"Natural language processing",
+			"children":[
+				{"name":"arras2017relevant"},
+				{"name":"ding2017visualizing"}
+			]
+			}
 		]
 		},
 		{"name":"Comparison",
