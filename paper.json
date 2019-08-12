@@ -178,17 +178,183 @@
 	},
     {"name":"Notions",
     "children":[
-		{"name":"Comprehensibility","cildren":[{"name":"bibal2016interpretability"},{"name":"freitas2006we"},{"name":"bratko1997machine"},{"name":"askira1998knowledge"},{"name":"watson2019clinical"},{"name":"goebel2018explainable"}]},
-		{"name":"Intelligibility ","cildren":[{"name":"lim2009and"}]},
-		{"name":"Interpretability","cildren":[{"name":"bibal2016interpretability"},{"name":"biran2017explanation"},{"name":"carrington2018measures"},{"name":"zhou2008low"}]},
-		{"name":"Mental Fit ","cildren":[{"name":"bibal2016interpretability"},{"name":"weihs2003combining"}]},
-		{"name":"Explanatory ","cildren":[{"name":"bibal2016interpretability"}]},
-		{"name":"Understandability","cildren":[{"name":"bibal2016interpretability"},{"name":"liu2017towards"}]},
-		{"name":"Algorithmic transparency","cildren":[{"name":"preece2018asking"}]},
-		{"name":"Be actionable ","cildren":[{"name":"kulesza2015principles"},{"name":"kulesza2013too"}]},
-		{"name":"Be correctable","cildren":[{"name":"kulesza2015principles"},{"name":"kulesza2013too"}]},
-		{"name":"Be incremental","cildren":[{"name":"kulesza2015principles"},{"name":"kulesza2013too"}]},
-		{"name":"Be interactive","cildren":[{"name":"moore1993planning"}]}
+		{"name":"Comprehensibility",
+		"children":[
+			{"name":"bibal2016interpretability"},
+			{"name":"freitas2006we"},
+			{"name":"bratko1997machine"},
+			{"name":"askira1998knowledge"},
+			{"name":"watson2019clinical"},
+			{"name":"goebel2018explainable"}
+		]},
+		{"name":"Intelligibility",
+		"children":[
+			{"name":"lim2009and"}
+		]},
+		{"name":"Interpretability",
+		"children":[
+			{"name":"bibal2016interpretability"},
+			{"name":"biran2017explanation"},
+			{"name":"carrington2018measures"},{
+			"name":"zhou2008low"}
+		]},
+		{"name":"Mental Fit",
+		"children":[
+			{"name":"bibal2016interpretability"},
+			{"name":"weihs2003combining"}
+		]},
+		{"name":"Explanatory",
+		"children":[
+			{"name":"bibal2016interpretability"}
+		]},
+		{"name":"Understandability",
+		"children":[
+			{"name":"bibal2016interpretability"},
+			{"name":"liu2017towards"}
+		]},
+		{"name":"Algorithmic transparency",
+		"children":[
+			{"name":"preece2018asking"}
+		]},
+		{"name":"Be actionable",
+		"children":[
+			{"name":"kulesza2015principles"},
+			{"name":"kulesza2013too"}
+		]},
+		{"name":"Be correctable",
+		"children":[
+			{"name":"kulesza2015principles"},
+			{"name":"kulesza2013too"}
+		]},
+		{"name":"Be incremental",
+		"children":[
+			{"name":"kulesza2015principles"},
+			{"name":"kulesza2013too"}
+		]},
+		{"name":"Be interactive",
+		"children":[
+			{"name":"moore1993planning"}
+		]},
+		{"name":"Be reversible",
+		"children":[
+			{"name":"kulesza2015principles"},
+			{"name":"kulesza2013too"}
+		]},
+		{"name":"Casuality",
+		"children":[
+			{"name":"fox2017explainable"},
+			{"name":"chajewska1997defining"},
+			{"name":"lipton2016mythos"},
+			{"name":"miller2017explanation"}
+		]},
+		{"name":"Completeness",
+		"children":[
+			{"name":"kulesza2015principles"},
+			{"name":"kulesza2013too"}
+		]},
+		{"name":"Effectiveness",
+		"children":[
+			{"name":"tintarev2012evaluating"},
+			{"name":"chander2018evaluating"}
+		]},
+		{"name":"Efficiency",
+		"children":[
+			{"name":"tintarev2007survey"}
+		]},
+		{"name":"Explicability",
+		"children":[
+			{"name":"zhang2017plan"}
+		]},
+		{"name":"Explicitness",
+		"children":[
+			{"name":"melis2018towards"}
+		]},
+		{"name":"Faithfulness",
+		"children":[
+			{"name":"melis2018towards"}
+		]},
+		{"name":"Interestingness",
+		"children":[
+			{"name":"bibal2016interpretability"},
+			{"name":"freitas2006we"},
+			{"name":"bratko1997machine"}
+		]},
+		{"name":"Informativeness",
+		"children":[
+			{"name":"lipton2016mythos"}
+		]},
+		{"name":"Justifiability",
+		"children":[
+			{"name":"bibal2016interpretability"},
+			{"name":"biran2017explanation"}
+		]},
+		{"name":"Monotonicity",
+		"children":[
+			{"name":"freitas2014comprehensible"}
+		]},
+		{"name":"Not overwhelming",
+		"children":[
+			{"name":"kulesza2015principles"},
+			{"name":"kulesza2013too"}
+		]},
+		{"name":"Persuasiveness",
+		"children":[
+			{"name":"tintarev2007survey"}
+		]},
+		{"name":"Predictability",
+		"children":[
+			{"name":"zhang2017plan"}
+		]},
+		{"name":"Refinement",
+		"children":[
+			{"name":"liu2017towards"}
+		]},
+		{"name":"Robustness",
+		"children":[
+			{"name":"alvarez2018robustness"},
+			{"name":"liu2017towards"}
+		]},
+		{"name":"Satisfaction",
+		"children":[
+			{"name":"tintarev2007survey"}
+		]},
+		{"name":"Scrutability / diagnosis",
+		"children":[
+			{"name":"iu2017towards"},
+			{"name":"tintarev2007survey"}
+		]},
+		{"name":"Security",
+		"children":[
+			{"name":"mcallister2017concrete"}
+		]},
+		{"name":"Selection / simplicity",
+		"children":[
+			{"name":"miller2017explainable"}
+		]},
+		{"name":"Sensitivity",
+		"children":[
+			{"name":"kindermans2017reliability"},
+			{"name":"sundararajan2017axiomatic"}
+		]},
+		{"name":"Soundness",
+		"children":[
+			{"name":"kulesza2015principles"},
+			{"name":"kulesza2013too"}
+		]},
+		{"name":"Stability",
+		"children":[
+			{"name":"melis2018towards"}
+		]},
+		{"name":"Transparency",
+		"children":[
+			{"name":"lyons2013being"},
+			{"name":"tintarev2007survey"},
+			{"name":"zhou2008low"}
+		]},
+		{"name":"Transferability",
+		"children":[
+			{"name":"lipton2016mythos"}
+		]}
 	]
     },
 	{"name":"Evaluation",
