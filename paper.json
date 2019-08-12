@@ -420,7 +420,9 @@
 				{"name":"luvstrek2014comprehensibility"},
 				{"name":"poursabzi2018manipulating"},
 				{"name":"ribeiro2018anchors"},
-				{"name":"stock2018convnets"}
+				{"name":"stock2018convnets"},
+				{"name":"symeonidis2009moviexplain"},
+				{"name":"tintarev2008effectiveness"}
 			]	
 			},
 			{"name":"Qualitative",
@@ -437,14 +439,12 @@
 				{"name":"lim2009and"},
 				{"name":"lim2009assessing"},
 				{"name":"papadimitriou2012generalized"},
-				{"name":"suermondt1993evaluation"}
+				{"name":"suermondt1993evaluation"},
+				{"name":"tsai2018explaining"},
+				{"name":"tullio2007works"},
+				{"name":"ye1995impact"}
 			]	
-			},
-			{"name":"symeonidis2009moviexplain"},
-			{"name":"tsai2018explaining"},
-			{"name":"tullio2007works"},
-			{"name":"ye1995impact"},
-			{"name":"tintarev2008effectiveness"}
+			}
 		]
 		},
 		{"name":"Formal",
