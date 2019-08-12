@@ -1,7 +1,14 @@
 {"name": "XAI",
 "children": [
-	{"name": "Surveys",
+	{"name": "Literature reviews",
 	"children":[
+		{"name": "General surveys",
+		"children": [
+			{"name": "adadi2018peeking"},
+			{"name": "biran2017explanation"},
+			{"name": "guidotti2018survey"}
+		]
+		},
 		{"name": "Notions of explainability",
 		"children": [
 			{"name": "adadi2018peeking"},
@@ -20,39 +27,47 @@
 		]
 		},
 		{"name": "Approaches",
-		"children":[
-			{"name": "Neural networks", 
+		"children": [
+			{"name": "Data driven",
 			"children":[
-				{"name": "andrews1995survey"},
-				{"name": "bengio2013representation"},
-				{"name": "choo2018visual"},
-				{"name": "craven1992visualizing"},
-				{"name": "hailesilassie2016rule"},
-				{"name": "jacobsson2005rule"},
-				{"name": "montavon2017methods"},
-				{"name": "zhang2018visual"}				
-			]			
+				{"name": "Neural networks", 
+				"children":[
+					{"name": "andrews1995survey"},
+					{"name": "bengio2013representation"},
+					{"name": "choo2018visual"},
+					{"name": "craven1992visualizing"},
+					{"name": "hailesilassie2016rule"},
+					{"name": "jacobsson2005rule"},
+					{"name": "montavon2017methods"},
+					{"name": "zhang2018visual"}				
+				]			
+				},
+				{"name": "Support Vector Machine", 
+				"children":[
+					{"name": "backhaus2014classification"},
+					{"name": "martens2007comprehensible"}				
+				]			
+				},
+				{"name": "Bayesian Networks", 
+				"children":[
+					{"name": "lacave2002review"}				
+				]			
+				}
+			]
 			},
-			{"name": "Support Vector Machine", 
+			{"name": "Knowledge driven",
 			"children":[
-				{"name": "backhaus2014classification"},
-				{"name": "martens2007comprehensible"}				
-			]			
-			},
-			{"name": "Bayesian Networks", 
-			"children":[
-				{"name": "lacave2002review"}				
-			]			
-			},
-			{"name": "Intelligent systems", 
-			"children":[
-				{"name": "gregor1999explanations"}				
-			]			
-			},
-			{"name": "Expert Systems", 
-			"children":[
-				{"name": "swartout1993explanation"}				
-			]			
+				{"name": "Intelligent systems", 
+				"children":[
+					{"name": "gregor1999explanations"}				
+				]			
+				},
+				{"name": "Expert Systems", 
+				"children":[
+					{"name": "swartout1993explanation"}				
+				]			
+				}
+			]
 			}
 		]
 		},
@@ -133,14 +148,20 @@
 			{"name":"Health",
 			"children":[
 				{"name":"freitas2010importance"},
-				{"name":"holzinger2016interactive"}
+				{"name":"holzinger2016interactive"},
+				{"name":"rudin2014algorithms"}
+			]
+			},
+			{"name":"Law",
+			"children":[
+				{"name":"rudin2014algorithms"}
 			]
 			}
 		]
 		}
 	]
 	},
-    {"name":"Notions",
+    {"name":"Notions related to the concept of explainability",
     "children":[
 		{"name": "abdul2018trends"},
 		{"name": "adadi2018peeking"},
