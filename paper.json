@@ -528,24 +528,55 @@
 		},
 		{"name":"Comparison",
 		"children":[
-			{"name":"adebayo2018local"},
-			{"name":"adebayo2018sanity"},
-			{"name":"allahyari2011user"},
-			{"name":"alvarez2018robustness"},
-			{"name":"ancona2018towards"},
-			{"name":"arras2016explaining"},
-			{"name":"bilgic2005explaining"},
-			{"name":"erhan2009visualizing"},
-			{"name":"freitas2014comprehensible"},
-			{"name":"gedikli2014should"},
-			{"name":"gevrey2003review"},
-			{"name":"ghorbani2017interpretation"},
-			{"name":"huysmans2011empirical"},
-			{"name":"kindermans2017reliability"},
-			{"name":"martens2007comprehensible"},
-			{"name":"robnik2018explanation"},
-			{"name":"samek2017evaluating"},
-			{"name":"stumpf2010making"}
+			{"name":"Activation maximization",
+			"children":[
+				{"name":"erhan2009visualizing"}
+			]
+			},
+			{"name":"Input perturbation",
+			"children":[
+				{"name":"adebayo2018local"},
+				{"name":"adebayo2018sanity"},
+				{"name":"alvarez2018robustness"},
+				{"name":"ancona2018towards"},
+				{"name":"arras2016explaining"},
+				{"name":"ghorbani2017interpretation"},
+				{"name":"kindermans2017reliability"},
+				{"name":"samek2017evaluating"}
+			]
+			},
+			{"name":"Model parameter randomization",
+			"children":[
+				{"name":"adebayo2018local"},
+				{"name":"adebayo2018sanity"},
+				{"name":"erhan2009visualizing"}
+			]
+			},
+			{"name":"Model performance",
+			"children":[
+				{"name":"martens2007comprehensible"}
+			]
+			},
+			{"name":"Explanation completeness",
+			"children":[
+				{"name":"gevrey2003review"}
+			]
+			},
+			{"name":"User-centered",
+			"children":[
+				{"name":"allahyari2011user"},
+				{"name":"bilgic2005explaining"},
+				{"name":"freitas2014comprehensible"},
+				{"name":"gedikli2014should"},
+				{"name":"huysmans2011empirical"},
+				{"name":"stumpf2010making"}
+			]
+			},
+			{"name":"XAI method correlation",
+			"children":[
+				{"name":"ancona2018towards"}
+			]
+			}
 		]
 		}
 	]
