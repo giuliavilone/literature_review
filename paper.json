@@ -11,52 +11,10 @@
 		},
 		{"name": "Notions of explainability",
 		"children": [
-			{"name":"Comprehensibility, Intelligibility, Interpretability, Understandability",
-			"children":[
-				{"name":"abdul2018trends"},
-				{"name":"bibal2016interpretability"},
-				{"name":"dovsilovic2018explainable"},
-				{"name":"freitas2006we"},
-				{"name":"montavon2017methods"}
-			]},
-			{"name":"Mental Fit",
-			"children":[
-				{"name":"bibal2016interpretability"}
-			]},
-			{"name":"Casuality",
-			"children":[
-				{"name":"lipton2016mythos"},
-				{"name":"miller2017explanation"}
-			]},
-			{"name":"Interestingness",
-			"children":[
-				{"name":"bibal2016interpretability"},
-				{"name":"freitas2006we"}
-			]},
-			{"name":"Informativeness",
-			"children":[
-				{"name":"lipton2016mythos"}
-			]},
-			{"name":"Justifiability",
-			"children":[
-				{"name":"adadi2018peeking"},
-				{"name":"bibal2016interpretability"},
-				{"name":"gregor1999explanations"},
-				{"name":"swartout1993explanation"}
-			]},
-			{"name":"Selection / simplicity",
-			"children":[
-				{"name":"miller2017explainable"}
-			]},
-			{"name":"Transferability",
-			"children":[
-				{"name":"lipton2016mythos"}
-			]},
-			{"name":"Transparency",
-			"children":[
-				{"name":"dam2018explainable"},
-				{"name":"preece2018asking"}
-			]}
+			{"name":"abdul2018trends"},
+			{"name":"bibal2016interpretability"},
+			{"name":"dovsilovic2018explainable"},
+			{"name":"lipton2016mythos"}
 		]
 		},
 		{"name": "Approaches",
