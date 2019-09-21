@@ -462,7 +462,7 @@
           "url": "http://orca.cf.ac.uk/111128/1/Asking%20Why%20in%20AI%20-%20Explainability%20of%20Intelligent%20Systems%20-%20Perspectives%20and%20Challenges.pdf"
         }
 			]},
-			{"name":"Be actionable",
+			{"name":"Actionability",
 			"children":[
         {
           "name": "kulesza2015principles",
@@ -473,7 +473,7 @@
           "url": "http://openaccess.city.ac.uk/6344/3/VLHCC2013.pdf"
         }
 			]},
-			{"name":"Be correctable",
+			{"name":"Correctability",
 			"children":[
         {
           "name": "kulesza2015principles",
@@ -484,7 +484,7 @@
           "url": "http://openaccess.city.ac.uk/6344/3/VLHCC2013.pdf"
         }
 			]},
-			{"name":"Be incremental",
+			{"name":"Incrementability",
 			"children":[
         {
           "name": "kulesza2015principles",
@@ -495,14 +495,14 @@
           "url": "http://openaccess.city.ac.uk/6344/3/VLHCC2013.pdf"
         }
 			]},
-			{"name":"Be interactive",
+			{"name":"Interactivity",
 			"children":[
         {
           "name": "moore1993planning",
           "url": "https://dl.acm.org/citation.cfm?id=972504"
         }
 			]},
-			{"name":"Be reversible",
+			{"name":"Reversibility",
 			"children":[
         {
           "name": "kulesza2015principles",
