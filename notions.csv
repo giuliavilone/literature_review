@@ -1,0 +1,39 @@
+Branch,Attribute cleaned,Attribute,References,ID
+Attributes,Algorithmic transparency ,Algorithmic transparency ,"\cite{dam2018explainable,preece2018asking}\\","dam2018explainable,preece2018asking"
+Attributes,Actionability ,Actionability ,"\cite{kulesza2015principles,kulesza2013too}\\","kulesza2015principles,kulesza2013too"
+Attributes,Causality ,Causality ,"\cite{fox2017explainable,chajewska1997defining,ha2018designing,holzinger2019causability,lipton2018mythos,miller2017explainable}\\","fox2017explainable,chajewska1997defining,ha2018designing,holzinger2019causability,lipton2018mythos,miller2017explainable"
+Attributes,Completeness ,Completeness ,"\cite{cui2019integrative, kulesza2015principles,kulesza2013too}\\","cui2019integrative, kulesza2015principles,kulesza2013too"
+Attributes,Comprehensibility ,Comprehensibility ,"\cite{askira1998knowledge,alonso2018bibliometric, bibal2016interpretability,bratko1997machine, doran2017does, dovsilovic2018explainable,freitas2006we,goebel2018explainable, watson2019clinical}\\","askira1998knowledge, bibal2016interpretability,bratko1997machine, doran2017does, dovsilovic2018explainable,freitas2006we,goebel2018explainable, watson2019clinical"
+Attributes,Cognitive relief ,Cognitive relief ,"\cite{chajewska1997defining, jung2020information}\\","chajewska1997defining, jung2020information"
+Attributes,Correctability ,Correctability ,"\cite{kulesza2015principles,kulesza2013too}\\","kulesza2015principles,kulesza2013too"
+Attributes,Dimensionality reduction ,Dimensionality reduction ,\cite{offert2017know}}\\,offert2017know
+Attributes,Effectiveness ,Effectiveness ,"\cite{tintarev2011designing, tintarev2015explaining, chander2018evaluating,de2020artificial}\\","tintarev2011designing, tintarev2015explaining, chander2018evaluating,de2020artificial"
+Attributes,Efficiency ,Efficiency ,"\cite{tintarev2011designing, tintarev2007survey, tintarev2015explaining}\\","tintarev2011designing, tintarev2007survey, tintarev2015explaining"
+Attributes,Explicability ,Explicability ,\cite{zhang2017plan}\\,zhang2017plan
+Attributes,Explicitness ,Explicitness ,\cite{melis2018towards}\\,melis2018towards
+Attributes,Faithfulness ,Faithfulness ,\cite{melis2018towards}\\,melis2018towards
+Attributes,Intelligibility ,Intelligibility ,"\cite{abdul2018trends, chromik2019dark,dodge2018should, lim2009and, lim2019these}\\","abdul2018trends, chromik2019dark,dodge2018should, lim2009and, lim2019these"
+Attributes,Interactivity ,Interactivity ,"\cite{moore1993planning, madumal2019grounded}\\","moore1993planning, madumal2019grounded"
+Attributes,Interestingness ,Interestingness ,"\cite{bibal2016interpretability, freitas1999rule, freitas2006we, bratko1997machine, sequeira2019interestingness}\\","bibal2016interpretability, freitas1999rule, freitas2006we, bratko1997machine, sequeira2019interestingness"
+Attributes,Interpretability ,Interpretability ,"\cite{bibal2016interpretability,biran2017explanation, carrington2018measures, doran2017does, dovsilovic2018explainable,miller2017explanation,montavon2017methods, sassoon2019explainable,sundararajan2019exploring,van2013research,vellido2012making, zhou2008low}\\","bibal2016interpretability,biran2017explanation, carrington2018measures, doran2017does, dovsilovic2018explainable,miller2017explanation,montavon2017methods, sassoon2019explainable,sundararajan2019exploring,van2013research,vellido2012making, zhou2008low"
+Attributes,Informativeness ,Informativeness ,\cite{lipton2018mythos}\\,lipton2018mythos
+Attributes,Justifiability ,Justifiability ,"\cite{adadi2018peeking, bibal2016interpretability, biran2017explanation, coeckelbergh2020artificial, gregor1999explanations}\\","adadi2018peeking, bibal2016interpretability, biran2017explanation, coeckelbergh2020artificial, gregor1999explanations"
+Attributes,Mental Fit ,Mental Fit ,"\cite{bibal2016interpretability, weihs2003combining}\\","bibal2016interpretability, weihs2003combining"
+Attributes,Monotonicity ,Monotonicity ,\cite{freitas2014comprehensible}\\,freitas2014comprehensible
+Attributes,Persuasiveness ,Persuasiveness ,"\cite{tintarev2011designing, tintarev2007survey, tintarev2015explaining}\\","tintarev2011designing, tintarev2007survey, tintarev2015explaining"
+Attributes,Predictability ,Predictability ,\cite{zhang2017plan}\\,zhang2017plan
+Attributes,Refinement ,Refinement ,\cite{liu2017towards}\\,liu2017towards
+Attributes,Reversibility ,Reversibility ,"\cite{kulesza2015principles,kulesza2013too}\\","kulesza2015principles,kulesza2013too"
+Attributes,Robustness ,Robustness ,"\cite{alvarez2018robustness, liu2017towards}\\","alvarez2018robustness, liu2017towards"
+Attributes,Satisfaction ,Satisfaction ,"\cite{tintarev2011designing, tintarev2007survey, tintarev2015explaining}\\","tintarev2011designing, tintarev2007survey, tintarev2015explaining"
+Attributes,Scrutability / diagnosis ,Scrutability / diagnosis ,"\cite{liu2017towards, tintarev2011designing, tintarev2007survey}\\","liu2017towards, tintarev2011designing, tintarev2007survey"
+Attributes,Security ,Security ,\cite{mcallister2017concrete}\\,mcallister2017concrete
+Attributes,Selection / simplicity ,Selection / simplicity ,\cite{miller2017explainable}\\,miller2017explainable
+Attributes,Sensitivity ,Sensitivity ,"\cite{kindermans2017reliability, sundararajan2017axiomatic}\\","kindermans2017reliability, sundararajan2017axiomatic"
+Attributes,Soundness ,Soundness ,"\cite{kulesza2015principles,kulesza2013too}\\","kulesza2015principles,kulesza2013too"
+Attributes,Stability ,Stability ,\cite{melis2018towards}\\,melis2018towards
+Attributes,Transparency ,Transparency ,"\cite{chromik2019dark, coeckelbergh2020artificial, dam2018explainable, dovsilovic2018explainable, larsson2020transparency,lyons2013being, sassoon2019explainable, thelisson2017regulatory, thelisson2017towards, tintarev2011designing, tintarev2007survey, wachter2017transparent, weller2017challenges, zhou2008low}\\","chromik2019dark, coeckelbergh2020artificial, dam2018explainable, dovsilovic2018explainable, larsson2020transparency, lyons2013being, sassoon2019explainable, thelisson2017regulatory, thelisson2017towards, tintarev2011designing, tintarev2007survey, wachter2017transparent,weller2017challenges, zhou2008low"
+Attributes,Transferability,Transferability,\cite{lipton2018mythos}\\,lipton2018mythos
+Attributes,Understandability ,Understandability ,"\cite{abdul2018trends,alonso2018bibliometric, bibal2016interpretability, liu2017towards,paez2019pragmatic}\\","abdul2018trends, bibal2016interpretability, liu2017towards,paez2019pragmatic"
+Types of explanation,None,None,"\cite{barzilay1998new, de2017people, glomsrud2020trustworthy, harbers2009study, haynes2009designs, krause2016interacting, preece2018asking, ribera2019can, sheh2017introspectively, wang2007recommendation, wick1989reconstructive,wick1993second}","barzilay1998new,de2017people,glomsrud2020trustworthy,harbers2009study,haynes2009designs,krause2016interacting,preece2018asking,ribera2019can,sheh2017introspectively,wang2007recommendation,wick1989reconstructive,wick1993second"
+Structures of explanations,None,None,"\cite{cawsey1991generating,cawsey1993planning,cawsey1993user, fox2017explainable, langley2017explainable, lombrozo2006structure, madumal2019grounded, sequeira2019interestingness, sohrabi2011preferred, walton2011dialogue,weiner1980blah,pollack1982user,johnson1993explanation, moore1989planning, moore1989reactive, moore1991reactive,core2006building,gomboc2005design,lane2005explainable,van2004explainable,graesser2005autotutor}","cawsey1991generating,cawsey1993planning,cawsey1993user,fox2017explainable,langley2017explainable,lombrozo2006structure,madumal2019grounded,sohrabi2011preferred,walton2011dialogue,weiner1980blah,pollack1982user,johnson1993explanation, moore1989planning, moore1989reactive, moore1991reactive,core2006building,gomboc2005design,lane2005explainable,van2004explainable,graesser2005autotutor"

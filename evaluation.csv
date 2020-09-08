@@ -1,0 +1,42 @@
+Branch,Sub_branch_1,Sub_branch_2,Sub_branch_3,References,ID
+Objective,Local risk assessment,None,None,\cite{laugel2019dangers}\\,laugel2019dangers
+Objective,Trade off model accuracy - size,None,None,"\cite{bibal2016interpretability, dam2018explainable, freitas2014comprehensible, gacto2011interpretability, otero2016improving, preece2018asking}\\","bibal2016interpretability, dam2018explainable, freitas2014comprehensible, gacto2011interpretability, otero2016improving, preece2018asking"
+Objective,Number of rules,None,None,"\cite{freitas1999rule, garcia2009study, lakkaraju2016interpretable}\\","freitas1999rule,garcia2009study,lakkaraju2016interpretable"
+Objective,Productivity performance metrics,None,None,"\cite{bohanec2017decision, bohanec2017explaining,dam2018explainable, preece2018asking}\\","bohanec2017decision, bohanec2017explaining,dam2018explainable, preece2018asking"
+Objective,Text quality metrics,None,None,\cite{barratt2017interpnet}\\,barratt2017interpnet
+Objective,Image classification metrics,None,None,"\cite{sundararajan2019exploring, zhang2018visual}\\","sundararajan2019exploring, zhang2018visual"
+Objective,Sensitivity to input perturbation,None,None,"\cite{adebayo2018local,adebayo2018sanity,alvarez2018robustness,ancona2018towards,arras2016explaining,binder2016analyzing,ghorbani2017interpretation,kindermans2017reliability,samek2017explainable,samek2017evaluating,yeh2019fidelity}\\","adebayo2018local,adebayo2018sanity,alvarez2018robustness,ancona2018towards,arras2016explaining,binder2016analyzing,ghorbani2017interpretation,kindermans2017reliability,samek2017explainable,samek2017evaluating,yeh2019fidelity"
+Objective,Sensitivity to model parameter randomization,None,None,"\cite{adebayo2018local,adebayo2018sanity,erhan2009visualizing}\\","adebayo2018local,adebayo2018sanity,erhan2009visualizing"
+Objective,Explanation completeness,None,None,"\cite{chajewska1997defining, gevrey2003review}\\",gevrey2003review
+Objective,Infidelity,None,None,\cite{yeh2019fidelity}\\,yeh2019fidelity
+Objective,Percentage of correct rules,None,None,\cite{ignatiev2020towards}\\,ignatiev2020towards
+Human-centred,Qualitative ,Autonomous agents ,Textual ,"\cite{dzindolet2003role,sanneman2020situation}\\","dzindolet2003role,sanneman2020situation"
+Human-centred,Qualitative ,Context-aware systems ,Textual ,"\cite{lim2009assessing, lim2009and}\\","lim2009assessing,lim2009and"
+Human-centred,Qualitative ,Context-aware systems ,Visual ,\cite{lim2009assessing}\\,lim2009assessing
+Human-centred,Qualitative ,Feature extraction and selection,Mixed ,\cite{kim2015mind}\\,kim2015mind
+Human-centred,Qualitative ,Expert Systems ,Textual ,"\cite{suermondt1993evaluation,ye1995impact}\\","suermondt1993evaluation,ye1995impact"
+Human-centred,Qualitative ,Learning Systems ,Textual ,\cite{putnam2019exploring}\\,putnam2019exploring
+Human-centred,Qualitative ,Model agnostic,Visual ,"\cite{krause2016interacting,tullio2007works}\\","krause2016interacting,tullio2007works"
+Human-centred,Qualitative ,Fisher vector classifiers ,Visual ,\cite{lapuschkin2016analyzing}\\,lapuschkin2016analyzing
+Human-centred,Qualitative ,Support Vector Machine ,Visual ,\cite{srinivasan2017interpretable}\\,srinivasan2017interpretable
+Human-centred,Qualitative ,Neural networks ,Visual ,"\cite{arras2017relevant, assaf2019explainable,erhan2009visualizing,ding2017visualizing,sturm2016interpretable,weitz2020let}\\","arras2017relevant,assaf2019explainable,erhan2009visualizing,ding2017visualizing,sturm2016interpretable,weitz2020let"
+Human-centred,Qualitative ,Model agnostic,Numerical,\cite{kaur2020interpreting}\\,kaur2020interpreting
+Human-centred,Qualitative ,Intelligent agents,Textual ,\cite{hepenstal2020explainable}\\,hepenstal2020explainable
+Human-centred,Qualitative ,Random Forest,Visual ,\cite{malhi2020explainable}\\,malhi2020explainable
+Human-centred,Quantitative ,Case-based Reasoning ,Mixed ,\cite{kim2014bayesian}\\,kim2014bayesian
+Human-centred,Quantitative ,Context-aware systems ,Textual ,\cite{lim2009and}\\,lim2009and
+Human-centred,Quantitative ,Neural networks ,Visual ,"\cite{bau2017network,stock2018convnets} \\","bau2017network,stock2018convnets"
+Human-centred,Quantitative ,Neural networks ,Visual ,\cite{hansen2011visual} \\,hansen2011visual
+Human-centred,Quantitative ,Learning Systems ,Textual ,"\cite{aleven2002effective,harbers2010guidelines, harbers2010design}\\","aleven2002effective,harbers2010guidelines,harbers2010design"
+Human-centred,Quantitative ,Model agnostic,Mixed ,"\cite{lage2018human,poursabzi2018manipulating}\\","lage2018human,poursabzi2018manipulating"
+Human-centred,Quantitative ,Model agnostic,Rules ,\cite{ribeiro2018anchors}\\,ribeiro2018anchors
+Human-centred,Quantitative ,Model agnostic,Visual ,\cite{spinner2019explainer}\\,spinner2019explainer
+Human-centred,Quantitative ,Naive Bayes,Textual ,"\cite{kulesza2011oriented, kulesza2015principles}\\","kulesza2011oriented,kulesza2015principles"
+Human-centred,Quantitative ,Rule-based classifier,Mixed ,"\cite{allahyari2011user, freitas2014comprehensible, huysmans2011empirical}\\","allahyari2011user,freitas2014comprehensible,huysmans2011empirical"
+Human-centred,Quantitative ,Decision trees,Mixed ,"\cite{allahyari2011user, freitas2014comprehensible, huysmans2011empirical,luvstrek2014comprehensibility}\\","allahyari2011user,freitas2014comprehensible,huysmans2011empirical,luvstrek2014comprehensibility"
+Human-centred,Quantitative ,Decision tables,Mixed ,"\cite{freitas2014comprehensible, huysmans2011empirical}\\","freitas2014comprehensible,huysmans2011empirical"
+Human-centred,Quantitative ,"Bayesian networks, Nearest neighbors",Mixed ,\cite{freitas2014comprehensible}\\,freitas2014comprehensible
+Human-centred,Quantitative ,Model agnostic,Numerical,\cite{kaur2020interpreting}\\,kaur2020interpreting
+Human-centred,Quantitative ,Neural networks ,Visual ,\cite{weitz2020let}\\,weitz2020let
+Human-centred,Quantitative ,Random Forest,Visual ,\cite{malhi2020explainable}\\,malhi2020explainable
+Human-centred,Quantitative ,Rule-based classifier,Mixed ,\cite{dragoni2020explainable}\\,dragoni2020explainable
