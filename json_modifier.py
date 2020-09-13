@@ -1,9 +1,7 @@
 import json
 import pandas as pd
 import itertools
-#from wordcloud import WordCloud, STOPWORDS
-import matplotlib.pyplot as plt
-import numpy as np
+import sys
 
 #------------------ FORCE GRAPH ----------------#
 # This code set the colors equal to black for papers and the colors
@@ -172,7 +170,8 @@ def id_manager(ingroup):
     return ids
 
 #------------------ EXPANDABLE TREE REVIEWS BRANCH ----------------#
-tree_reviews = True
+
+tree_reviews = False
 if tree_reviews:
     df_reviews = pd.read_csv('reviews.csv')
     urls = pd.read_csv('urls.csv')
@@ -198,7 +197,7 @@ if tree_reviews:
         json.dump(reviewdict, fp)
 
 #------------------ EXPANDABLE TREE NOTIONS BRANCH ----------------#
-tree_notions = True
+tree_notions = False
 if tree_notions:
     df_notions = pd.read_csv('notions.csv')
     urls = pd.read_csv('urls.csv')
@@ -223,7 +222,7 @@ if tree_notions:
         json.dump(notiondict, fp)
 
 #------------------ EXPANDABLE TREE EVALUATION BRANCH ----------------#
-tree_evaluation = True
+tree_evaluation = False
 if tree_evaluation:
     df_evaluation = pd.read_csv('evaluation.csv')
     urls = pd.read_csv('urls.csv')
@@ -262,7 +261,7 @@ if tree_evaluation:
         json.dump(evaluationdict, fp)
 
 #------------------ EXPANDABLE TREE EVALUATION BRANCH (WITHOUT THIRD LEVEL BRANCH) ----------------#
-tree_evaluation = True
+tree_evaluation = False
 if tree_evaluation:
     df_evaluation = pd.read_csv('evaluation.csv')
     urls = pd.read_csv('urls.csv')
@@ -298,29 +297,28 @@ if tree_methods:
     df_ph = pd.read_csv('post-hoc.csv')
     urls = pd.read_csv('urls.csv')
 
-    antehocdict= {"name":"Ante-hoc","children":[]}
+    antehocdict= {"name": "Ante-hoc", "children": []}
     df_ah_groups = df_ah.groupby(['method'])
-
     for name, group in df_ah_groups:
         ids = group['ID'].tolist()
         ids = list(itertools.chain.from_iterable([item.split(',') for item in ids]))
         ids = list(set([k.lstrip() for k in ids]))
-        groupdict = {'name':name,'children':url_list(ids, urls)}
+        groupdict = {'name': name, 'children': url_list(ids, urls)}
         antehocdict['children'].append(groupdict)
 
 
-    posthocdict= {"name":"Post-hoc","children":[]}
-    modspec_groupdict = {'name':'Model specific','children':[]}
+    posthocdict= {"name":"Post-hoc", "children": []}
+    modspec_groupdict = {'name': 'Model specific', 'children': []}
     df_ph_groups = df_ph.groupby(['model_type'])
 
     for name, group in df_ph_groups:
-        mod_groupdict = {'name':name,'children':[]}
+        mod_groupdict = {'name': name, 'children': []}
         subgroups = group.groupby(['method'])
         for sname, sgroup in subgroups:
             ids = sgroup['ID'].tolist()
             ids = list(itertools.chain.from_iterable([item.split(',') for item in ids]))
             ids = list(set([k.lstrip() for k in ids]))
-            subgroupdict = {'name':sname,'children':url_list(ids, urls)}
+            subgroupdict = {'name': sname, 'children': url_list(ids, urls)}
             mod_groupdict['children'].append(subgroupdict)
     
         if name == 'Model agnostic':
@@ -330,25 +328,28 @@ if tree_methods:
     
     posthocdict['children'].append(modspec_groupdict)
 
-    treeoutdict = [{"name":"Stage","children":[antehocdict,posthocdict]}]
+    treeoutdict = [{"name": "Stage", "children": [antehocdict, posthocdict]}]
 
+    # Merging post-hoc and ante-hoc methods together
     df = df_ah
-
     df = df.append(df_ph, ignore_index= True)
 
-
     def group_creator(df, column, root_name):
-        outvar = {'name':root_name,'children':[]}
+        outvar = {'name': root_name, 'children': []}
         colgroups = df.groupby([column])
         for name, group in colgroups:
-            groupdict = {'name':name,'children':[]}
-            subgroups = group.groupby(['method'])
-            for sname, sgroup in subgroups:
-                ids = sgroup['ID'].tolist()
-                ids = list(itertools.chain.from_iterable([item.split(',') for item in ids]))
-                ids = list(set([k.lstrip() for k in ids]))
-                subgroupdict = {'name':sname,'children':url_list(ids, urls)}
-                groupdict['children'].append(subgroupdict)
+            groupdict = {'name': name, 'children':[]}
+            initial_groups = group.groupby(['initials'])
+            for initname, initgroup in initial_groups:
+                initgroupdict = {'name': initname, 'children': []}
+                subgroups = initgroup.groupby(['method'])
+                for sname, sgroup in subgroups:
+                    ids = sgroup['ID'].tolist()
+                    ids = list(itertools.chain.from_iterable([item.split(',') for item in ids]))
+                    ids = list(set([k.lstrip() for k in ids]))
+                    subgroupdict = {'name': sname, 'children': url_list(ids, urls)}
+                    initgroupdict['children'].append(subgroupdict)
+                groupdict['children'].append(initgroupdict)
             outvar['children'].append(groupdict)
         return outvar
 

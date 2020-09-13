@@ -1,208 +1,208 @@
-scope,problem_type,model_type,method,explanation_type,input_type,ID
-Global,Classification,Model agnostic,Anchors,Rules,Textual,ribeiro2018anchors
-Global,Classification,Model agnostic,Automated Reasoning,Rules,Numerical / Categorical,bride2018towards
-Local,Classification,Model agnostic,Bayesian Teaching,Mixed,Numerical / Categorical,yang2017explainable
-Global,Classification,Model agnostic,Class Signatures,Visual,Numerical / Categorical,krause2016using
-Global,Classification,Model agnostic,Distill-and-Compare,Mixed,Numerical / Categorical,tan2018distill
-Global,Classification,Model agnostic,Evasion-Prone Samples Selection,Mixed,Textual,liu2018adversarial
-Local,Classification,Model agnostic,Explain and Ime,Mixed,Numerical / Categorical,"robnik2008explaining,robnik2018explanation"
-Global,Classification,Model agnostic,ExplainD,Visual,Numerical / Categorical,poulin2006visual
-Global,Classification,Model agnostic,explAIner,Mixed,Pictorial,spinner2019explainer
-Local,Classification,Model agnostic,Explanation graph,Visual,Textual,alvarez2017causal
-Local,Classification,Model agnostic,Feature contribution,Mixed,Numerical / Categorical,"Kononenko10anefficient,kononenko2013explanation,vstrumbelj2009explaining"
-Local,Regression,Model agnostic,Feature contribution,Mixed,Numerical / Categorical,kononenko2013explanation
-Global,Classification,Model agnostic,Feature contribution,Mixed,Numerical / Categorical,"vstrumbelj2008towards,vstrumbelj2010explanation"
-Local,Classification,Model agnostic,Feature contribution (bar chart),Visual,Numerical / Categorical,Kononenko10anefficient
-Global,Classification,Model agnostic,Feature importance,Mixed,Numerical / Categorical,henelius2014peek
-Global,Classification,Model agnostic,Feature perturbation,Mixed,Numerical / Categorical,vstrumbelj2014explaining
-Global,Classification,Model agnostic,Functional ANOVA decomposition,Visual,Numerical / Categorical,hooker2004discovering
-Global,Classification,Model agnostic,Genetic Rule EXtraction (G-REX),Rules,Numerical / Categorical,"johansson2004accuracy,johansson2004truth"
-Global,Classification,Model agnostic,Global Sensitivity Analysis (GSA),Visual,Numerical / Categorical,"cortez2011opening,cortez2013using"
-Local,Classification,Model agnostic,Image perturbation,Visual,Pictorial,fong2017interpretable
-Global,Classification,Model agnostic,Gradient Feature Auditing (GFA),Mixed,Numerical / Categorical,adler2018auditing
-Global,Classification,Model agnostic,Individual Conditional Expectation (ICE) plots,Visual,Numerical / Categorical,goldstein2015peeking
-Global,Classification,Model agnostic,Influence functions,Mixed,Pictorial,koh2017understanding
-Local,Classification,Model agnostic,Monotone Influence Measures,Visual,Pictorial,sliwinski2017characterization
-Global,Classification,Model agnostic,iVisClassifier,Visual,Numerical / Categorical,choo2010ivisclassifier
-Global,Classification,Model agnostic,Justification Narratives,Mixed,Numerical / Categorical,biran2014justification
-Local,Classification,Model agnostic,Local Interpretable Model-Agnostic Explanations (LIME),Mixed,Textual,"ribeiro2016model,ribeiro2016should"
-Global,Classification,Model agnostic,Manifold,Visual,Numerical / Categorical,zhang2019manifold
-Local,Classification,Model agnostic,Maximum Mean Discrepancy (MMD)-critic,Mixed,Pictorial,kim2016examples
-Global,Classification,Model agnostic,MLCube Explorer,Visual,Numerical / Categorical,kahng2016visual
-Global,Classification,Model agnostic,Model Extraction,Mixed,Numerical / Categorical,bastani2017interpretability
-Local,Classification,Model agnostic,Neighborhood-based explanations,Mixed,Numerical / Categorical,caruana1999case
-Global,Classification,Model agnostic,Partial Importance (PI) and Individual Conditional Importance (ICI) plots,Visual,Numerical / Categorical,casalicchio2018visualizing
-Global,Classification,Model agnostic,Partition Aware Local Model (PALM),Mixed,Numerical / Categorical,krishnan2017palm
-Local,Classification,Model agnostic,Pertinent negatives,Mixed,Pictorial,dhurandhar2018explanations
-Local,Classification,Model agnostic,Perturbed input element order,Visual,Textual,alvarez2017causal
-Global,Classification,Model agnostic,Quantitative Input Influence (QII) functions,Mixed,Numerical / Categorical,datta2016algorithmic
-Local,Classification,Model agnostic,Rivelo,Mixed,Textual,tamagnini2017interpreting
-Local,Classification,Model agnostic,Saliency detection method,Visual,Pictorial,dabkowski2017real
-Local,Classification,Model agnostic,Sequential Bayesian Quadrature (SBQ),Visual,Pictorial,khanna2019interpreting
-Local,Classification,Model agnostic,Set cover optimization,Visual,Pictorial,bien2011prototype
-Global,Classification,Model agnostic,Shapley Additive exPlanations (SHAP),Mixed,Pictorial,"lundberg2017unified,janzing2020feature"
-Global,Classification,Model agnostic,Shapley feature importance,Mixed,Numerical / Categorical,casalicchio2018visualizing
-Global,Classification,Model agnostic,Spectral Relevance Analysis (SpRAy),Visual,Pictorial,lapuschkin2019unmasking
-Global,Classification,Model agnostic,Variable Interaction Network graph,Visual,Numerical / Categorical,hooker2004discovering
-Local,Classification,Model agnostic,Worst-case perturbations,Mixed,Pictorial,goodfellow2015explaining
-Local,Classification,Model agnostic,Layer-wise Relevance Propagation (LRP),Visual,Pictorial,bach2015pixel
-Local,Classification,Model agnostic,Sensitivity Analysis methods,Visual,Pictorial,baehrens2010explain
-Local,Classification,Model agnostic,Restricted Support Region Set (RSRS) Detection,Visual,Textual,liu2012has
-Local,Classification,Neural networks,Activation maps,Mixed,Pictorial,hamidi2019interactive
-Local,Classification,Neural networks,Activation maximization,Visual,Pictorial,"erhan2010understanding,nguyen2016multifaceted,nguyen2016synthesizing"
-Global,Classification,Neural networks,ActiVis,Visual,Numerical / Categorical,kahng2018cti
-Global,Classification,Neural networks,And-Or Graph (AOG),Visual,Pictorial,zhang2017growing
-Local,Classification,Neural networks,Attention Alignment,Mixed,Pictorial,kim2018textual
-Local,Classification,Neural networks,C4.5Rule-PANE,Mixed,Numerical / Categorical,zhou2003medical
-Global,Classification,Neural networks,Causal importance,Mixed,Numerical / Categorical,feraud2002methodology
-Global,Classification,Neural networks,Cell activation values,Visual,Textual,karpathy2015visualizing
-Local,Classification,Neural networks,CLass-Enhanced Attentive Response (CLEAR),Visual,Numerical / Categorical,kumar2017explaining
-Global,Classification,Neural networks,Cnn-Inte,Visual,Pictorial,liu2018interpretable
-Local,Classification,Neural networks,Concept Activation Vectors (CAVs),Numerical,Pictorial,kim2018interpretability
-Global,Classification,Neural networks,Contextual importance and utility,Mixed,Numerical / Categorical,framling1996explaining
-Local,Classification,Neural networks,Compositionality,Visual,Textual,li2016visualizing
-Global,Classification,Neural networks,Data-flow graphs,Visual,Pictorial,wongsuphasawat2018visualizing
-Global,Classification,Neural networks,DecText,Mixed,Numerical / Categorical,boz2002extracting
-Global,Classification,Neural networks,Decision tree extraction,Mixed,Pictorial,"frosst2017distilling,zhang2019interpreting"
-Local,Classification,Neural networks,Deep Learning Important FeaTures (DeepLIFT),Visual,Pictorial,shrikumar2017learning
-Global,Classification,Neural networks,Deep View (DV),Visual,Pictorial,zhong2017evolutionary
-Global,Classification,Neural networks,Deep Visualization Toolbox,Visual,Pictorial,yosinski2015understanding
-Global,Classification,Neural networks,Deep-Taylor Decomposition,Visual,Pictorial,montavon2017explaining
-Global,Classification,Neural networks,DeepResolve,Visual,Numerical / Categorical,liu2017visualizing
-Local,Classification,Neural networks,Deterministic finite automaton,Mixed,Numerical / Categorical,mayr2018regular
-Global,Classification,Neural networks,Deterministic Finite-state Automata (DFAs),Mixed,Numerical / Categorical,omlin1996extraction
-Global,Classification,Neural networks,Discretized Interpretable Multi Layer Perceptrons (DIMLP),Rules,Pictorial,"bologna2017characterization,bologna1998symbolic,bologna2018rule, bologna2018comparison"
-Global,Classification,Neural networks,Discretizing hidden unit activation values by clustering,Rules,Numerical / Categorical,setiono1995understanding
-Global,Classification,Neural networks,Explanatory Graph,Visual,Pictorial,zhang2018interpreting
-Local,Classification,Neural networks,Generative Adversarial Network (GAN) Dissection,Mixed,Pictorial,bau2019gandissect
-Local,Classification,Neural networks,GradCam,Visual,Pictorial,selvaraju2017grad
-Local,Classification,Neural networks,Guided BackProp and occlusion,Visual,Pictorial,goyal2016towards
-Local,Classification,Neural networks,Guided feature inversion,Visual,Pictorial,du2018towards
-Global,Classification,Neural networks,Hidden activity visualization,Visual,Pictorial,rauber2017visualizing
-Local,Classification,Neural networks,Image Caption Generation with Attention Mechanism,Mixed,Pictorial,xuk2015show
-Global,Classification,Neural networks,Important neurons and patches,Visual,Pictorial,lengerich2017towards
-Local,Classification,Neural networks,iNNvestigate,Visual,Pictorial,alber2019innvestigate
-Local,Classification,Neural networks,Integrated Gradients,Visual,Pictorial,sundararajan2017axiomatic
-Local,Classification,Neural networks,InterpNET,Textual,Pictorial,barratt2017interpnet
-Global,Classification,Neural networks,Interval propagation,Rules,Numerical / Categorical,palade2001interpretation
-Local,Classification,Neural networks,Inverting representations,Visual,Pictorial,mahendran2015understanding
-Local,Classification,Neural networks,LRP with relevance conservation,Visual,Textual,arras2017explaining
-Local,Classification,Neural networks,LRP with Local Renormalization Layers,Visual,Pictorial,binder2016layer
-Global,Classification,Neural networks,LSTMVis,Visual,Textual,strobelt2018lstmvis
-Local,Classification,Neural networks,"Most-weighted-path, Most-weighted-combination and Maximum-Frequency-Difference",Textual,Time Series,garcia2019human
-Global,Classification,Neural networks,N$^2$VIS,Visual,Numerical / Categorical,streeter2001nvis
-Global,Classification,Neural networks,Net2Vec,Visual,Pictorial,fong2018net2vec
-Local,Classification,Neural networks,Neural Network and CBR Twin-systems,Visual,Pictorial,kenny2019twin
-Global,Classification,Neural networks,Neural Network Knowledge eXtraction (NNKX),Rules,Numerical / Categorical,bondarenko2017classification
-Global,Classification,Neural networks,OcclusionSensitivity,Visual,Pictorial,zeiler2014visualizing
-Global,Classification,Neural networks,OpenBox,Visual,Pictorial,chu2018exact
-Local,Classification,Neural networks,Prediction difference analysis,Visual,Pictorial,zintgraf2017visualizing
-Global,Classification,Neural networks,Principal component analysis,Visual,Pictorial,aubry2015understanding
-Global,Classification,Neural networks,Probes,Numerical,Pictorial,alain2017understanding
-Local,Classification,Neural networks,Rationales,Textual,Textual,lei2016rationalizing
-Local,Classification,Neural networks,Relevance and discriminative loss,Textual,Pictorial,"hendricks2016generating,hendricks2018grounding"
-Local,Classification,Neural networks,Relevant features selection,Mixed,Pictorial,mogrovejo2019visual
-Global,Classification,Neural networks,Rule Extraction From Neural network Ensemble (Refne),Rules,Numerical / Categorical,zhou2003extracting
-Global,Classification,Neural networks,Rule Extraction from Neural Network using Classified and Misclassified data (RxNCM),Rules,Numerical / Categorical,biswas2017rule
-Global,Classification,Neural networks,Saliency maps,Visual,Pictorial,he2017deep
-Global,Classification,Neural networks,Saliency maps,Visual,Pictorial,olah2018building
-Local,Classification,Neural networks,Saliency maps,Visual,Pictorial,simonyan2014deep
-Local,Classification,Neural networks,Seq2seq-Vis,Visual,Textual,strobelt2018s
-Global,Classification,Neural networks,Singular Vector Canonical Correlation Analysis (SVCCA),Numerical,Pictorial,raghu2017svcca
-Local,Classification,Neural networks,SmoothGrad,Visual,Pictorial,smilkov2017smoothgrad
-Local,Classification,Neural networks,Stacking with Auxiliary Features (SWAF),Visual,Pictorial,rajani2017using
-Global,Classification,Neural networks,Symbolic rules,Rules,Numerical / Categorical,garcez2001symbolic
-Global,Classification,Neural networks,t-Distributed Stochastic Neighbor Embedding (t-SNE) maps,Visual,Numerical / Categorical,zahavy2016graying
-Global,Classification,Neural networks,TreeView,Visual,Pictorial,thiagarajan2016treeview
-Global,Classification,Neural networks,Trepan,Mixed,Numerical / Categorical,"craven1994using, craven1996extracting"
-Global,Classification,Neural networks,Validity Interval Analysis (VIA),Rules,Time Series,thrun1995extracting
-Global,Classification,Neural networks,Word importance scores,Rules,Textual,murdoch2017automatic
-Local,Classification,Rule-based approaches,ExpliClas,Mixed,Numerical / Categorical,alonso2019explainable
-Local,Classification,Rule-based approaches,Fuzzy Inference systems (FIS),Textual,Time Series,keneni2019evolving
-Global,Classification,Rule-based approaches,Fuzzy inference-grams (fingrams),Visual,Numerical / Categorical,pancho2013fingrams
-Local,Classification,Rule-based approaches,Mycin,Textual,Numerical / Categorical,shortliffe1975computer
-Local,Classification,Hierarchical networks,Contribution propagation,Visual,Pictorial,Landecker2013interpreting
-Global,Classification,Ensemble models,Decision tree extraction,Rules,Numerical / Categorical,"ferri2002ensemble, sagi2020explainable, van2007seeing"
-Local,Classification,Ensemble models,Decision tree extraction,Textual,Numerical / Categorical,alonso2018explainable
-Global,Classification,Distributed Decision trees,Decision tree extraction,Mixed,Numerical / Categorical,andrzejak2013interpretable
-Global,Classification,Ensemble models,Discriminative Patterns (Dps),Textual,Textual,gao2017interpretable
-Global,Classification,Bayesian networks,Explaining Bayesian network Inferences (EBI),Rules,Numerical / Categorical,yap2008explaining
-Global,Classification,Hyperplane-based linear classifiers,ExtractRule,Rules,Pictorial,fung2005rule
-Global,Classification,Ensemble models,Factorized Asymptotic Bayesian (FAB) inference,Mixed,Numerical / Categorical,hara2018making
-Local,Classification,Ensemble models,Feature Tweaking (feature perturbation method),Mixed,Numerical / Categorical,tolomei2017interpretable
-Local,Classification,Support vector machine,Important support vectors and Border classification,Mixed,Numerical / Categorical,barbella2009understanding
-Global,Classification,Ensemble models,inTrees,Rules,Numerical / Categorical,deng2018interpreting
-Global,Classification,Ensemble models,Natural Language Generator,Textual,Numerical / Categorical,alonso2018explainable
-Global,Classification,Support vector machine,Nomograms,Visual,Numerical / Categorical,jakulin2005nomograms
-Global,Classification,"Na\""{i}ve Bayes",Nomograms,Visual,Numerical / Categorical,movzina2004nomograms
-Global,Classification,Bayesian networks,Probabilistically supported arguments (argumentation),Mixed,Numerical / Categorical,timmer2017two
-Local,Classification,Bayesian networks,Scenarios,Textual,Numerical / Categorical,vlek2016method
-Global,Classification,Support vector machine,Self-organizing maps,Visual,Numerical / Categorical,hamel2006visualization
-Global,Classification,Support vector machine,SVM+Prototypes,Mixed,Numerical / Categorical,nunez2002rule
-Local,Classification,Ensemble models,Tree Space Prototypes,Mixed,Numerical / Categorical,tan2016tree
-Global,Classification,Support vector machine,Visualization for RIsk Factor Analysis (VRIFA),Visual,Numerical / Categorical,cho2008nonlinear
-Global,Classification,Support vector machine,Weighted linear classifier,Numerical,Numerical / Categorical,caragea2003towards
-Local,Classification,Model agnostic,Anchors,Rules,Textual,ribeiro2018anchors
-Local,Classification,Neural networks,Cell activation values,Visual,Textual,karpathy2015visualizing
-Local,Classification,Neural networks,Contextual importance and utility,Mixed,Numerical / Categorical,framling1996explaining
-Local,Classification,Neural networks,Discretized Interpretable Multi Layer Perceptrons (DIMLP),Rules,Pictorial,"bologna2017characterization,bologna1998symbolic,bologna2018rule, bologna2018comparison"
-Local,Classification,Neural networks,LSTMVis,Visual,Textual,strobelt2018lstmvis
-Local,Classification,Neural networks,Saliency maps,Visual,Pictorial,olah2018building
-Local,Regression,Model agnostic,Bayesian Teaching,Mixed,Numerical / Categorical,yang2017explainable
-Global,Regression,Model agnostic,Class Signatures,Visual,Numerical / Categorical,krause2016using
-Global,Regression,Model agnostic,Distill-and-Compare,Mixed,Numerical / Categorical,tan2018distill
-Global,Regression,Model agnostic,explAIner,Mixed,Pictorial,spinner2019explainer
-Global,Regression,Model agnostic,Feature contribution,Mixed,Numerical / Categorical,"vstrumbelj2008towards,vstrumbelj2010explanation"
-Global,Regression,Model agnostic,Feature perturbation,Mixed,Numerical / Categorical,vstrumbelj2014explaining
-Global,Regression,Model agnostic,Functional ANOVA decomposition,Visual,Numerical / Categorical,hooker2004discovering
-Global,Regression,Model agnostic,Genetic Rule EXtraction (G-REX),Rules,Numerical / Categorical,"johansson2004accuracy,johansson2004truth"
-Global,Regression,Model agnostic,Global Sensitivity Analysis (GSA),Visual,Numerical / Categorical,"cortez2011opening,cortez2013using"
-Global,Regression,Model agnostic,Gradient Feature Auditing (GFA),Mixed,Numerical / Categorical,adler2018auditing
-Global,Regression,Model agnostic,Individual Conditional Expectation (ICE) plots,Visual,Numerical / Categorical,goldstein2015peeking
-Global,Regression,Model agnostic,Manifold,Visual,Numerical / Categorical,zhang2019manifold
-Global,Regression,Model agnostic,Model Extraction,Rules,Numerical / Categorical,bastani2017interpretability
-Global,Regression,Model agnostic,Partial Importance (PI) and Individual Conditional Importance (ICI) plots,Visual,Numerical / Categorical,casalicchio2018visualizing
-Global,Regression,Model agnostic,Partition Aware Local Model (PALM),Rules,Numerical / Categorical,krishnan2017palm
-Global,Regression,Model agnostic,Shapley feature importance,Mixed,Numerical / Categorical,casalicchio2018visualizing
-Global,Regression,Model agnostic,Variable Interaction Network graph,Visual,Numerical / Categorical,hooker2004discovering
-Global,Regression,Neural networks,ActiVis,Visual,Numerical / Categorical,kahng2018cti
-Local,Regression,Neural networks,C4.5Rule-PANE,Mixed,Numerical / Categorical,zhou2003medical
-Global,Regression,Neural networks,Data-flow graphs,Visual,Pictorial,wongsuphasawat2018visualizing
-Global,Regression,Neural networks,Deep View (DV),Visual,Pictorial,zhong2017evolutionary
-Global,Regression,Neural networks,N$^2$VIS,Visual,Numerical / Categorical,streeter2001nvis
-Global,Regression,Neural networks,Rule Extraction From Neural network Ensemble (Refne),Rules,Numerical / Categorical,zhou2003extracting
-Global,Regression,Neural networks,Singular Vector Canonical Correlation Analysis (SVCCA),Numerical,Pictorial,raghu2017svcca
-Global,Regression,Neural networks,Symbolic rules,Rules,Numerical / Categorical,garcez2001symbolic
-Global,Regression,Neural networks,Trepan,Mixed,Numerical / Categorical,"craven1994using, craven1996extracting"
-Global,Regression,Neural networks,Validity Interval Analysis (VIA),Rules,Time Series,thrun1995extracting
-Global,Regression,Distributed Decision trees,Decision tree extraction,Mixed,Numerical / Categorical,andrzejak2013interpretable
-Global,Regression,Ensemble models,inTrees,Rules,Numerical / Categorical,deng2018interpreting
-Local,Classification,Model agnostic,Pertinent negatives,Visual,Numerical / Categorical,dhurandhar2018explanations
-Local,Classification,Model agnostic,Sequential Bayesian Quadrature (SBQ),Visual,Numerical / Categorical,khanna2019interpreting
-Local,Classification,Model agnostic,Set cover optimization,Mixed,Numerical / Categorical,bien2011prototype
-Local,Classification,Model agnostic,Sensitivity Analysis methods,Visual,Numerical / Categorical,baehrens2010explain
-Local,Classification,Neural networks,Deep Learning Important FeaTures (DeepLIFT),Visual,Numerical / Categorical,shrikumar2017learning
-Global,Classification,Neural networks,OpenBox,Visual,Numerical / Categorical,chu2018exact
-Global,Classification,Hyperplane-based linear classifiers,ExtractRule,Rules,Numerical / Categorical,fung2005rule
-Global,Classification,Neural networks,Data-flow graphs,Visual,Numerical / Categorical,wongsuphasawat2018visualizing
-Global,Classification,Neural networks,Discretized Interpretable Multi Layer Perceptrons (DIMLP),Rules,Numerical / Categorical,"bologna2017characterization,bologna1998symbolic,bologna2018rule, bologna2018comparison"
-Local,Classification,Neural networks,Discretized Interpretable Multi Layer Perceptrons (DIMLP),Rules,Numerical / Categorical,"bologna2017characterization,bologna1998symbolic,bologna2018rule, bologna2018comparison"
-Global,Regression,Neural networks,Data-flow graphs,Visual,Numerical / Categorical,wongsuphasawat2018visualizing
-Global,Classification,Neural networks,Data-flow graphs,Visual,Textual,wongsuphasawat2018visualizing
-Global,Classification,Neural networks,Discretized Interpretable Multi Layer Perceptrons (DIMLP),Rules,Textual,"bologna2017characterization,bologna1998symbolic,bologna2018rule, bologna2018comparison"
-Local,Classification,Neural networks,Discretized Interpretable Multi Layer Perceptrons (DIMLP),Rules,Textual,"bologna2017characterization,bologna1998symbolic,bologna2018rule, bologna2018comparison"
-Global,Regression,Neural networks,Data-flow graphs,Visual,Textual,wongsuphasawat2018visualizing
-Global,Classification,Model agnostic,explAIner,Mixed,Numerical / Categorical,spinner2019explainer
-Global,Regression,Model agnostic,explAIner,Mixed,Numerical / Categorical,spinner2019explainer
-Global,Classification,Model agnostic,explAIner,Mixed,Time Series,spinner2019explainer
-Global,Regression,Model agnostic,explAIner,Mixed,Time Series,spinner2019explainer
-Global,Classification,Neural networks,Automated Concept-based Explanation (ACE),Visual,Pictorial,ghorbani2019towards
-Global,Classification,Neural networks,Neural Information Flow (NIF),Visual,Pictorial,davis2020network
-Global,Classification,Neural networks,Neural Information Flow (NIF),Visual,Numerical / Categorical,davis2020network
-Local,Classification,Neural networks,Representer Points,Mixed,Pictorial,yeh2018representer
-Local,Classification,Model agnostic,C-CHVAE,Mixed,Numerical / Categorical,pawelczyk2020learning
-Local,Classification,Model agnostic,Combinatorial Methods,Mixed,Numerical / Categorical,kuhn2020combinatorial
-Local,Regression,Model agnostic,Combinatorial Methods,Mixed,Numerical / Categorical,kuhn2020combinatorial
-Local,Classification,Model agnostic,Diverse Counterfactual Explanations (DiCE),Mixed,Numerical / Categorical,mothilal2020explaining
-Local,Classification,Tree-based models,TreeExplainer,Numerical,Numerical / Categorical,lundberg2020local
-Local,Classification,Neural networks,Gaussian Mixture Model (GMM),Visual,Pictorial,stano2020explainable
+scope,problem_type,model_type,method,explanation_type,input_type,initials,ID
+Local,Classification,Neural networks,Activation maps,Mixed,Pictorial,A-D,hamidi2019interactive
+Local,Classification,Neural networks,Activation maximization,Visual,Pictorial,A-D,"erhan2010understanding,nguyen2016multifaceted,nguyen2016synthesizing"
+Global,Classification,Neural networks,ActiVis,Visual,Numerical / Categorical,A-D,kahng2018cti
+Global,Regression,Neural networks,ActiVis,Visual,Numerical / Categorical,A-D,kahng2018cti
+Global,Classification,Model agnostic,Anchors,Rules,Textual,A-D,ribeiro2018anchors
+Local,Classification,Model agnostic,Anchors,Rules,Textual,A-D,ribeiro2018anchors
+Global,Classification,Neural networks,And-Or Graph (AOG),Visual,Pictorial,A-D,zhang2017growing
+Local,Classification,Neural networks,Attention Alignment,Mixed,Pictorial,A-D,kim2018textual
+Global,Classification,Neural networks,Automated Concept-based Explanation (ACE),Visual,Pictorial,A-D,ghorbani2019towards
+Global,Classification,Model agnostic,Automated Reasoning,Rules,Numerical / Categorical,A-D,bride2018towards
+Local,Classification,Model agnostic,Bayesian Teaching,Mixed,Numerical / Categorical,A-D,yang2017explainable
+Local,Regression,Model agnostic,Bayesian Teaching,Mixed,Numerical / Categorical,A-D,yang2017explainable
+Local,Classification,Model agnostic,C-CHVAE,Mixed,Numerical / Categorical,A-D,pawelczyk2020learning
+Local,Classification,Neural networks,C4.5Rule-PANE,Mixed,Numerical / Categorical,A-D,zhou2003medical
+Local,Regression,Neural networks,C4.5Rule-PANE,Mixed,Numerical / Categorical,A-D,zhou2003medical
+Global,Classification,Neural networks,Causal importance,Mixed,Numerical / Categorical,A-D,feraud2002methodology
+Global,Classification,Neural networks,Cell activation values,Visual,Textual,A-D,karpathy2015visualizing
+Local,Classification,Neural networks,Cell activation values,Visual,Textual,A-D,karpathy2015visualizing
+Global,Classification,Model agnostic,Class Signatures,Visual,Numerical / Categorical,A-D,krause2016using
+Global,Regression,Model agnostic,Class Signatures,Visual,Numerical / Categorical,A-D,krause2016using
+Local,Classification,Neural networks,CLass-Enhanced Attentive Response (CLEAR),Visual,Numerical / Categorical,A-D,kumar2017explaining
+Global,Classification,Neural networks,Cnn-Inte,Visual,Pictorial,A-D,liu2018interpretable
+Local,Classification,Model agnostic,Combinatorial Methods,Mixed,Numerical / Categorical,A-D,kuhn2020combinatorial
+Local,Regression,Model agnostic,Combinatorial Methods,Mixed,Numerical / Categorical,A-D,kuhn2020combinatorial
+Local,Classification,Neural networks,Compositionality,Visual,Textual,A-D,li2016visualizing
+Local,Classification,Neural networks,Concept Activation Vectors (CAVs),Numerical,Pictorial,A-D,kim2018interpretability
+Global,Classification,Neural networks,Contextual importance and utility,Mixed,Numerical / Categorical,A-D,framling1996explaining
+Local,Classification,Neural networks,Contextual importance and utility,Mixed,Numerical / Categorical,A-D,framling1996explaining
+Local,Classification,Hierarchical networks,Contribution propagation,Visual,Pictorial,A-D,Landecker2013interpreting
+Global,Classification,Neural networks,Data-flow graphs,Visual,Pictorial,A-D,wongsuphasawat2018visualizing
+Global,Regression,Neural networks,Data-flow graphs,Visual,Pictorial,A-D,wongsuphasawat2018visualizing
+Global,Classification,Neural networks,Data-flow graphs,Visual,Numerical / Categorical,A-D,wongsuphasawat2018visualizing
+Global,Regression,Neural networks,Data-flow graphs,Visual,Numerical / Categorical,A-D,wongsuphasawat2018visualizing
+Global,Classification,Neural networks,Data-flow graphs,Visual,Textual,A-D,wongsuphasawat2018visualizing
+Global,Regression,Neural networks,Data-flow graphs,Visual,Textual,A-D,wongsuphasawat2018visualizing
+Global,Classification,Neural networks,Decision tree extraction,Mixed,Pictorial,A-D,"frosst2017distilling,zhang2019interpreting"
+Global,Classification,Ensemble models,Decision tree extraction,Rules,Numerical / Categorical,A-D,"ferri2002ensemble, sagi2020explainable, van2007seeing"
+Local,Classification,Ensemble models,Decision tree extraction,Textual,Numerical / Categorical,A-D,alonso2018explainable
+Global,Classification,Distributed Decision trees,Decision tree extraction,Mixed,Numerical / Categorical,A-D,andrzejak2013interpretable
+Global,Regression,Distributed Decision trees,Decision tree extraction,Mixed,Numerical / Categorical,A-D,andrzejak2013interpretable
+Global,Classification,Neural networks,DecText,Mixed,Numerical / Categorical,A-D,boz2002extracting
+Local,Classification,Neural networks,Deep Learning Important FeaTures (DeepLIFT),Visual,Pictorial,A-D,shrikumar2017learning
+Local,Classification,Neural networks,Deep Learning Important FeaTures (DeepLIFT),Visual,Numerical / Categorical,A-D,shrikumar2017learning
+Global,Classification,Neural networks,Deep View (DV),Visual,Pictorial,A-D,zhong2017evolutionary
+Global,Regression,Neural networks,Deep View (DV),Visual,Pictorial,A-D,zhong2017evolutionary
+Global,Classification,Neural networks,Deep Visualization Toolbox,Visual,Pictorial,A-D,yosinski2015understanding
+Global,Classification,Neural networks,Deep-Taylor Decomposition,Visual,Pictorial,A-D,montavon2017explaining
+Global,Classification,Neural networks,DeepResolve,Visual,Numerical / Categorical,A-D,liu2017visualizing
+Local,Classification,Neural networks,Deterministic finite automaton,Mixed,Numerical / Categorical,A-D,mayr2018regular
+Global,Classification,Neural networks,Deterministic Finite-state Automata (DFAs),Mixed,Numerical / Categorical,A-D,omlin1996extraction
+Global,Classification,Neural networks,Discretized Interpretable Multi Layer Perceptrons (DIMLP),Rules,Pictorial,A-D,"bologna2017characterization,bologna1998symbolic,bologna2018rule, bologna2018comparison"
+Local,Classification,Neural networks,Discretized Interpretable Multi Layer Perceptrons (DIMLP),Rules,Pictorial,A-D,"bologna2017characterization,bologna1998symbolic,bologna2018rule, bologna2018comparison"
+Global,Classification,Neural networks,Discretized Interpretable Multi Layer Perceptrons (DIMLP),Rules,Numerical / Categorical,A-D,"bologna2017characterization,bologna1998symbolic,bologna2018rule, bologna2018comparison"
+Local,Classification,Neural networks,Discretized Interpretable Multi Layer Perceptrons (DIMLP),Rules,Numerical / Categorical,A-D,"bologna2017characterization,bologna1998symbolic,bologna2018rule, bologna2018comparison"
+Global,Classification,Neural networks,Discretized Interpretable Multi Layer Perceptrons (DIMLP),Rules,Textual,A-D,"bologna2017characterization,bologna1998symbolic,bologna2018rule, bologna2018comparison"
+Local,Classification,Neural networks,Discretized Interpretable Multi Layer Perceptrons (DIMLP),Rules,Textual,A-D,"bologna2017characterization,bologna1998symbolic,bologna2018rule, bologna2018comparison"
+Global,Classification,Neural networks,Discretizing hidden unit activation values by clustering,Rules,Numerical / Categorical,A-D,setiono1995understanding
+Global,Classification,Ensemble models,Discriminative Patterns (Dps),Textual,Textual,A-D,gao2017interpretable
+Global,Classification,Model agnostic,Distill-and-Compare,Mixed,Numerical / Categorical,A-D,tan2018distill
+Global,Regression,Model agnostic,Distill-and-Compare,Mixed,Numerical / Categorical,A-D,tan2018distill
+Local,Classification,Model agnostic,Diverse Counterfactual Explanations (DiCE),Mixed,Numerical / Categorical,A-D,mothilal2020explaining
+Global,Classification,Model agnostic,Evasion-Prone Samples Selection,Mixed,Textual,E-H,liu2018adversarial
+Local,Classification,Model agnostic,Explain and Ime,Mixed,Numerical / Categorical,E-H,"robnik2008explaining,robnik2018explanation"
+Global,Classification,Model agnostic,ExplainD,Visual,Numerical / Categorical,E-H,poulin2006visual
+Global,Classification,Model agnostic,explAIner,Mixed,Pictorial,E-H,spinner2019explainer
+Global,Regression,Model agnostic,explAIner,Mixed,Pictorial,E-H,spinner2019explainer
+Global,Classification,Model agnostic,explAIner,Mixed,Numerical / Categorical,E-H,spinner2019explainer
+Global,Regression,Model agnostic,explAIner,Mixed,Numerical / Categorical,E-H,spinner2019explainer
+Global,Classification,Model agnostic,explAIner,Mixed,Time Series,E-H,spinner2019explainer
+Global,Regression,Model agnostic,explAIner,Mixed,Time Series,E-H,spinner2019explainer
+Global,Classification,Bayesian networks,Explaining Bayesian network Inferences (EBI),Rules,Numerical / Categorical,E-H,yap2008explaining
+Local,Classification,Model agnostic,Explanation graph,Visual,Textual,E-H,alvarez2017causal
+Global,Classification,Neural networks,Explanatory Graph,Visual,Pictorial,E-H,zhang2018interpreting
+Local,Classification,Rule-based approaches,ExpliClas,Mixed,Numerical / Categorical,E-H,alonso2019explainable
+Global,Classification,Hyperplane-based linear classifiers,ExtractRule,Rules,Pictorial,E-H,fung2005rule
+Global,Classification,Hyperplane-based linear classifiers,ExtractRule,Rules,Numerical / Categorical,E-H,fung2005rule
+Global,Classification,Ensemble models,Factorized Asymptotic Bayesian (FAB) inference,Mixed,Numerical / Categorical,E-H,hara2018making
+Local,Classification,Model agnostic,Feature contribution,Mixed,Numerical / Categorical,E-H,"Kononenko10anefficient,kononenko2013explanation,vstrumbelj2009explaining"
+Local,Regression,Model agnostic,Feature contribution,Mixed,Numerical / Categorical,E-H,kononenko2013explanation
+Global,Classification,Model agnostic,Feature contribution,Mixed,Numerical / Categorical,E-H,"vstrumbelj2008towards,vstrumbelj2010explanation"
+Global,Regression,Model agnostic,Feature contribution,Mixed,Numerical / Categorical,E-H,"vstrumbelj2008towards,vstrumbelj2010explanation"
+Local,Classification,Model agnostic,Feature contribution (bar chart),Visual,Numerical / Categorical,E-H,Kononenko10anefficient
+Global,Classification,Model agnostic,Feature importance,Mixed,Numerical / Categorical,E-H,henelius2014peek
+Global,Classification,Model agnostic,Feature perturbation,Mixed,Numerical / Categorical,E-H,vstrumbelj2014explaining
+Global,Regression,Model agnostic,Feature perturbation,Mixed,Numerical / Categorical,E-H,vstrumbelj2014explaining
+Local,Classification,Ensemble models,Feature Tweaking (feature perturbation method),Mixed,Numerical / Categorical,E-H,tolomei2017interpretable
+Global,Classification,Model agnostic,Functional ANOVA decomposition,Visual,Numerical / Categorical,E-H,hooker2004discovering
+Global,Regression,Model agnostic,Functional ANOVA decomposition,Visual,Numerical / Categorical,E-H,hooker2004discovering
+Local,Classification,Rule-based approaches,Fuzzy Inference systems (FIS),Textual,Time Series,E-H,keneni2019evolving
+Global,Classification,Rule-based approaches,Fuzzy inference-grams (fingrams),Visual,Numerical / Categorical,E-H,pancho2013fingrams
+Local,Classification,Neural networks,Gaussian Mixture Model (GMM),Visual,Pictorial,E-H,stano2020explainable
+Local,Classification,Neural networks,Generative Adversarial Network (GAN) Dissection,Mixed,Pictorial,E-H,bau2019gandissect
+Global,Classification,Model agnostic,Genetic Rule EXtraction (G-REX),Rules,Numerical / Categorical,E-H,"johansson2004accuracy,johansson2004truth"
+Global,Regression,Model agnostic,Genetic Rule EXtraction (G-REX),Rules,Numerical / Categorical,E-H,"johansson2004accuracy,johansson2004truth"
+Global,Classification,Model agnostic,Global Sensitivity Analysis (GSA),Visual,Numerical / Categorical,E-H,"cortez2011opening,cortez2013using"
+Global,Regression,Model agnostic,Global Sensitivity Analysis (GSA),Visual,Numerical / Categorical,E-H,"cortez2011opening,cortez2013using"
+Local,Classification,Neural networks,GradCam,Visual,Pictorial,E-H,selvaraju2017grad
+Global,Classification,Model agnostic,Gradient Feature Auditing (GFA),Mixed,Numerical / Categorical,E-H,adler2018auditing
+Global,Regression,Model agnostic,Gradient Feature Auditing (GFA),Mixed,Numerical / Categorical,E-H,adler2018auditing
+Local,Classification,Neural networks,Guided BackProp and occlusion,Visual,Pictorial,E-H,goyal2016towards
+Local,Classification,Neural networks,Guided feature inversion,Visual,Pictorial,E-H,du2018towards
+Global,Classification,Neural networks,Hidden activity visualization,Visual,Pictorial,E-H,rauber2017visualizing
+Local,Classification,Neural networks,Image Caption Generation with Attention Mechanism,Mixed,Pictorial,I-P,xuk2015show
+Local,Classification,Model agnostic,Image perturbation,Visual,Pictorial,I-P,fong2017interpretable
+Global,Classification,Neural networks,Important neurons and patches,Visual,Pictorial,I-P,lengerich2017towards
+Local,Classification,Support vector machine,Important support vectors and Border classification,Mixed,Numerical / Categorical,I-P,barbella2009understanding
+Global,Classification,Model agnostic,Individual Conditional Expectation (ICE) plots,Visual,Numerical / Categorical,I-P,goldstein2015peeking
+Global,Regression,Model agnostic,Individual Conditional Expectation (ICE) plots,Visual,Numerical / Categorical,I-P,goldstein2015peeking
+Global,Classification,Model agnostic,Influence functions,Mixed,Pictorial,I-P,koh2017understanding
+Local,Classification,Neural networks,iNNvestigate,Visual,Pictorial,I-P,alber2019innvestigate
+Local,Classification,Neural networks,Integrated Gradients,Visual,Pictorial,I-P,sundararajan2017axiomatic
+Local,Classification,Neural networks,InterpNET,Textual,Pictorial,I-P,barratt2017interpnet
+Global,Classification,Neural networks,Interval propagation,Rules,Numerical / Categorical,I-P,palade2001interpretation
+Global,Classification,Ensemble models,inTrees,Rules,Numerical / Categorical,I-P,deng2018interpreting
+Global,Regression,Ensemble models,inTrees,Rules,Numerical / Categorical,I-P,deng2018interpreting
+Local,Classification,Neural networks,Inverting representations,Visual,Pictorial,I-P,mahendran2015understanding
+Global,Classification,Model agnostic,iVisClassifier,Visual,Numerical / Categorical,I-P,choo2010ivisclassifier
+Global,Classification,Model agnostic,Justification Narratives,Mixed,Numerical / Categorical,I-P,biran2014justification
+Local,Classification,Model agnostic,Layer-wise Relevance Propagation (LRP),Visual,Pictorial,I-P,bach2015pixel
+Local,Classification,Model agnostic,Local Interpretable Model-Agnostic Explanations (LIME),Mixed,Textual,I-P,"ribeiro2016model,ribeiro2016should"
+Local,Classification,Neural networks,LRP with Local Renormalization Layers,Visual,Pictorial,I-P,binder2016layer
+Local,Classification,Neural networks,LRP with relevance conservation,Visual,Textual,I-P,arras2017explaining
+Global,Classification,Neural networks,LSTMVis,Visual,Textual,I-P,strobelt2018lstmvis
+Local,Classification,Neural networks,LSTMVis,Visual,Textual,I-P,strobelt2018lstmvis
+Global,Classification,Model agnostic,Manifold,Visual,Numerical / Categorical,I-P,zhang2019manifold
+Global,Regression,Model agnostic,Manifold,Visual,Numerical / Categorical,I-P,zhang2019manifold
+Local,Classification,Model agnostic,Maximum Mean Discrepancy (MMD)-critic,Mixed,Pictorial,I-P,kim2016examples
+Global,Classification,Model agnostic,MLCube Explorer,Visual,Numerical / Categorical,I-P,kahng2016visual
+Global,Classification,Model agnostic,Model Extraction,Mixed,Numerical / Categorical,I-P,bastani2017interpretability
+Global,Regression,Model agnostic,Model Extraction,Rules,Numerical / Categorical,I-P,bastani2017interpretability
+Local,Classification,Model agnostic,Monotone Influence Measures,Visual,Pictorial,I-P,sliwinski2017characterization
+Local,Classification,Neural networks,"Most-weighted-path, Most-weighted-combination, Maximum-Frequency-Difference",Textual,Time Series,I-P,garcia2019human
+Local,Classification,Rule-based approaches,Mycin,Textual,Numerical / Categorical,I-P,shortliffe1975computer
+Global,Classification,Neural networks,N2VIS,Visual,Numerical / Categorical,I-P,streeter2001nvis
+Global,Regression,Neural networks,N2VIS,Visual,Numerical / Categorical,I-P,streeter2001nvis
+Global,Classification,Ensemble models,Natural Language Generator,Textual,Numerical / Categorical,I-P,alonso2018explainable
+Local,Classification,Model agnostic,Neighborhood-based explanations,Mixed,Numerical / Categorical,I-P,caruana1999case
+Global,Classification,Neural networks,Net2Vec,Visual,Pictorial,I-P,fong2018net2vec
+Global,Classification,Neural networks,Neural Information Flow (NIF),Visual,Pictorial,I-P,davis2020network
+Global,Classification,Neural networks,Neural Information Flow (NIF),Visual,Numerical / Categorical,I-P,davis2020network
+Local,Classification,Neural networks,Neural Network and CBR Twin-systems,Visual,Pictorial,I-P,kenny2019twin
+Global,Classification,Neural networks,Neural Network Knowledge eXtraction (NNKX),Rules,Numerical / Categorical,I-P,bondarenko2017classification
+Global,Classification,Support vector machine,Nomograms,Visual,Numerical / Categorical,I-P,jakulin2005nomograms
+Global,Classification,Naive Bayes,Nomograms,Visual,Numerical / Categorical,I-P,movzina2004nomograms
+Global,Classification,Neural networks,OcclusionSensitivity,Visual,Pictorial,I-P,zeiler2014visualizing
+Global,Classification,Neural networks,OpenBox,Visual,Pictorial,I-P,chu2018exact
+Global,Classification,Neural networks,OpenBox,Visual,Numerical / Categorical,I-P,chu2018exact
+Global,Classification,Model agnostic,Partial Importance (PI) and Individual Conditional Importance (ICI) plots,Visual,Numerical / Categorical,I-P,casalicchio2018visualizing
+Global,Regression,Model agnostic,Partial Importance (PI) and Individual Conditional Importance (ICI) plots,Visual,Numerical / Categorical,I-P,casalicchio2018visualizing
+Global,Classification,Model agnostic,Partition Aware Local Model (PALM),Mixed,Numerical / Categorical,I-P,krishnan2017palm
+Global,Regression,Model agnostic,Partition Aware Local Model (PALM),Rules,Numerical / Categorical,I-P,krishnan2017palm
+Local,Classification,Model agnostic,Pertinent negatives,Mixed,Pictorial,I-P,dhurandhar2018explanations
+Local,Classification,Model agnostic,Pertinent negatives,Visual,Numerical / Categorical,I-P,dhurandhar2018explanations
+Local,Classification,Model agnostic,Perturbed input element order,Visual,Textual,I-P,alvarez2017causal
+Local,Classification,Neural networks,Prediction difference analysis,Visual,Pictorial,I-P,zintgraf2017visualizing
+Global,Classification,Neural networks,Principal component analysis,Visual,Pictorial,I-P,aubry2015understanding
+Global,Classification,Bayesian networks,Probabilistically supported arguments,Mixed,Numerical / Categorical,I-P,timmer2017two
+Global,Classification,Neural networks,Probes,Numerical,Pictorial,I-P,alain2017understanding
+Global,Classification,Model agnostic,Quantitative Input Influence (QII) functions,Mixed,Numerical / Categorical,Q-Z,datta2016algorithmic
+Local,Classification,Neural networks,Rationales,Textual,Textual,Q-Z,lei2016rationalizing
+Local,Classification,Neural networks,Relevance and discriminative loss,Textual,Pictorial,Q-Z,"hendricks2016generating,hendricks2018grounding"
+Local,Classification,Neural networks,Relevant features selection,Mixed,Pictorial,Q-Z,mogrovejo2019visual
+Local,Classification,Neural networks,Representer Points,Mixed,Pictorial,Q-Z,yeh2018representer
+Local,Classification,Model agnostic,Restricted Support Region Set (RSRS) Detection,Visual,Textual,Q-Z,liu2012has
+Local,Classification,Model agnostic,Rivelo,Mixed,Textual,Q-Z,tamagnini2017interpreting
+Global,Classification,Neural networks,Rule Extraction From Neural network Ensemble (Refne),Rules,Numerical / Categorical,Q-Z,zhou2003extracting
+Global,Regression,Neural networks,Rule Extraction From Neural network Ensemble (Refne),Rules,Numerical / Categorical,Q-Z,zhou2003extracting
+Global,Classification,Neural networks,Rule Extraction from Neural Network using Classified and Misclassified data (RxNCM),Rules,Numerical / Categorical,Q-Z,biswas2017rule
+Local,Classification,Model agnostic,Saliency detection method,Visual,Pictorial,Q-Z,dabkowski2017real
+Global,Classification,Neural networks,Saliency maps,Visual,Pictorial,Q-Z,he2017deep
+Global,Classification,Neural networks,Saliency maps,Visual,Pictorial,Q-Z,olah2018building
+Local,Classification,Neural networks,Saliency maps,Visual,Pictorial,Q-Z,simonyan2014deep
+Local,Classification,Neural networks,Saliency maps,Visual,Pictorial,Q-Z,olah2018building
+Local,Classification,Bayesian networks,Scenarios,Textual,Numerical / Categorical,Q-Z,vlek2016method
+Global,Classification,Support vector machine,Self-organizing maps,Visual,Numerical / Categorical,Q-Z,hamel2006visualization
+Local,Classification,Model agnostic,Sensitivity Analysis methods,Visual,Pictorial,Q-Z,baehrens2010explain
+Local,Classification,Model agnostic,Sensitivity Analysis methods,Visual,Numerical / Categorical,Q-Z,baehrens2010explain
+Local,Classification,Neural networks,Seq2seq-Vis,Visual,Textual,Q-Z,strobelt2018s
+Local,Classification,Model agnostic,Sequential Bayesian Quadrature (SBQ),Visual,Pictorial,Q-Z,khanna2019interpreting
+Local,Classification,Model agnostic,Sequential Bayesian Quadrature (SBQ),Visual,Numerical / Categorical,Q-Z,khanna2019interpreting
+Local,Classification,Model agnostic,Set cover optimization,Visual,Pictorial,Q-Z,bien2011prototype
+Local,Classification,Model agnostic,Set cover optimization,Mixed,Numerical / Categorical,Q-Z,bien2011prototype
+Global,Classification,Model agnostic,Shapley Additive exPlanations (SHAP),Mixed,Pictorial,Q-Z,"lundberg2017unified,janzing2020feature"
+Global,Classification,Model agnostic,Shapley feature importance,Mixed,Numerical / Categorical,Q-Z,casalicchio2018visualizing
+Global,Regression,Model agnostic,Shapley feature importance,Mixed,Numerical / Categorical,Q-Z,casalicchio2018visualizing
+Global,Classification,Neural networks,Singular Vector Canonical Correlation Analysis (SVCCA),Numerical,Pictorial,Q-Z,raghu2017svcca
+Global,Regression,Neural networks,Singular Vector Canonical Correlation Analysis (SVCCA),Numerical,Pictorial,Q-Z,raghu2017svcca
+Local,Classification,Neural networks,SmoothGrad,Visual,Pictorial,Q-Z,smilkov2017smoothgrad
+Global,Classification,Model agnostic,Spectral Relevance Analysis (SpRAy),Visual,Pictorial,Q-Z,lapuschkin2019unmasking
+Local,Classification,Neural networks,Stacking with Auxiliary Features (SWAF),Visual,Pictorial,Q-Z,rajani2017using
+Global,Classification,Support vector machine,SVM+Prototypes,Mixed,Numerical / Categorical,Q-Z,nunez2002rule
+Global,Classification,Neural networks,Symbolic rules,Rules,Numerical / Categorical,Q-Z,garcez2001symbolic
+Global,Regression,Neural networks,Symbolic rules,Rules,Numerical / Categorical,Q-Z,garcez2001symbolic
+Global,Classification,Neural networks,t-Distributed Stochastic Neighbor Embedding (t-SNE) maps,Visual,Numerical / Categorical,Q-Z,zahavy2016graying
+Local,Classification,Ensemble models,Tree Space Prototypes,Mixed,Numerical / Categorical,Q-Z,tan2016tree
+Local,Classification,Tree-based models,TreeExplainer,Numerical,Numerical / Categorical,Q-Z,lundberg2020local
+Global,Classification,Neural networks,TreeView,Visual,Pictorial,Q-Z,thiagarajan2016treeview
+Global,Classification,Neural networks,Trepan,Mixed,Numerical / Categorical,Q-Z,"craven1994using, craven1996extracting"
+Global,Regression,Neural networks,Trepan,Mixed,Numerical / Categorical,Q-Z,"craven1994using, craven1996extracting"
+Global,Classification,Neural networks,Validity Interval Analysis (VIA),Rules,Time Series,Q-Z,thrun1995extracting
+Global,Regression,Neural networks,Validity Interval Analysis (VIA),Rules,Time Series,Q-Z,thrun1995extracting
+Global,Classification,Model agnostic,Variable Interaction Network graph,Visual,Numerical / Categorical,Q-Z,hooker2004discovering
+Global,Regression,Model agnostic,Variable Interaction Network graph,Visual,Numerical / Categorical,Q-Z,hooker2004discovering
+Global,Classification,Support vector machine,Visualization for RIsk Factor Analysis (VRIFA),Visual,Numerical / Categorical,Q-Z,cho2008nonlinear
+Global,Classification,Support vector machine,Weighted linear classifier,Numerical,Numerical / Categorical,Q-Z,caragea2003towards
+Global,Classification,Neural networks,Word importance scores,Rules,Textual,Q-Z,murdoch2017automatic
+Local,Classification,Model agnostic,Worst-case perturbations,Mixed,Pictorial,Q-Z,goodfellow2015explaining
