@@ -5,8 +5,8 @@ Global,Classification,AntMiner+ and ALBA,Rules,Numerical / Categorical,A-D,verbe
 Global,Classification,Argumentation,Rules,Numerical / Categorical,A-D,"rizzo2019inferential,rizzo2018qualitative"
 Global,Classification,Argumentation,Rules,Pictorial,A-D,zeng2018building
 Global,Regression,Argumentation,Rules,Pictorial,A-D,zeng2018building
-Local,Classification,Bayesian Case Model (BCM),Mixed,Pictorial,A-D,kim2014bayesian
-Local,Classification,Bayesian Case Model (BCM),Mixed,Textual,A-D,kim2014bayesian
+Global,Classification,Bayesian Case Model (BCM),Mixed,Pictorial,A-D,kim2014bayesian
+Global,Classification,Bayesian Case Model (BCM),Mixed,Textual,A-D,kim2014bayesian
 Global,Classification,Bayesian Rule Lists (BRL),Rules,Numerical / Categorical,A-D,"letham2012building,letham2013interpretable,letham2015interpretable"
 Global,Classification,Bayesian Rule Sets (BRS),Rules,Numerical / Categorical,A-D,"wang2016bayesian,wang2017bayesian"
 Global,Classification,Constrained interval type-2 (CIT2) fuzzy sets,Rules,Numerical / Categorical,A-D,dalterio2020constrained

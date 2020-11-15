@@ -24,7 +24,7 @@ Global,Classification,Neural networks,Cnn-Inte,Visual,Pictorial,A-D,liu2018inter
 Local,Classification,Model agnostic,Combinatorial Methods,Mixed,Numerical / Categorical,A-D,kuhn2020combinatorial
 Local,Regression,Model agnostic,Combinatorial Methods,Mixed,Numerical / Categorical,A-D,kuhn2020combinatorial
 Local,Classification,Neural networks,Compositionality,Visual,Textual,A-D,li2016visualizing
-Local,Classification,Neural networks,Concept Activation Vectors (CAVs),Numerical,Pictorial,A-D,kim2018interpretability
+Global,Classification,Neural networks,Concept Activation Vectors (CAVs),Numerical,Pictorial,A-D,kim2018interpretability
 Global,Classification,Neural networks,Contextual importance and utility,Mixed,Numerical / Categorical,A-D,framling1996explaining
 Local,Classification,Neural networks,Contextual importance and utility,Mixed,Numerical / Categorical,A-D,framling1996explaining
 Local,Classification,Hierarchical networks,Contribution propagation,Visual,Pictorial,A-D,Landecker2013interpreting
