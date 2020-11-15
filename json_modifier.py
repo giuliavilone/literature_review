@@ -288,7 +288,7 @@ if tree_evaluation:
 
 
 # ------------------ EXPANDABLE TREE METHODS BRANCH ---------------- #
-tree_methods = True
+tree_methods = False
 if tree_methods:
     df_ah = pd.read_csv('ante-hoc.csv')
     df_ph = pd.read_csv('post-hoc.csv')
@@ -428,6 +428,7 @@ final_tree['children'].append(counters(reviews))
 final_tree['children'].append(counters(notions))
 final_tree['children'].append(counters(evaluation))
 final_tree['children'].append(counters(methods))
+final_tree = [final_tree]
 
 with open('tree_with_value.json', 'w') as fp:
     json.dump(final_tree, fp)
