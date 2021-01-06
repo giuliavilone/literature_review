@@ -206,3 +206,9 @@ Global,Classification,Support vector machine,Visualization for RIsk Factor Analy
 Global,Classification,Support vector machine,Weighted linear classifier,Numerical,Numerical / Categorical,Q-Z,caragea2003towards
 Global,Classification,Neural networks,Word importance scores,Rules,Textual,Q-Z,murdoch2017automatic
 Local,Classification,Model agnostic,Worst-case perturbations,Mixed,Pictorial,Q-Z,goodfellow2015explaining
+Local,Classification,Neural networks,Neural-symbolic integration,Textual,Pictorial,A-D,bennetot2019towards
+Global,Classification,Neural networks,Iterative rule knowledge distillation,Rules,Textual,I-P,hu2016harnessing
+Global,Classification,Neural networks,Rule Extraction by Reverse Engineering (RxREN),Rules,Numerical / Categorical,Q-Z,augasta2012reverse
+Global,Classification,Neural networks,Symbolic logic integration,Rules,Numerical / Categorical,Q-Z,tran2017unsupervised
+Global,Regression,Neural networks,Symbolic logic integration,Rules,Numerical / Categorical,Q-Z,tran2017unsupervised
+Global,Classification,Neural networks,Tree Regularization,Rules,Numerical / Categorical,Q-Z,wu2018beyond

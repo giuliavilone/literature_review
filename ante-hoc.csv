@@ -25,7 +25,6 @@ Global,Classification,Hybrid Deep Learning,Mixed,Numerical / Categorical,E-H,cam
 Global,Regression,Hybrid Deep Learning,Mixed,Numerical / Categorical,E-H,campagner2020back
 Global,Classification,Interpretable Classification Rule Mining (ICRM),Rules,Numerical / Categorical,I-P,cano2013interpretable
 Global,Classification,Interpretable Decision Set,Rules,Numerical / Categorical,I-P,lakkaraju2016interpretable
-Global,Classification,Iterative rule knowledge distillation,Rules,Textual,I-P,hu2016harnessing
 Global,Classification,Linear Programming Relaxation,Rules,Numerical / Categorical,I-P,"malioutov2017learning, su2016interpretable"
 Global,Classification,Mind the Gap Model (MGM),Mixed,Pictorial,I-P,kim2015mind
 Global,Classification,Mind the Gap Model (MGM),Mixed,Numerical / Categorical,I-P,kim2015mind
@@ -37,13 +36,9 @@ Local,Classification,Pointing and Justification Model (PJ-X),Mixed,Pictorial,I-P
 Global,Classification,Probabilistic sentential decision diagrams (PSDD),Rules,Numerical / Categorical,I-P,liang2017towards
 Global,Regression,Probabilistic sentential decision diagrams (PSDD),Rules,Numerical / Categorical,I-P,liang2017towards
 Global,Classification,REcurrent LEXicon NETwork (RELEXNET),Numerical,Textual,Q-Z,clos2017towards
-Global,Classification,Rule Extraction by Reverse Engineering (RxREN),Rules,Numerical / Categorical,Q-Z,augasta2012reverse
 Global,Regression,Rule Extraction by Reverse Engineering (RxREN),Rules,Numerical / Categorical,Q-Z,augasta2012reverse
 Global,Classification,Scoring system,Numerical,Numerical / Categorical,Q-Z,ustun2014supersparse
 Global,Classification,Symbolic Graph Reasoning (SGR),Visual,Pictorial,Q-Z,liang2018symbolic
 Global,Regression,Symbolic Graph Reasoning (SGR),Visual,Pictorial,Q-Z,liang2018symbolic
-Global,Classification,Symbolic logic integration,Rules,Numerical / Categorical,Q-Z,tran2017unsupervised
-Global,Regression,Symbolic logic integration,Rules,Numerical / Categorical,Q-Z,tran2017unsupervised
 Global,Classification,Transparent Generalized Additive Model Tree (TGAMT),Rules,Numerical / Categorical,Q-Z,fahner2018developing
-Global,Classification,Tree Regularization,Mixed,Numerical / Categorical,Q-Z,wu2018beyond
 Global,Classification,Unsupervised Interpretable Word Sense Disambiguation,Visual,Textual,Q-Z,panchenko2017unsupervised

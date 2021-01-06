@@ -3,6 +3,11 @@ import pandas as pd
 import itertools
 
 
+def import_json_file(file_name):
+    with open(file_name) as f:
+        ret = json.load(f)
+    return ret
+
 # ------------------ FORCE GRAPH ---------------- #
 # This code set the colors equal to black for papers and the colors
 # in colorlist.json for the other keywords
@@ -166,7 +171,7 @@ def id_manager(in_group):
 
 
 # ------------------ EXPANDABLE TREE REVIEWS BRANCH ---------------- #
-tree_reviews = False
+tree_reviews = True
 if tree_reviews:
     df_reviews = pd.read_csv('reviews.csv')
     urls = pd.read_csv('urls.csv')
@@ -193,7 +198,7 @@ if tree_reviews:
 
 
 # ------------------ EXPANDABLE TREE NOTIONS BRANCH ---------------- #
-tree_notions = False
+tree_notions = True
 if tree_notions:
     df_notions = pd.read_csv('notions.csv')
     urls = pd.read_csv('urls.csv')
@@ -219,7 +224,7 @@ if tree_notions:
 
 
 # ------------------ EXPANDABLE TREE EVALUATION BRANCH ---------------- #
-tree_evaluation = False
+tree_evaluation = True
 if tree_evaluation:
     df_evaluation = pd.read_csv('evaluation.csv')
     urls = pd.read_csv('urls.csv')
@@ -258,7 +263,7 @@ if tree_evaluation:
 
 
 # ------------------ EXPANDABLE TREE EVALUATION BRANCH (WITHOUT THIRD LEVEL BRANCH) ---------------- #
-tree_evaluation = False
+tree_evaluation = True
 if tree_evaluation:
     df_evaluation = pd.read_csv('evaluation.csv')
     urls = pd.read_csv('urls.csv')
@@ -288,7 +293,7 @@ if tree_evaluation:
 
 
 # ------------------ EXPANDABLE TREE METHODS BRANCH ---------------- #
-tree_methods = False
+tree_methods = True
 if tree_methods:
     df_ah = pd.read_csv('ante-hoc.csv')
     df_ph = pd.read_csv('post-hoc.csv')
@@ -364,6 +369,21 @@ if tree_methods:
     with open('tree_methods.json', 'w') as fp:
         json.dump(tree_out_dict, fp)
 
+evaluation = import_json_file('tree_evaluation.json')
+methods = {'name': 'Methods', 'children': import_json_file('tree_methods.json')}
+notions = import_json_file('tree_notions.json')
+reviews = import_json_file('tree_reviews.json')
+
+final_tree = {'name': 'XAI', 'children': []}
+final_tree['children'].append(reviews)
+final_tree['children'].append(notions)
+final_tree['children'].append(evaluation)
+final_tree['children'].append(methods)
+final_tree = [final_tree]
+
+with open('paper.json', 'w') as fp:
+    json.dump(final_tree, fp)
+
 
 # ---------------------- SUBSTITUTING PAPERS WITH REF NUMBERS ------------------------ #
 numb_tree = False
@@ -394,11 +414,7 @@ if numb_tree:
 
 # ---------------------------------- SUNBURST --------------------------------------- #
 
-def import_json_file(name):
-    with open(name) as f:
-      ret = json.load(f)
-    return ret
-
+comm = """
 
 def counters(in_dict):
     out_dict = {'name': in_dict['name'], 'value': len(in_dict['children'])}
@@ -432,3 +448,4 @@ final_tree = [final_tree]
 
 with open('tree_with_value.json', 'w') as fp:
     json.dump(final_tree, fp)
+"""

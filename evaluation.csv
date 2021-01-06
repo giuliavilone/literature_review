@@ -5,7 +5,7 @@ Objective,Number of rules,None,None,"\cite{freitas1999rule, garcia2009study, lak
 Objective,Productivity performance metrics,None,None,"\cite{bohanec2017decision, bohanec2017explaining,dam2018explainable, preece2018asking}\\","bohanec2017decision, bohanec2017explaining,dam2018explainable, preece2018asking"
 Objective,Text quality metrics,None,None,\cite{barratt2017interpnet}\\,barratt2017interpnet
 Objective,Image classification metrics,None,None,"\cite{sundararajan2019exploring, zhang2018visual}\\","sundararajan2019exploring, zhang2018visual"
-Objective,Sensitivity to input perturbation,None,None,"\cite{adebayo2018local,adebayo2018sanity,alvarez2018robustness,ancona2018towards,arras2016explaining,arras2017relevant,binder2016analyzing,ghorbani2017interpretation,kindermans2017reliability,samek2017explainable,samek2017evaluating,yeh2019fidelity}\\","adebayo2018local,adebayo2018sanity,alvarez2018robustness,ancona2018towards,arras2016explaining,arras2017relevant,binder2016analyzing,ghorbani2017interpretation,kindermans2017reliability,samek2017explainable,samek2017evaluating,yeh2019fidelity"
+Objective,Sensitivity to input perturbation,None,None,"\cite{adebayo2018local,adebayo2018sanity,alvarez2018robustness,ancona2018towards,arras2016explaining,arras2017relevant,binder2016analyzing,ghorbani2017interpretation,kindermans2017reliability,nguyen2020model,samek2017explainable,samek2017evaluating,yeh2019fidelity}\\","adebayo2018local,adebayo2018sanity,alvarez2018robustness,ancona2018towards,arras2016explaining,arras2017relevant,binder2016analyzing,ghorbani2017interpretation,kindermans2017reliability,nguyen2020model,samek2017explainable,samek2017evaluating,yeh2019fidelity"
 Objective,Sensitivity to model parameter randomization,None,None,"\cite{adebayo2018local,adebayo2018sanity,erhan2009visualizing}\\","adebayo2018local,adebayo2018sanity,erhan2009visualizing"
 Objective,Explanation completeness,None,None,"\cite{chajewska1997defining, gevrey2003review}\\",gevrey2003review
 Objective,Productivity performance metrics,None,None,"\cite{robnik2008explaining,robnik2018explanation}\\","robnik2008explaining,robnik2018explanation"
@@ -17,6 +17,7 @@ Human-centred,Qualitative ,Context-aware systems ,Visual ,\cite{lim2009assess
 Human-centred,Qualitative ,Feature extraction and selection,Mixed ,\cite{kim2015mind}\\,kim2015mind
 Human-centred,Qualitative ,Expert Systems ,Textual ,"\cite{suermondt1993evaluation,ye1995impact}\\","suermondt1993evaluation,ye1995impact"
 Human-centred,Qualitative ,Learning Systems ,Textual ,\cite{putnam2019exploring}\\,putnam2019exploring
+Human-centred,Qualitative ,Model agnostic,Textual ,\cite{holzinger2019kandinsky}\\,holzinger2019kandinsky
 Human-centred,Qualitative ,Model agnostic,Visual ,"\cite{krause2016interacting,tullio2007works}\\","krause2016interacting,tullio2007works"
 Human-centred,Qualitative ,Fisher vector classifiers ,Visual ,\cite{lapuschkin2016analyzing}\\,lapuschkin2016analyzing
 Human-centred,Qualitative ,Support Vector Machine ,Visual ,\cite{srinivasan2017interpretable}\\,srinivasan2017interpretable
@@ -32,6 +33,7 @@ Human-centred,Quantitative ,Learning Systems ,Textual ,"\cite{aleven2002effec
 Human-centred,Quantitative ,Model agnostic,Mixed ,"\cite{lage2018human,poursabzi2018manipulating}\\","lage2018human,poursabzi2018manipulating"
 Human-centred,Quantitative ,Model agnostic,Rules ,\cite{ribeiro2018anchors}\\,ribeiro2018anchors
 Human-centred,Quantitative ,Model agnostic,Visual ,\cite{spinner2019explainer}\\,spinner2019explainer
+Human-centred,Quantitative ,Model agnostic,Textual ,\cite{holzinger2020measuring}\\,holzinger2020measuring
 Human-centred,Quantitative ,Naive Bayes,Textual ,"\cite{kulesza2011oriented, kulesza2015principles}\\","kulesza2011oriented,kulesza2015principles"
 Human-centred,Quantitative ,Rule-based classifier,Mixed ,"\cite{allahyari2011user, freitas2014comprehensible, huysmans2011empirical}\\","allahyari2011user,freitas2014comprehensible,huysmans2011empirical"
 Human-centred,Quantitative ,Decision trees,Mixed ,"\cite{allahyari2011user, freitas2014comprehensible, huysmans2011empirical,luvstrek2014comprehensibility}\\","allahyari2011user,freitas2014comprehensible,huysmans2011empirical,luvstrek2014comprehensibility"
