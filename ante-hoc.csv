@@ -1,44 +1,44 @@
-scope,problem_type,method,explanation_type,input_type,initials,ID
-Local,Classification,Activation values of hidden neurons,Mixed,Pictorial,A-D,tamajka2019transforming
-Global,Classification,Ant Colony Optimization (ACO),Rules,Numerical / Categorical,A-D,otero2016improving
-Global,Classification,AntMiner+ and ALBA,Rules,Numerical / Categorical,A-D,verbeke2011building
-Global,Classification,Argumentation,Rules,Numerical / Categorical,A-D,"rizzo2019inferential,rizzo2018qualitative"
-Global,Classification,Argumentation,Rules,Pictorial,A-D,zeng2018building
-Global,Regression,Argumentation,Rules,Pictorial,A-D,zeng2018building
-Global,Classification,Bayesian Case Model (BCM),Mixed,Pictorial,A-D,kim2014bayesian
-Global,Classification,Bayesian Case Model (BCM),Mixed,Textual,A-D,kim2014bayesian
-Global,Classification,Bayesian Rule Lists (BRL),Rules,Numerical / Categorical,A-D,"letham2012building,letham2013interpretable,letham2015interpretable"
-Global,Classification,Bayesian Rule Sets (BRS),Rules,Numerical / Categorical,A-D,"wang2016bayesian,wang2017bayesian"
-Global,Classification,Constrained interval type-2 (CIT2) fuzzy sets,Rules,Numerical / Categorical,A-D,dalterio2020constrained
-Global,Classification,Exception Directed Acyclic Graphs (EDAGs),Mixed,Numerical / Categorical,E-H,gaines1996transforming
-Local,Classification,Feature maps,Visual,Pictorial,E-H,zhang2018interpretable
-Global,Classification,First Order Combined Learner (FOCL),Rules,Numerical / Categorical,E-H,pazzani1997comprehensible
-Local,Classification,Fuzzy logic,Rules,Numerical / Categorical,E-H,pierrard2018learning
-Global,Classification,Fuzzy system,Rules,Numerical / Categorical,E-H,jin2000fuzzy
-Global,Classification,GAMs with pairwise interactions (GA2Ms),Mixed,Numerical / Categorical,E-H,"caruana2015intelligible,lou2013accurate"
-Global,Regression,GAMs with pairwise interactions (GA2Ms),Mixed,Numerical / Categorical,E-H,"caruana2015intelligible,lou2013accurate"
-Global,Regression,Gaussian Process Regression (GPR),Numerical,Time Series,E-H,caywood2017gaussian
-Global,Classification,General Additive Models (GAMs),Mixed,Numerical / Categorical,E-H,"lou2012intelligible,lou2013accurate"
-Global,Regression,General Additive Models (GAMs),Mixed,Numerical / Categorical,E-H,"lou2012intelligible,lou2013accurate"
-Global,Classification,Genetics-Based Machine Learning (GBML),Rules,Numerical / Categorical,E-H,ishibuchi2007analysis
-Global,Classification,Hybrid Deep Learning,Mixed,Numerical / Categorical,E-H,campagner2020back
-Global,Regression,Hybrid Deep Learning,Mixed,Numerical / Categorical,E-H,campagner2020back
-Global,Classification,Interpretable Classification Rule Mining (ICRM),Rules,Numerical / Categorical,I-P,cano2013interpretable
-Global,Classification,Interpretable Decision Set,Rules,Numerical / Categorical,I-P,lakkaraju2016interpretable
-Global,Classification,Linear Programming Relaxation,Rules,Numerical / Categorical,I-P,"malioutov2017learning, su2016interpretable"
-Global,Classification,Mind the Gap Model (MGM),Mixed,Pictorial,I-P,kim2015mind
-Global,Classification,Mind the Gap Model (MGM),Mixed,Numerical / Categorical,I-P,kim2015mind
-Global,Classification,Mind the Gap Model (MGM),Mixed,Textual,I-P,kim2015mind
-Global,Classification,Multi-Objective Evolutionary Algorithms based Interpretable Fuzzy (MOEAIF),Rules,Numerical / Categorical,I-P,wang2011building
-Global,Classification,Multi-run subtree encapsulation,Mixed,Numerical / Categorical,I-P,howard2018explainable
-Global,Classification,Oblique Treed Sparse Additive Models (OT-SpAMs),Numerical,Numerical / Categorical,I-P,wang2015trading
-Local,Classification,Pointing and Justification Model (PJ-X),Mixed,Pictorial,I-P,park2018multimodal
-Global,Classification,Probabilistic sentential decision diagrams (PSDD),Rules,Numerical / Categorical,I-P,liang2017towards
-Global,Regression,Probabilistic sentential decision diagrams (PSDD),Rules,Numerical / Categorical,I-P,liang2017towards
-Global,Classification,REcurrent LEXicon NETwork (RELEXNET),Numerical,Textual,Q-Z,clos2017towards
-Global,Regression,Rule Extraction by Reverse Engineering (RxREN),Rules,Numerical / Categorical,Q-Z,augasta2012reverse
-Global,Classification,Scoring system,Numerical,Numerical / Categorical,Q-Z,ustun2014supersparse
-Global,Classification,Symbolic Graph Reasoning (SGR),Visual,Pictorial,Q-Z,liang2018symbolic
-Global,Regression,Symbolic Graph Reasoning (SGR),Visual,Pictorial,Q-Z,liang2018symbolic
-Global,Classification,Transparent Generalized Additive Model Tree (TGAMT),Rules,Numerical / Categorical,Q-Z,fahner2018developing
-Global,Classification,Unsupervised Interpretable Word Sense Disambiguation,Visual,Textual,Q-Z,panchenko2017unsupervised
+scope,problem_type,method,explanation_type,input_type,initials,ID,Paper_number
+Local,Classification,Activation values of hidden neurons,Mixed,Pictorial,A-D,tamajka2019transforming,1
+Global,Classification,Ant Colony Optimization (ACO),Rules,Numerical / Categorical,A-D,otero2016improving,1
+Global,Classification,AntMiner+ and ALBA,Rules,Numerical / Categorical,A-D,verbeke2011building,1
+Global,Classification,Argumentation,Rules,Numerical / Categorical,A-D,"rizzo2019inferential,rizzo2018qualitative",2
+Global,Classification,Argumentation,Rules,Pictorial,A-D,zeng2018building,1
+Global,Regression,Argumentation,Rules,Pictorial,A-D,zeng2018building,1
+Global,Classification,Bayesian Case Model (BCM),Mixed,Pictorial,A-D,kim2014bayesian,1
+Global,Classification,Bayesian Case Model (BCM),Mixed,Textual,A-D,kim2014bayesian,1
+Global,Classification,Bayesian Rule Lists (BRL),Rules,Numerical / Categorical,A-D,"letham2012building,letham2013interpretable,letham2015interpretable",3
+Global,Classification,Bayesian Rule Sets (BRS),Rules,Numerical / Categorical,A-D,"wang2016bayesian,wang2017bayesian",2
+Global,Classification,Constrained interval type-2 (CIT2) fuzzy sets,Rules,Numerical / Categorical,A-D,dalterio2020constrained,1
+Global,Classification,Exception Directed Acyclic Graphs (EDAGs),Mixed,Numerical / Categorical,E-H,gaines1996transforming,1
+Local,Classification,Feature maps,Visual,Pictorial,E-H,zhang2018interpretable,1
+Global,Classification,First Order Combined Learner (FOCL),Rules,Numerical / Categorical,E-H,pazzani1997comprehensible,1
+Local,Classification,Fuzzy logic,Rules,Numerical / Categorical,E-H,pierrard2018learning,1
+Global,Classification,Fuzzy system,Rules,Numerical / Categorical,E-H,jin2000fuzzy,1
+Global,Classification,GAMs with pairwise interactions (GA2Ms),Mixed,Numerical / Categorical,E-H,"caruana2015intelligible,lou2013accurate",2
+Global,Regression,GAMs with pairwise interactions (GA2Ms),Mixed,Numerical / Categorical,E-H,"caruana2015intelligible,lou2013accurate",2
+Global,Regression,Gaussian Process Regression (GPR),Numerical,Time Series,E-H,caywood2017gaussian,1
+Global,Classification,General Additive Models (GAMs),Mixed,Numerical / Categorical,E-H,"lou2012intelligible,lou2013accurate",2
+Global,Regression,General Additive Models (GAMs),Mixed,Numerical / Categorical,E-H,"lou2012intelligible,lou2013accurate",2
+Global,Classification,Genetics-Based Machine Learning (GBML),Rules,Numerical / Categorical,E-H,ishibuchi2007analysis,1
+Global,Classification,Hybrid Deep Learning,Mixed,Numerical / Categorical,E-H,campagner2020back,1
+Global,Regression,Hybrid Deep Learning,Mixed,Numerical / Categorical,E-H,campagner2020back,1
+Global,Classification,Interpretable Classification Rule Mining (ICRM),Rules,Numerical / Categorical,I-P,cano2013interpretable,1
+Global,Classification,Interpretable Decision Set,Rules,Numerical / Categorical,I-P,lakkaraju2016interpretable,1
+Global,Classification,Linear Programming Relaxation,Rules,Numerical / Categorical,I-P,"malioutov2017learning,su2016interpretable",2
+Global,Classification,Mind the Gap Model (MGM),Mixed,Pictorial,I-P,kim2015mind,1
+Global,Classification,Mind the Gap Model (MGM),Mixed,Numerical / Categorical,I-P,kim2015mind,1
+Global,Classification,Mind the Gap Model (MGM),Mixed,Textual,I-P,kim2015mind,1
+Global,Classification,Multi-Objective Evolutionary Algorithms based Interpretable Fuzzy (MOEAIF),Rules,Numerical / Categorical,I-P,wang2011building,1
+Global,Classification,Multi-run subtree encapsulation,Mixed,Numerical / Categorical,I-P,howard2018explainable,1
+Global,Classification,Oblique Treed Sparse Additive Models (OT-SpAMs),Numerical,Numerical / Categorical,I-P,wang2015trading,1
+Local,Classification,Pointing and Justification Model (PJ-X),Mixed,Pictorial,I-P,park2018multimodal,1
+Global,Classification,Probabilistic sentential decision diagrams (PSDD),Rules,Numerical / Categorical,I-P,liang2017towards,1
+Global,Regression,Probabilistic sentential decision diagrams (PSDD),Rules,Numerical / Categorical,I-P,liang2017towards,1
+Global,Classification,REcurrent LEXicon NETwork (RELEXNET),Numerical,Textual,Q-Z,clos2017towards,1
+Global,Regression,Rule Extraction by Reverse Engineering (RxREN),Rules,Numerical / Categorical,Q-Z,augasta2012reverse,1
+Global,Classification,Scoring system,Numerical,Numerical / Categorical,Q-Z,ustun2014supersparse,1
+Global,Classification,Symbolic Graph Reasoning (SGR),Visual,Pictorial,Q-Z,liang2018symbolic,1
+Global,Regression,Symbolic Graph Reasoning (SGR),Visual,Pictorial,Q-Z,liang2018symbolic,1
+Global,Classification,Transparent Generalized Additive Model Tree (TGAMT),Rules,Numerical / Categorical,Q-Z,fahner2018developing,1
+Global,Classification,Unsupervised Interpretable Word Sense Disambiguation,Visual,Textual,Q-Z,panchenko2017unsupervised,1
